@@ -7,13 +7,13 @@
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
 </head>
 <body>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	<script src="jquery.touchslider.min.js"></script>
-	<script src="jquery.nicescroll.js"></script>
+	<script src="jquery.nicescroll.min.js"></script>
 		<script>
-			jQuery(function($) {
+			$(document).ready(function() {
 				$(".touchslider").touchSlider({mouseTouch: true, autoplay: true});
-				nice = $("html").niceScroll();
+				nice = $("html").niceScroll({touchbehavior:true, bouncescroll:true});
 			});
 		</script>
     <header id="topHeader">
