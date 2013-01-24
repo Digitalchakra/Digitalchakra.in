@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
+	<head profile="http://www.w3.org/2005/10/profile">
+<link rel="icon" 
+      type="image/png" 
+      href="images/favicon.png">
 	<meta name="keywords" content="web design, web development">
 	<meta name="tags" content="web design, web development">
 	<meta name="description" content="Business Technology Consulting, IT solutions and IT Services, Design & UI/UX Consulting, Cloud Computing and support services that deliver measurable business value. Transform your business, and make Operations efficient with innovative solutions from Digital Chakra">
