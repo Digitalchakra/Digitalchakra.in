@@ -71,7 +71,7 @@ body{
 	.clsBigPic{
 		background:transparent url(../images/bg_BigPic.jpg) no-repeat right bottom;
 		text-align:center;
-		height:648px;
+		height:600px;
 	}
 		
 		#bigPic .wrap{	
@@ -282,7 +282,7 @@ body{
 		float:left;
 			width:440px;
 			height:500px;
-			padding-top:100px;
+			padding-top:60px;
 			padding-right:50px;
 		}
 		.contactSection2{
@@ -338,7 +338,7 @@ body{
 				margin-left:-100px;
 				width:196px;
 				padding-right:10px;
-				padding-top:250px;
+				padding-top:290px;
 				float:left;
 			}
 			

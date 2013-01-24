@@ -201,9 +201,9 @@
 					</div>
 						<ul class="contactList">
 							<!--<li ><a href="#" class="contactIn">linked in id</a></li>-->
-							<li ><a href="#" class="contactFb">facebook page</a></li>
-							<li ><a href="#" class="contactTr">twitter page</a></li>
-							<li ><a href="#" class="contactEmail">email id</a></li>
+							<li ><a href="https://www.facebook.com/digitalchakra" target="_blank" class="contactFb">facebook page</a></li>
+							<li ><a href="http://twitter.com/digitalchakra" target="_blank" class="contactTr">twitter page</a></li>
+							<li ><a href="mailto:queries@digitalchakra.in" class="contactEmail">email id</a></li>
 							<li ><a href="#" class="contactHome">Address</a></li>
 						</ul>
 				</div>
@@ -213,23 +213,23 @@
 						<li id="info">There were some problems with your form submission:</li>  
 					</ul>  
 						
-					<label for="name">Name</label>
-					<input type="text" name="name" placeholder="Full Name">
+					<!-- <label for="name"></label> -->
+					<input type="text" name="name" id= "contact_name" placeholder="Full Name">
 					 
-					<label for="email">E-mail</label>
-					<input type="email" name="email" placeholder="name@domain.com">
+					<!-- <label for="email">E-mail</label> -->
+					<input type="email" name="email" id= "contact_email" placeholder="name@domain.com">
 					 
-					<label for="skype">Skype id</label>
-					<input type="email" name="email" placeholder="skype id">
+					<!-- <label for="skype">Skype id</label> -->
+					<input type="email" name="email" id= "contact_skype" placeholder="Skype ID and/or Phone Number">
 					
-					<label for="phone">Phone</label>
-					<input type="tel" name="phone" placeholder="ex. (555) 555-5555">
+					<!-- <label for="phone">Phone</label>
+					<input type="tel" name="phone" placeholder="ex. (555) 555-5555"> -->
 					 
-					<label for="location">Location</label>
-					<input type="url" name="url" placeholder="City or state">
+					<!-- <label for="location">Location</label> -->
+					<input type="url" name="url" id= "contact_loc" placeholder="Your location">
 					
-					<label for="message">What can we help you with</label>	
-					<textarea name="message" placeholder="Your message must be greater than 20 charcters"  ></textarea>  
+					<!-- <label for="message">What can we help you with</label> -->	
+					<textarea name="message" id= "contact_mesg" placeholder="What can we help you with?"  ></textarea>  
 					 
 					<input id="submit" type="submit" name="submit" value="Submit" />
 					
