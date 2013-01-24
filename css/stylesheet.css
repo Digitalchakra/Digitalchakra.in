@@ -12,7 +12,10 @@ body{
 	padding:0;
 	margin:0;
 }
-
+.error_class
+{
+	border-color: #FF0000;
+}
 
 #topHeader{
 	position:fixed;
@@ -121,7 +124,7 @@ body{
 	
 	
 	#whatWeDo {
-		background:transparent url(../images/bg_whatWeDo.jpg) no-repeat right top;
+		background:transparent url(../images/bg_WhatWeDo.jpg) no-repeat right top;
 		height:648px;
 		
 	}
@@ -204,7 +207,7 @@ body{
 			}
 	
 	#dcBlog{
-		background:transparent url(../images/bg_whatWeDo.jpg) no-repeat left top;
+		background:transparent url(../images/bg_WhatWeDo.jpg) no-repeat left top;
 		height:648px;
 	}
 	

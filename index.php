@@ -38,6 +38,72 @@
 				        window.location.hash = target;
 				    });
 				});
+				$('#submit').click(function()
+					{
+						$('#info').html('');
+						if($('#contact_name').val().length<=0)
+						{
+							$('#contact_name').addClass('error_class');
+							$('#contact_name').focus();
+							$('#info').html('Please fill mandatory fields.');
+							return false;
+						}
+						else
+						{
+							$('#contact_name').removeClass('error_class');
+						}
+						if($('#contact_skype').val().length<=0)
+						{
+							$('#contact_skype').addClass('error_class');
+							$('#contact_skype').focus();
+							$('#info').html('Please fill mandatory fields.');
+							return false;
+						}
+						else
+						{
+							$('#contact_skype').removeClass('error_class');
+						}
+						if($('#contact_email').val().length>0)
+						{
+							var pattern = new RegExp(/^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$/i);
+    						if(!pattern.test($('#contact_email').val()))
+    						{
+    							$('#contact_email').addClass('error_class');
+								$('#contact_email').focus();
+								$('#info').html('Please enter a valid email.');
+								return false;
+    						}
+    						else
+							{
+								$('#contact_email').removeClass('error_class');
+							}
+						}
+
+						var postdata=$("#contactForm").serialize();
+						//alert(data);
+						$.ajax(
+							{
+								url:'contact.php',
+								data:postdata,
+								dataType:'JSON',
+								method:'POST',
+								success:function(output)
+								{
+									if(output.success==1)
+									{
+										$('#info').html('Thank you message here.');
+									}
+									else
+									{
+										$('#info').html('Please fill mandatory fields.');
+									}
+								},
+								error:function()
+								{
+									$('#info').html('There were some problems with your form submission.');
+								}
+							});
+					});
 			});
 		</script>
     <header id="topHeader">
@@ -252,18 +318,18 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 				</div>
 				<div class="contactSection2">
 				<form id="contactForm" method="post" action="">
-					 <ul id="status" class="">  
-						<li id="info">There were some problems with your form submission:</li>  
-					</ul>  
+					 <div id="status" class="">  
+						<span id="info"></span>  
+					</div>  
 						
 					<!-- <label for="name"></label> -->
-					<input type="text" name="name" id= "contact_name" placeholder="Full Name">
+					<input type="text" name="name" id= "contact_name" placeholder="Full Name">*
 					 
 					<!-- <label for="email">E-mail</label> -->
 					<input type="email" name="email" id= "contact_email" placeholder="name@domain.com">
 					 
 					<!-- <label for="skype">Skype id</label> -->
-					<input type="text" name="skype" id= "contact_skype" placeholder="Skype ID and/or Phone Number">
+					<input type="text" name="skype" id= "contact_skype" placeholder="Skype ID and/or Phone Number">*
 					
 					<!-- <label for="phone">Phone</label>
 					<input type="tel" name="phone" placeholder="ex. (555) 555-5555"> -->
@@ -277,7 +343,7 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 					<!-- <label for="message">What can we help you with</label> -->	
 					<textarea name="message" id= "contact_mesg" placeholder="What can we help you with?"  ></textarea>  
 					 
-					<input id="submit" type="submit" name="submit" value="Submit" />
+					<input id="submit" type="button" name="submit" value="Submit" />
 					
 
 				</form>
