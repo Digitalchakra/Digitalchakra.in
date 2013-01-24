@@ -6,14 +6,15 @@
 	<title>DIGITAL CHAKRA - IT CONSULTING | WEB DESIGN & DEVELOPMENT</title>
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
 </head>
-<body>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<body id="body">
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	<script src="jquery.touchslider.min.js"></script>
-	<script src="jquery.nicescroll.js"></script>
+	<script src="jquery.nicescroll.min.js"></script>
+	<script src="placeholder_fallback.js"></script>
 		<script>
-			jQuery(function($) {
+			$(document).ready(function() {
 				$(".touchslider").touchSlider({mouseTouch: true, autoplay: true});
-				nice = $("html").niceScroll();
+				nice = $("html").niceScroll({touchbehavior:true, bouncescroll:true});
 			});
 		</script>
     <header id="topHeader">
@@ -23,7 +24,7 @@
 			</div>
 			<nav class="clsMainNav">
 				<ul class="clsMainNavList">
-					<li><a href="#">The Big picture</a></li>
+					<li><a href="#body">The Big picture</a></li>
 					<li><a href="#whatWeDo">What we do</a></li>
 					<!-- <li><a href="#dcBlog">DC Blog</a></li> -->
 					<li><a href="#contact">Contact Us</a></li>
@@ -220,14 +221,17 @@
 					<input type="email" name="email" id= "contact_email" placeholder="name@domain.com">
 					 
 					<!-- <label for="skype">Skype id</label> -->
-					<input type="email" name="email" id= "contact_skype" placeholder="Skype ID and/or Phone Number">
+					<input type="text" name="skype" id= "contact_skype" placeholder="Skype ID and/or Phone Number">
 					
 					<!-- <label for="phone">Phone</label>
 					<input type="tel" name="phone" placeholder="ex. (555) 555-5555"> -->
 					 
 					<!-- <label for="location">Location</label> -->
-					<input type="url" name="url" id= "contact_loc" placeholder="Your location">
+					<input type="text" name="location" id= "contact_loc" placeholder="Your location">
 					
+
+					<input type="text" name="time" id="contact_time" placeholder="When can we call you?">
+
 					<!-- <label for="message">What can we help you with</label> -->	
 					<textarea name="message" id= "contact_mesg" placeholder="What can we help you with?"  ></textarea>  
 					 
@@ -245,7 +249,7 @@
     <footer>
 		<section>
         <p>© copyright 2013 | www.digitalchakra.in </p>
-		</br> 	
+		</br>
 		</section>	
     </footer>
 </body>
