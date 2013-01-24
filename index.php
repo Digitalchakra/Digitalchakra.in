@@ -35,7 +35,7 @@
 				        'scrollTop': $target.offset().top
 				    }, 500, 'swing', function () {
 				        window.location.hash = target;
-				    });
+				    });	
 				});
 				$('#submit').click(function()
 					{
@@ -61,6 +61,17 @@
 						else
 						{
 							$('#contact_skype').removeClass('error_class');
+						}
+						if($('#contact_loc').val().length<=0)
+						{
+							$('#contact_loc').addClass('error_class');
+							$('#contact_loc').focus();
+							$('#info').html('Please fill mandatory fields.');
+							return false;
+						}
+						else
+						{
+							$('#contact_loc').removeClass('error_class');
 						}
 						if($('#contact_email').val().length>0)
 						{
@@ -304,13 +315,13 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 					</div>  
 						
 					<!-- <label for="name"></label> -->
-					<input type="text" name="name" id= "contact_name" placeholder="Full Name">*
+					<input type="text" name="name" id= "contact_name" placeholder="Full Name">
 					 
 					<!-- <label for="email">E-mail</label> -->
 					<input type="email" name="email" id= "contact_email" placeholder="name@domain.com">
 					 
 					<!-- <label for="skype">Skype id</label> -->
-					<input type="text" name="skype" id= "contact_skype" placeholder="Skype ID and/or Phone Number">*
+					<input type="text" name="skype" id= "contact_skype" placeholder="Skype ID and/or Phone Number">
 					
 					<!-- <label for="phone">Phone</label>
 					<input type="tel" name="phone" placeholder="ex. (555) 555-5555"> -->
