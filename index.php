@@ -288,12 +288,13 @@
 					<div class="contactSpaceShuttle">
 						<img src="images/spaceShuttle_contacts.png" />
 					</div>
-						<ul class="contactList">
+						<ul class="contactList" style="text-align:left;">
 							<!--<li ><a href="#" class="contactIn">linked in id</a></li>-->
-							<li ><a href="https://www.facebook.com/digitalchakra" target="_blank" class="contactFb">facebook page</a></li>
-							<li ><a href="http://twitter.com/digitalchakra" target="_blank" class="contactTr">twitter page</a></li>
-							<li ><a href="mailto:queries@digitalchakra.in" class="contactEmail">email id</a></li>
-							<li ><a href="#" class="contactHome">Address</a></li>
+							<li ><a href="https://www.facebook.com/digitalchakra" target="_blank" alt="Digital Chakra on Facebook" class="contactFb" >facebook page</a></li>
+							<li ><a href="http://twitter.com/digitalchakra" target="_blank" class="contactTr" alt="Digital Chakra on Twitter" >twitter page</a></li>
+							<li ><a href="mailto:queries@digitalchakra.in" class="contactEmail" alt="Contact Digital Chakra">email id</a></li>
+							<li><p class ="contactHome"><b>Address:</b> Shree Park 3rd Floor West Wing</br> # 578 Anna Salai Chennai-600 006</br>
+Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="_blank">show on map</a></p></li>
 						</ul>
 				</div>
 				<div class="contactSection2">
