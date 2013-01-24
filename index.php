@@ -5,118 +5,9 @@
 	<meta name="tags" content="web design, web development">
 	<meta name="description" content="Business Technology Consulting, IT solutions and IT Services, Design & UI/UX Consulting, Cloud Computing and support services that deliver measurable business value. Transform your business, and make Operations efficient with innovative solutions from Digital Chakra">
 	<title>Digital Chakra – Web Development, Design & Cloud Computing Solutions.</title>
-	<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+	<link rel="stylesheet" type="text/css" href="css/dc.min.css"/>
 </head>
 <body id="body">
-	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-	<script src="js/jquery.touchslider.min.js"></script>
-	<script src="js/jquery.nicescroll.min.js"></script>
-	<script src="js/placeholder_fallback.js"></script>
-	<link rel="stylesheet" href="css/jquery-ui.css" />
-  	<script src="js/jquery-ui.js"></script>
-  	<link rel="stylesheet" href="css/time.css" />
-  	<script src="js/time.js"></script>
-		<script>
-			$(document).ready(function() {
-				$(".touchslider").touchSlider({mouseTouch: true, autoplay: true});
-				nice = $("html").niceScroll({touchbehavior:true, bouncescroll:true});
-				//datetime
-				$("#contact_time").datetimepicker({
-				dateFormat: "yy-mm-dd",
-			      timeFormat: "h:mm tt",
-			      hour:'10',
-			      minDate:0 
-			    });
-				//anchor likns move animation
-				$('a[href^="#"]').bind('click.smoothscroll',function (e) {
-				    e.preventDefault();
-				    var target = this.hash;
-				        $target = $(target);
-				    $('html, body').stop().animate({
-				        'scrollTop': $target.offset().top
-				    }, 500, 'swing', function () {
-				        window.location.hash = target;
-				    });	
-				});
-				$('#submit').click(function()
-					{
-						$('#info').html('');
-						if($('#contact_name').val().length<=0)
-						{
-							$('#contact_name').addClass('error_class');
-							$('#contact_name').focus();
-							$('#info').html('Please fill mandatory fields.');
-							return false;
-						}
-						else
-						{
-							$('#contact_name').removeClass('error_class');
-						}
-						if($('#contact_skype').val().length<=0)
-						{
-							$('#contact_skype').addClass('error_class');
-							$('#contact_skype').focus();
-							$('#info').html('Please fill mandatory fields.');
-							return false;
-						}
-						else
-						{
-							$('#contact_skype').removeClass('error_class');
-						}
-						if($('#contact_loc').val().length<=0)
-						{
-							$('#contact_loc').addClass('error_class');
-							$('#contact_loc').focus();
-							$('#info').html('Please fill mandatory fields.');
-							return false;
-						}
-						else
-						{
-							$('#contact_loc').removeClass('error_class');
-						}
-						if($('#contact_email').val().length>0)
-						{
-							var pattern = new RegExp(/^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$/i);
-    						if(!pattern.test($('#contact_email').val()))
-    						{
-    							$('#contact_email').addClass('error_class');
-								$('#contact_email').focus();
-								$('#info').html('Please enter a valid email.');
-								return false;
-    						}
-    						else
-							{
-								$('#contact_email').removeClass('error_class');
-							}
-						}
-
-						var postdata=$("#contactForm").serialize();
-						//alert(data);
-						$.ajax(
-							{
-								url:'contact.php',
-								data:postdata,
-								dataType:'JSON',
-								method:'POST',
-								success:function(output)
-								{
-									if(output.success==1)
-									{
-										$('#info').html('Thank you. We will contact you shortly.');
-									}
-									else
-									{
-										$('#info').html('');
-									}
-								},
-								error:function()
-								{
-									$('#info').html('Our server is overloaded. Please try again after some time.');
-								}
-							});
-					});
-			});
-		</script>
     <header id="topHeader">
 		<div class="wrap">
 			<div class="clsLogo">
@@ -124,8 +15,8 @@
 			</div>
 			<nav class="clsMainNav">
 				<ul class="clsMainNavList">
-					<li><a href="#body">The Big picture</a></li>
-					<li><a href="#whatWeDo">What we do</a></li>
+					<li><a href="#body">The Big Picture</a></li>
+					<li><a href="#whatWeDo">What We Do</a></li>
 					<!-- <li><a href="#dcBlog">DC Blog</a></li> -->
 					<li><a href="#contact">Contact Us</a></li>
 				</ul>
@@ -142,7 +33,7 @@
 					<h2 class="largeTitle2">Hello World!</h2>
 					<h2 class="largeTitle2">We've just dropped anchor on earth.</h2>
 					</br>
-					<p class="largeContent"> We provide IT services and solutions to a universal audience, </br> as highlighted <a href="#whatWeDo">below</a></p>
+					<p class="largeContent"> We provide IT services and solutions to a universal audience, </br> as highlighted <a style="color:#47c8f5; text-decoration: none;"href="#whatWeDo">below</a></p>
 				</div>
 				<div class="spaceShuttle">
 					<img src="images/spaceShuttle.png" />
@@ -182,7 +73,14 @@
 						<div class="touchslider-item">
 							<div id="carousel3">
 								<h2 class="largeTitle3">SAAS - based Offerings</h2></br></br>
-								<p class="contentText">Digital Chakra is helping businesses worldwide, big or small achieve their goals by fulfilling their online needs using open source technology stacks and industry best practices. </p>
+								<p class="contentText">We help you implement the SaaS delivery model to take you to the next level by centralizing your business applications. We provide you with solutions to host and manage your customized business applications.
+								 <ul style=" margin:16px;" class="contentText">
+										<li>Management Information Systems</li>
+										<li>Accounting, Collaboration and CRM</li>
+										<li>Enterprise Resource Planning</li>
+										<li>Invoicing and Human Resource Management</li>
+										<li>JS Framework Integration & SEO</li>
+									</ul></p>
 							</div>
 						</div>
 						<div class="touchslider-item">
@@ -200,15 +98,26 @@
 						</div>
 						<div class="touchslider-item">
 							<div id="carousel5">
-								<h2 class="largeTitle3">Online product consulting & development</h2></br></br>
-								<p class="contentText">Digital Chakra is helping businesses worldwide, big or small achieve their goals by fulfilling their online needs using open source technology stacks and industry best practices. </p>
+								<h2 class="largeTitle3">Business & Technology Consulting</h2></br></br>
+								<p class="contentText">There are a plethora of tools and software used in the market nowadays for development. So which one should you use to develop your application? What factors should you consider while designing your application? How do you ensure best quality of product or service to your end clients? We help you in:
+								<ul style=" margin:16px;" class="contentText">
+										<li>Understanding the Industry</li>
+										<li>Quality Assurance</li>
+										<li>Tailored Development Services</li>
+									</ul></p>
+
 							</div>
 						</div>
 						<div class="touchslider-item">
 							<div id="carousel6">
-								<h2 class="largeTitle3">Cloud computing</h2>
+								<h2 class="largeTitle3">Cloud Computing</h2>
 								</br></br>
-								<p class="contentText">Digital Chakra is helping businesses worldwide, big or small achieve their goals by fulfilling their online needs using open source technology stacks and industry best practices. </p>
+								<p class="contentText">Taking you to the cloud. Whether you are looking to improve/leverage your existing cloud investment or trying to get there we can do it for you. We have a dedicated group of system admins who can deploy, support and maintain your application on the cloud. 
+								<ul style=" margin:16px;" class="contentText">
+										<li>Cloud Migration Advisory</li>
+										<li>Cloud Application Development</li>
+										<li>Cloud Application Support & Maintenance</li>
+									</ul></p>
 							</div>
 						</div>
 					</div>
@@ -347,15 +256,15 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 					<input type="tel" name="phone" placeholder="ex. (555) 555-5555"> -->
 					 
 					<!-- <label for="location">Location</label> -->
-					<input type="text" name="location" id= "contact_loc" placeholder="Your location (required)">
+					<input type="text" name="location" id= "contact_loc" placeholder="Your Location (required)">
 					
 
-					<input type="text" name="time" id="contact_time" placeholder="When can we call you?">
+					<input type="text" name="time" id="contact_time" placeholder="When Can We Call You?">
 
 					<!-- <label for="message">What can we help you with</label> -->	
 					<textarea name="message" id= "contact_mesg" placeholder="What can we help you with?"  ></textarea>  
 					 
-					<input id="submit" type="button" name="submit" value="Submit" />
+					<input id="submit" type="button" name="submit" value="Submit" style="margin-right:24px;"/>
 					
 
 				</form>
@@ -368,9 +277,112 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
    
     <footer>
 		<section>
-        <p style="margin-bottom:20px;">© copyright 2013 | www.digitalchakra.in </p>
+        <p style="margin-bottom:20px;">&copy; copyright 2013 | www.digitalchakra.in </p>
 		
 		</section>	
     </footer>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="js/dc.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$(".touchslider").touchSlider({mouseTouch: true, autoplay: true});
+				nice = $("html").niceScroll({touchbehavior:true, bouncescroll:true});
+				//datetime
+				$("#contact_time").datetimepicker({
+				dateFormat: "yy-mm-dd",
+			      timeFormat: "h:mm tt",
+			      hour:'10',
+			      minDate:0 
+			    });
+				//anchor likns move animation
+				$('a[href^="#"]').bind('click.smoothscroll',function (e) {
+				    e.preventDefault();
+				    var target = this.hash;
+				        $target = $(target);
+				    $('html, body').stop().animate({
+				        'scrollTop': $target.offset().top
+				    }, 500, 'swing', function () {
+				        window.location.hash = target;
+				    });	
+				});
+				$('#submit').click(function()
+					{
+						$('#info').html('');
+						if($('#contact_name').val().length<=0)
+						{
+							$('#contact_name').addClass('error_class');
+							$('#contact_name').focus();
+							$('#info').html('Please fill in the highlighted fields.');
+							return false;
+						}
+						else
+						{
+							$('#contact_name').removeClass('error_class');
+						}
+						if($('#contact_skype').val().length<=0)
+						{
+							$('#contact_skype').addClass('error_class');
+							$('#contact_skype').focus();
+							$('#info').html('Please fill in the highlighted fields.');
+							return false;
+						}
+						else
+						{
+							$('#contact_skype').removeClass('error_class');
+						}
+						if($('#contact_loc').val().length<=0)
+						{
+							$('#contact_loc').addClass('error_class');
+							$('#contact_loc').focus();
+							$('#info').html('Please fill in the highlighted fields.');
+							return false;
+						}
+						else
+						{
+							$('#contact_loc').removeClass('error_class');
+						}
+						if($('#contact_email').val().length>0)
+						{
+							var pattern = new RegExp(/^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$/i);
+    						if(!pattern.test($('#contact_email').val()))
+    						{
+    							$('#contact_email').addClass('error_class');
+								$('#contact_email').focus();
+								$('#info').html('Please enter a valid email.');
+								return false;
+    						}
+    						else
+							{
+								$('#contact_email').removeClass('error_class');
+							}
+						}
+
+						var postdata=$("#contactForm").serialize();
+						//alert(data);
+						$.ajax(
+							{
+								url:'contact.php',
+								data:postdata,
+								dataType:'JSON',
+								method:'POST',
+								success:function(output)
+								{
+									if(output.success==1)
+									{
+										$('#info').html('Thank you. We will contact you shortly.');
+									}
+									else
+									{
+										$('#info').html('Thank you. We will contact you shortly.');
+									}
+								},
+								error:function()
+								{
+									$('#info').html('Thank you. We will contact you shortly.');
+								}
+							});
+					});
+			});
+		</script>
 </body>
 </html>
