@@ -8,13 +8,35 @@
 </head>
 <body id="body">
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-	<script src="jquery.touchslider.min.js"></script>
-	<script src="jquery.nicescroll.min.js"></script>
-	<script src="placeholder_fallback.js"></script>
+	<script src="js/jquery.touchslider.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/placeholder_fallback.js"></script>
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+  	<script src="js/jquery-ui.js"></script>
+  	<link rel="stylesheet" href="css/time.css" />
+  	<script src="js/time.js"></script>
 		<script>
 			$(document).ready(function() {
 				$(".touchslider").touchSlider({mouseTouch: true, autoplay: true});
 				nice = $("html").niceScroll({touchbehavior:true, bouncescroll:true});
+				//datetime
+				$("#contact_time").datetimepicker({
+				dateFormat: "yy-mm-dd",
+			      timeFormat: "h:mm tt",
+			      hour:'10',
+			      minDate:0 
+			    });
+				//anchor likns move animation
+				$('a[href^="#"]').bind('click.smoothscroll',function (e) {
+				    e.preventDefault();
+				    var target = this.hash;
+				        $target = $(target);
+				    $('html, body').stop().animate({
+				        'scrollTop': $target.offset().top
+				    }, 500, 'swing', function () {
+				        window.location.hash = target;
+				    });
+				});
 			});
 		</script>
     <header id="topHeader">
