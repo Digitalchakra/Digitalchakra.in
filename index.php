@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
 </head>
 <body>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="jquery.touchslider.min.js"></script>
 	<script src="jquery.nicescroll.js"></script>
 		<script>
@@ -25,7 +25,7 @@
 				<ul class="clsMainNavList">
 					<li><a href="#">The Big picture</a></li>
 					<li><a href="#whatWeDo">What we do</a></li>
-					<li><a href="#dcBlog">DC Blog</a></li>
+					<!-- <li><a href="#dcBlog">DC Blog</a></li> -->
 					<li><a href="#contact">Contact Us</a></li>
 				</ul>
 			</nav>
@@ -38,10 +38,10 @@
 			
 			<img src="images/dcLogoBig.jpg"/>
 				<div class="clsBigPicContent">
-					<h2 class="largeTitle">Hi !</h2>
-					<h2 class="largeTitle2">We just dropped anchor</h2>
+					<h2 class="largeTitle">Hello World! We've just dropped anchor on earth.</h2>
+					<h2 class="largeTitle2"></h2>
 					</br>
-					<p class="largeContent"> We provide services to a universal audience </br> some of which can be viewed here</p>
+					<p class="largeContent"> We provide IT services and solutions to a universal audience, </br> some of which can be viewed here</p>
 				</div>
 				<div class="spaceShuttle">
 					<img src="images/spaceShuttle.png" />
@@ -53,7 +53,7 @@
 				
 			<div class="touchslider">
 				
-				<div class="touchslider-viewport" style="width:985px;overflow:hidden;position:relative;height:600px;margin:0 auto;">
+				<div class="touchslider-viewport" style="width:985px;overflow:hidden;position:relative;height:600px;margin:0 auto; z-index:1;">
 					<div>
 						<div class="touchslider-item">
 							<div id="carousel1">
@@ -121,7 +121,7 @@
 								
 		
 		<!-- ===========================================DC blog =========================================================== -->
-		<div id="dcBlog">
+		<!-- <div id="dcBlog">
 			<div class="wrap">
 			
 			<div class="dcBlogSection">
@@ -191,7 +191,7 @@
 				</div>
 			</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- ===========================================Contact us =========================================================== -->
 		<div id="contact">
 			<div class="wrap">
