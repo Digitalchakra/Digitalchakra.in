@@ -40,9 +40,9 @@ if(isset($_POST['email']))
 {
 	$email=$_POST['email'];
 }
-$mail_subject = 'Contact-Digitalchakra.in';
+$mail_subject = 'New Enquiry - Digital Chakra';
 $mail_message = 'Name : '.$name.'<br />'.'Email: '.$email.'<br />Message: '.$message.'<br />Skype/Phone: '.$skype.'<br />Time to call: '.$time.'<br />Location: '.$location;
-if (smtpmailer('manikandan@digitalchakra.in', 'manimani1014@gmail.com', 'Mani', $mail_subject, $mail_message))
+if (smtpmailer('queries@digitalchakra.in', 'webmaster.digitalchakra@gmail.com', 'Admin', $mail_subject, $mail_message))
 {
 	$mail_sent=1;
 }
@@ -69,8 +69,8 @@ function smtpmailer($to, $from, $from_name, $subject, $body) {
 	$mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for GMail
 	$mail->Host = 'smtp.gmail.com';
 	$mail->Port = 465; 
-	$mail->Username = 'username';  
-	$mail->Password = 'password';           
+	$mail->Username = 'webmaster.digitalchakra@gmail.com';  
+	$mail->Password = '#digitalchakra123';           
 	$mail->SetFrom($from, $from_name);
 	$mail->IsHTML(true);
 	$mail->Subject = $subject;

@@ -91,16 +91,16 @@
 								{
 									if(output.success==1)
 									{
-										$('#info').html('Thank you message here.');
+										$('#info').html('Thank you. We will contact you shortly.');
 									}
 									else
 									{
-										$('#info').html('Please fill mandatory fields.');
+										$('#info').html('');
 									}
 								},
 								error:function()
 								{
-									$('#info').html('There were some problems with your form submission.');
+									$('#info').html('Our server is overloaded. Please try again after some time.');
 								}
 							});
 					});
@@ -128,10 +128,10 @@
 			
 			<img src="images/dcLogoBig.jpg"/>
 				<div class="clsBigPicContent">
-					<h2 class="largeTitle">Hello World! We've just dropped anchor on earth.</h2>
-					<h2 class="largeTitle2"></h2>
+					<h2 class="largeTitle2">Hello World!</h2>
+					<h2 class="largeTitle2">We've just dropped anchor on earth.</h2>
 					</br>
-					<p class="largeContent"> We provide IT services and solutions to a universal audience, </br> as highlighted below</p>
+					<p class="largeContent"> We provide IT services and solutions to a universal audience, </br> as highlighted <a href="#whatWeDo">below</a></p>
 				</div>
 				<div class="spaceShuttle">
 					<img src="images/spaceShuttle.png" />
@@ -323,19 +323,19 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 					</div>  
 						
 					<!-- <label for="name"></label> -->
-					<input type="text" name="name" id= "contact_name" placeholder="Full Name">*
+					<input type="text" name="name" id= "contact_name" placeholder="Name (required)">
 					 
 					<!-- <label for="email">E-mail</label> -->
-					<input type="email" name="email" id= "contact_email" placeholder="name@domain.com">
+					<input type="email" name="email" id= "contact_email" placeholder="Email">
 					 
 					<!-- <label for="skype">Skype id</label> -->
-					<input type="text" name="skype" id= "contact_skype" placeholder="Skype ID and/or Phone Number">*
+					<input type="text" name="skype" id= "contact_skype" placeholder="Skype ID and/or Phone Number (required)">
 					
 					<!-- <label for="phone">Phone</label>
 					<input type="tel" name="phone" placeholder="ex. (555) 555-5555"> -->
 					 
 					<!-- <label for="location">Location</label> -->
-					<input type="text" name="location" id= "contact_loc" placeholder="Your location">
+					<input type="text" name="location" id= "contact_loc" placeholder="Your location (required)">
 					
 
 					<input type="text" name="time" id="contact_time" placeholder="When can we call you?">
