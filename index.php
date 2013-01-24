@@ -82,7 +82,6 @@
 										<li>Accounting, Collaboration and CRM</li>
 										<li>Enterprise Resource Planning</li>
 										<li>Invoicing and Human Resource Management</li>
-										<li>JS Framework Integration & SEO</li>
 									</ul></p>
 							</div>
 						</div>
