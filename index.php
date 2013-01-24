@@ -10,6 +10,7 @@
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	<script src="jquery.touchslider.min.js"></script>
 	<script src="jquery.nicescroll.min.js"></script>
+	<script src="placeholder_fallback.js"></script>
 		<script>
 			$(document).ready(function() {
 				$(".touchslider").touchSlider({mouseTouch: true, autoplay: true});
@@ -224,9 +225,12 @@
 					
 					<label for="phone">Phone</label>
 					<input type="tel" name="phone" placeholder="ex. (555) 555-5555">
-					 
+					
 					<label for="location">Location</label>
 					<input type="url" name="url" placeholder="City or state">
+
+					<label for="name">setup time with us</label>
+					<input type="text" name="time" placeholder="setup time with us">
 					
 					<label for="message">What can we help you with</label>	
 					<textarea name="message" placeholder="Your message must be greater than 20 charcters"  ></textarea>  
