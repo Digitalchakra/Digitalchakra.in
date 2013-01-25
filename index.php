@@ -38,7 +38,7 @@
 					<h2 class="largeTitle2">Hello World!</h2>
 					<h2 class="largeTitle2">We've just dropped anchor on earth.</h2>
 					</br>
-					<p class="largeContent"> The web has become an integral part of our culture, whether it be to run businesses or to socialize. Our persona online is what defines us in the global arena where decisions are made based on how much value is showcased online. We pride ourselves as the innovators of tomorrow and we are here to help you make a lasting impression worldwide. <a style="color:#47c8f5; text-decoration: none;"href="#whatWeDo">Learn how<b>></b></a></p>
+					<p class="largeContent"> The web has become an integral part of our culture, whether it be to run businesses or to socialize. Our persona online is what defines us in the global arena where decisions are made based on how much value is showcased online. We pride ourselves as the innovators of tomorrow and we are here to help you make a lasting impression worldwide. <a style="color:#47c8f5; text-decoration: none;"href="#whatWeDo">Learn how <img src="images/triangle_small.png"/></a></p>
 				</div>
 				<div class="spaceShuttle">
 					<img src="images/spaceShuttle.png" />
