@@ -4,6 +4,7 @@
 <link rel="icon" 
       type="image/png" 
       href="images/favicon.png">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="web design, web development digitalchakra">
 	<meta name="tags" content="web design, web development">
 	<meta name="description" content="Business Technology Consulting, IT solutions and IT Services, Design & UI/UX Consulting, Cloud Computing and support services that deliver measurable business value. Transform your business, and make Operations efficient with innovative solutions from Digital Chakra">
