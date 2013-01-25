@@ -233,11 +233,11 @@
 					</div>
 						<ul class="contactList" style="text-align:left;">
 							<!--<li ><a href="#" class="contactIn">linked in id</a></li>-->
-							<li ><a href="https://www.facebook.com/digitalchakra" target="_blank" alt="Digital Chakra on Facebook" class="contactFb" >facebook page</a></li>
-							<li ><a href="http://twitter.com/digitalchakra" target="_blank" class="contactTr" alt="Digital Chakra on Twitter" >twitter page</a></li>
-							<li ><a href="mailto:queries@digitalchakra.in" class="contactEmail" alt="Contact Digital Chakra">email id: queries@digitalchakra.in</a></li>
+							<li ><a href="https://www.facebook.com/digitalchakra" target="_blank" alt="Digital Chakra on Facebook" class="contactFb"style="color:#47c8f5; text-decoration: none;" >Facebook Page</a></li>
+							<li ><a href="http://twitter.com/digitalchakra" target="_blank" class="contactTr" alt="Digital Chakra on Twitter"style="color:#47c8f5; text-decoration: none;" >Twitter Page</a></li>
+							<li ><a href="mailto:queries@digitalchakra.in" class="contactEmail" alt="Contact Digital Chakra"style="color:#47c8f5; text-decoration: none;">Email: queries@digitalchakra.in</a></li>
 							<li><p class ="contactHome"><b>Address:</b> Shree Park 3rd Floor West Wing</br> # 578 Anna Salai Chennai-600 018</br>
-Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="_blank"><b>Show On Map</b></a></p></li>
+Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="_blank"style="color:#47c8f5; text-decoration: none;"><b>Show On Map</b></a></p></li>
 						</ul>
 				</div>
 				<div class="contactSection2">
