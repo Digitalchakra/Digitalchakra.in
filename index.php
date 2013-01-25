@@ -38,7 +38,7 @@
 					<h2 class="largeTitle2">Hello World!</h2>
 					<h2 class="largeTitle2">We've just dropped anchor on earth.</h2>
 					</br>
-					<p class="largeContent"> The web has become an integral part of our culture, whether it be to run businesses or to socialize. Our persona online is what defines us in the global arena where decisions are made based on how much value is showcased online. We pride ourselves as the innovators of tomorrow and we are here to help you make a lasting impression worldwide. <a class="anchor" style="color:#47c8f5; text-decoration: none;"href="#whatWeDo">Learn how <img src="images/triangle_small.png"/></a></p>
+					<p class="largeContent"> 		The web has become an integral part of our culture, whether it be to run businesses or to socialize. Our persona online is what defines us in the global arena where decisions are made based on how much value is showcased online. We pride ourselves as the innovators of tomorrow and we are here to help you make a lasting impression worldwide. <a class="anchor" style="color:#47c8f5; text-decoration: none;"href="#whatWeDo">Learn how <img src="images/triangle_small.png"/></a></p>
 				</div>
 				<div class="spaceShuttle">
 					<img src="images/spaceShuttle.png" />
@@ -302,9 +302,13 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 	<script src="js/dc.min.js"></script>
 		<script>
 			$(document).ready(function() {
-				//alert(window.location);
-				//var hrefid = window.location.split('#');
-				//alert(hrefid);
+				var wlocation = window.location;
+				var values = String(wlocation).split('#');
+				if(values[1].length>0)
+				{
+					$('html,body').animate({
+			        scrollTop: $("#"+values[1]).offset().top});
+				}
 				$(".touchslider").touchSlider({mouseTouch: true, autoplay: true});
 				nice = $("html").niceScroll({touchbehavior:true, bouncescroll:true});
 				//
