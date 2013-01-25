@@ -299,7 +299,7 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 
 </script>
    
-	<script src="js/dc.min_1.js"></script>
+	<script src="js/dc.min.js"></script>
 		<script>
 			$(document).ready(function() {
 				var wlocation = window.location;
