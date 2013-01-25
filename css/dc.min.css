@@ -1601,3 +1601,10 @@ body{
 	    border-radius: 12px;
 	    border:2px solid;
 	}
+
+input:focus{
+	border-color: #49caf4 !Important;
+}
+textarea:focus{
+	border-color: #49caf4 !Important;
+}
