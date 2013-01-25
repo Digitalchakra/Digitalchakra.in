@@ -14,7 +14,7 @@
     <header id="topHeader">
 		<div class="wrap">
 			<div class="clsLogo">
-				<h1><a href="#" title="DigitalChakra">Digital Chakra</a></h1>
+				<h1><a href="#body" title="DigitalChakra">Digital Chakra</a></h1>
 			</div>
 			<nav class="clsMainNav">
 				<ul class="clsMainNavList">
