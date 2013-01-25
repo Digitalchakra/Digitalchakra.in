@@ -20,10 +20,10 @@
 			</div>
 			<nav class="clsMainNav">
 				<ul class="clsMainNavList">
-					<li><a href="#body" alt="The Big Picture">The Big Picture</a></li>
-					<li><a href="#whatWeDo" alt="What We Do">What We Do</a></li>
+					<li class="anchor"><a href="#body" alt="The Big Picture">The Big Picture</a></li>
+					<li class="anchor"><a href="#whatWeDo" alt="What We Do">What We Do</a></li>
 					<!-- <li><a href="#dcBlog">DC Blog</a></li> -->
-					<li><a href="#contact" alt="Contact Us">Contact Us</a></li>
+					<li class="anchor"><a href="#contact" alt="Contact Us">Contact Us</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -135,7 +135,7 @@
 					
 					
 				</div>
-				<div style="display:none">
+				<div>
 						
 						<a class="touchslider-nav-item touchslider-nav-item-current">1</a>
 						<a class="touchslider-nav-item">2</a>
@@ -304,6 +304,13 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 			$(document).ready(function() {
 				$(".touchslider").touchSlider({mouseTouch: true, autoplay: true});
 				nice = $("html").niceScroll({touchbehavior:true, bouncescroll:true});
+				//
+				$('.anchor').click(function()
+			     {
+			     $(".anchor").removeClass("activeHeader");
+			     $(this).addClass('activeHeader');
+			     });
+
 				//datetime
 				$("#contact_time").datetimepicker({
 				dateFormat: "yy-mm-dd",

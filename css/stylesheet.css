@@ -58,6 +58,7 @@ body{
 			list-style-type:none;
 		}
 		.clsMainNavList li a{
+			height:30px;
 				display:block;
 				color:#47c8f5;
 				padding:0px 25px;
@@ -365,16 +366,43 @@ body{
 		#contactForm textarea{
 				height:80px;
 		}
-		
-		
-		#contactForm  #submit{
-				width:100px;
-				float:right;
-		}
+
 		
 		input {
 			background-image:
 			}
-		.clsMainNavList a:active {
-			border: solid 2px #000;
-			}
+	.activeHeader
+		{
+		  background:transparent url(../images/line_sketch_1.png) no-repeat 20px bottom;
+		}
+	#contactForm  #submit
+		{
+	    width:103px;
+	    height:32px;
+	    float:right;
+	    background:transparent url(../images/submit_btn.png) no-repeat left bottom ;
+	    text-indent: -999em;
+	    border: 0px;
+
+  		}
+  	#contactForm  #submit:hover
+	  	{
+	    background:transparent url(../images/submit_btn_hover.png) no-repeat left bottom ;
+		}
+  	#contactForm  #submit:active
+  		{
+   		 background:transparent url(../images/submit_btn_active.png) no-repeat left bottom ;
+		}
+	.touchslider-nav-item
+	{
+	    font-size: 9px;
+	    padding-top: 2px;
+	    width: 16px;
+	    height: 16px;
+	    background: #ffffff;
+	    margin: 0 16px;
+	    display: inline-block;
+	    cursor: pointer;
+	    border-radius: 12px;
+	    border:2px solid;
+	}
