@@ -10,6 +10,7 @@
 	<meta name="description" content="Business Technology Consulting, IT solutions and IT Services, Design & UI/UX Consulting, Cloud Computing and support services that deliver measurable business value. Transform your business, and make Operations efficient with innovative solutions from Digital Chakra">
 	<title>Digital Chakra | Web Development, Design & Cloud Computing Solutions.</title>
 	<link rel="stylesheet" type="text/css" href="css/dc.min.css"/>
+
 </head>
 <body id="body">
     <header id="topHeader">
@@ -284,6 +285,19 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 		
 		</section>	
     </footer>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37959751-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	<script src="js/dc.min.js"></script>
 		<script>
