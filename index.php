@@ -7,7 +7,7 @@
 	<meta name="keywords" content="web design, web development digitalchakra">
 	<meta name="tags" content="web design, web development">
 	<meta name="description" content="Business Technology Consulting, IT solutions and IT Services, Design & UI/UX Consulting, Cloud Computing and support services that deliver measurable business value. Transform your business, and make Operations efficient with innovative solutions from Digital Chakra">
-	<title>Digital Chakra – Web Development, Design & Cloud Computing Solutions.</title>
+	<title>Digital Chakra | Web Development, Design & Cloud Computing Solutions.</title>
 	<link rel="stylesheet" type="text/css" href="css/dc.min.css"/>
 </head>
 <body id="body">
