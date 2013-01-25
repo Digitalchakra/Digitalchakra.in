@@ -4,7 +4,7 @@
 <link rel="icon" 
       type="image/png" 
       href="images/favicon.png">
-	<meta name="keywords" content="web design, web development">
+	<meta name="keywords" content="web design, web development digitalchakra">
 	<meta name="tags" content="web design, web development">
 	<meta name="description" content="Business Technology Consulting, IT solutions and IT Services, Design & UI/UX Consulting, Cloud Computing and support services that deliver measurable business value. Transform your business, and make Operations efficient with innovative solutions from Digital Chakra">
 	<title>Digital Chakra – Web Development, Design & Cloud Computing Solutions.</title>
@@ -18,10 +18,10 @@
 			</div>
 			<nav class="clsMainNav">
 				<ul class="clsMainNavList">
-					<li><a href="#body">The Big Picture</a></li>
-					<li><a href="#whatWeDo">What We Do</a></li>
+					<li><a href="#body" alt="The Big Picture">The Big Picture</a></li>
+					<li><a href="#whatWeDo" alt="What We Do">What We Do</a></li>
 					<!-- <li><a href="#dcBlog">DC Blog</a></li> -->
-					<li><a href="#contact">Contact Us</a></li>
+					<li><a href="#contact" alt="Contact Us">Contact Us</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -36,7 +36,7 @@
 					<h2 class="largeTitle2">Hello World!</h2>
 					<h2 class="largeTitle2">We've just dropped anchor on earth.</h2>
 					</br>
-					<p class="largeContent"> We provide IT services and solutions to a universal audience, </br> as highlighted <a style="color:#47c8f5; text-decoration: none;"href="#whatWeDo">below</a></p>
+					<p class="largeContent"> The web has become an integral part of our culture, whether it be to run businesses or to socialize. Our persona online is what defines us in the global arena where decisions are made based on how much value is showcased online. We pride ourselves as the innovators of tomorrow and we are here to help you make a lasting impression worldwide. <a style="color:#47c8f5; text-decoration: none;"href="#whatWeDo">Learn how<b>></b></a></p>
 				</div>
 				<div class="spaceShuttle">
 					<img src="images/spaceShuttle.png" />
@@ -233,9 +233,9 @@
 							<!--<li ><a href="#" class="contactIn">linked in id</a></li>-->
 							<li ><a href="https://www.facebook.com/digitalchakra" target="_blank" alt="Digital Chakra on Facebook" class="contactFb" >facebook page</a></li>
 							<li ><a href="http://twitter.com/digitalchakra" target="_blank" class="contactTr" alt="Digital Chakra on Twitter" >twitter page</a></li>
-							<li ><a href="mailto:queries@digitalchakra.in" class="contactEmail" alt="Contact Digital Chakra">email id</a></li>
-							<li><p class ="contactHome"><b>Address:</b> Shree Park 3rd Floor West Wing</br> # 578 Anna Salai Chennai-600 006</br>
-Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="_blank">show on map</a></p></li>
+							<li ><a href="mailto:queries@digitalchakra.in" class="contactEmail" alt="Contact Digital Chakra">email id: queries@digitalchakra.in</a></li>
+							<li><p class ="contactHome"><b>Address:</b> Shree Park 3rd Floor West Wing</br> # 578 Anna Salai Chennai-600 018</br>
+Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="_blank"><b>Show On Map</b></a></p></li>
 						</ul>
 				</div>
 				<div class="contactSection2">
