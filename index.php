@@ -10,6 +10,7 @@
 	<meta name="description" content="Business Technology Consulting, IT solutions and IT Services, Design & UI/UX Consulting, Cloud Computing and support services that deliver measurable business value. Transform your business, and make Operations efficient with innovative solutions from Digital Chakra">
 	<title>Digital Chakra | Web Development, Design & Cloud Computing Solutions.</title>
 	<link rel="stylesheet" type="text/css" href="css/dc.min.css"/>
+
 </head>
 <body id="body">
     <header id="topHeader">
@@ -37,7 +38,7 @@
 					<h2 class="largeTitle2">Hello World!</h2>
 					<h2 class="largeTitle2">We've just dropped anchor on earth.</h2>
 					</br>
-					<p class="largeContent"> The web has become an integral part of our culture, whether it be to run businesses or to socialize. Our persona online is what defines us in the global arena where decisions are made based on how much value is showcased online. We pride ourselves as the innovators of tomorrow and we are here to help you make a lasting impression worldwide. <a style="color:#47c8f5; text-decoration: none;"href="#whatWeDo">Learn how<b>></b></a></p>
+					<p class="largeContent"> The web has become an integral part of our culture, whether it be to run businesses or to socialize. Our persona online is what defines us in the global arena where decisions are made based on how much value is showcased online. We pride ourselves as the innovators of tomorrow and we are here to help you make a lasting impression worldwide. <a style="color:#47c8f5; text-decoration: none;"href="#whatWeDo">Learn how <img src="images/triangle_small.png"/></a></p>
 				</div>
 				<div class="spaceShuttle">
 					<img src="images/spaceShuttle.png" />
@@ -284,6 +285,19 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 		
 		</section>	
     </footer>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37959751-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	<script src="js/dc.min.js"></script>
 		<script>
