@@ -335,7 +335,7 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 						 window.location.href = '#bigPic';
 			         });
 
-				$(".touchslider").touchSlider({mouseTouch: true, autoplay: true});
+				$(".touchslider").touchSlider({mouseTouch: true, autoplay: true,delay: 15000});
 				/*nice = $("html").niceScroll({touchbehavior:true, bouncescroll:true});*/
 				//
 				$('.anchor').click(function()
