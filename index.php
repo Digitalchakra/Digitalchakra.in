@@ -20,7 +20,7 @@
 			</div>
 			<nav class="clsMainNav">
 				<ul class="clsMainNavList">
-					<li><a href="#body" alt="The Big Picture" class="anchor link" link="#body">The Big Picture</a></li>
+					<li><a href="#body" alt="The Big Picture" class="anchor link activeHeader" link="#body">The Big Picture</a></li>
 					<li><a href="#whatWeDo" alt="What We Do" class="anchor link" link="#whatWeDo">What We Do</a></li>
 					<!-- <li><a href="#dcBlog">DC Blog</a></li> -->
 					<li><a href="#contact" alt="Contact Us" class="anchor link" link="#contact">Contact Us</a></li>
@@ -304,18 +304,21 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 			$(document).ready(function() {
 				var wlocation = window.location;
 				var values = String(wlocation).split('#');
-				if(values[1].length>0)
+				if(values.length >1)
 				{
-					$('html,body').animate({
-			        scrollTop: $("#"+values[1]).offset().top});
-			        $(".link").each(function()
-			     		{
-			     			$(this).removeClass('activeHeader');
-			     			if($(this).attr('link')=="#"+values[1])
-			     			{
-			     				$(this).addClass('activeHeader');
-			     			}
-			     		});
+					if(values[1].length>0)
+					{
+						$('html,body').animate({
+				        scrollTop: $("#"+values[1]).offset().top});
+				        $(".link").each(function()
+				     		{
+				     			$(this).removeClass('activeHeader');
+				     			if($(this).attr('link')=="#"+values[1])
+				     			{
+				     				$(this).addClass('activeHeader');
+				     			}
+				     		});
+					}
 				}
 				$(".touchslider").touchSlider({mouseTouch: true, autoplay: true});
 				nice = $("html").niceScroll({touchbehavior:true, bouncescroll:true});
