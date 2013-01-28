@@ -1601,6 +1601,13 @@ body{
 	    border-radius: 12px;
 	    border:2px solid;
 	}
+	.touchslider-nav-item-current
+	{
+		 background-color:#fcc72a;
+		 border:solid 2px #47c8f5;
+		 box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+		 color:#FFFFFF !important;
+	}
 
 input:focus{
 	border-color: #49caf4 !Important;
