@@ -321,7 +321,7 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 					}
 				}
 				$(".touchslider").touchSlider({mouseTouch: true, autoplay: true});
-				nice = $("html").niceScroll({touchbehavior:true, bouncescroll:true});
+				/*nice = $("html").niceScroll({touchbehavior:true, bouncescroll:true});*/
 				//
 				$('.anchor').click(function()
 			     {
