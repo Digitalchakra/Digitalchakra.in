@@ -20,7 +20,7 @@
 			</div>
 			<nav class="clsMainNav">
 				<ul class="clsMainNavList">
-					<li><a href="#body" alt="The Big Picture" class="anchor link activeHeader" link="#body">The Big Picture</a></li>
+					<li><a href="#bigPic" alt="The Big Picture" class="anchor link activeHeader" link="#bigPic">The Big Picture</a></li>
 					<li><a href="#whatWeDo" alt="What We Do" class="anchor link" link="#whatWeDo">What We Do</a></li>
 					<!-- <li><a href="#dcBlog">DC Blog</a></li> -->
 					<li><a href="#contact" alt="Contact Us" class="anchor link" link="#contact">Contact Us</a></li>
@@ -33,7 +33,7 @@
 		<div id="bigPic" class="clsBigPic">
 			<div class="wrap">
 			
-			<img src="images/dcLogoBig.jpg"/>
+			<!--<img src="images/dcLogoBig.jpg"/> -->
 				<div class="clsBigPicContent">
 					<h2 class="largeTitle2">Hello World!</h2>
 					<h2 class="largeTitle2">We've just dropped anchor on earth.</h2>
@@ -75,7 +75,7 @@
 									</ul></p>
 							</div>
 						</div>
-						<div class="touchslider-item">
+						<!--<div class="touchslider-item">
 							<div id="carousel3">
 								<h2 class="largeTitle3">SAAS - based Offerings</h2></br></br>
 								<p class="contentText">We help you implement the SaaS delivery model to take you to the next level by centralizing your business applications. We provide you with solutions to host and manage your customized business applications.
@@ -86,7 +86,7 @@
 										<li>Invoicing and Human Resource Management</li>
 									</ul></p>
 							</div>
-						</div>
+						</div>-->
 						<div class="touchslider-item">
 							<div id="carousel4">
 								<h2 class="largeTitle3">Design Consultation & Offerings</h2></br></br>
@@ -142,7 +142,7 @@
 						<a class="touchslider-nav-item">3</a>
 						<a class="touchslider-nav-item">4</a>
 						<a class="touchslider-nav-item">5</a>
-						<a class="touchslider-nav-item">6</a>
+						<!--<a class="touchslider-nav-item">6</a>-->
 						
 				</div>
 					
@@ -320,6 +320,21 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 				     		});
 					}
 				}
+
+				/* Make the url change based on div view */
+					$('#contact').waypoint(function() {
+						//alert('Top of thing hit top of viewport.');
+						 window.location.href = '#contact';
+			         });
+					$('#whatWeDo').waypoint(function() {
+						//alert('Top of thing hit top of viewport.');
+						 window.location.href = '#whatWeDo';
+			         });
+					$('#bigPic').waypoint(function() {
+						//alert('Top of thing hit top of viewport.');
+						 window.location.href = '#bigPic';
+			         });
+
 				$(".touchslider").touchSlider({mouseTouch: true, autoplay: true});
 				/*nice = $("html").niceScroll({touchbehavior:true, bouncescroll:true});*/
 				//
