@@ -324,14 +324,38 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 				/* Make the url change based on div view */
 					$('#contact').waypoint(function() {
 						//alert('Top of thing hit top of viewport.');
+						$(".link").each(function()
+				     		{
+				     			$(this).removeClass('activeHeader');
+				     			if($(this).attr('link')=="#contact")
+				     			{
+				     				$(this).addClass('activeHeader');
+				     			}
+				     		});
 						 window.location.href = '#contact';
 			         });
 					$('#whatWeDo').waypoint(function() {
 						//alert('Top of thing hit top of viewport.');
+						 $(".link").each(function()
+				     		{
+				     			$(this).removeClass('activeHeader');
+				     			if($(this).attr('link')=="#whatWeDo")
+				     			{
+				     				$(this).addClass('activeHeader');
+				     			}
+				     		});
 						 window.location.href = '#whatWeDo';
 			         });
 					$('#bigPic').waypoint(function() {
 						//alert('Top of thing hit top of viewport.');
+						$(".link").each(function()
+				     		{
+				     			$(this).removeClass('activeHeader');
+				     			if($(this).attr('link')=="#bigPic")
+				     			{
+				     				$(this).addClass('activeHeader');
+				     			}
+				     		});
 						 window.location.href = '#bigPic';
 			         });
 
@@ -364,8 +388,10 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 				    e.preventDefault();
 				    var target = this.hash;
 				        $target = $(target);
+				       // var scrollto = $target.offset().top-$('#topHeader').height();
+				        var scrollto = $target.offset().top;
 				    $('html, body').stop().animate({
-				        'scrollTop': $target.offset().top
+				        'scrollTop': scrollto
 				    }, 500, 'swing', function () {
 				        window.location.hash = target;
 				    });	
