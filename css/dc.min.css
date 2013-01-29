@@ -1202,7 +1202,7 @@ div,h1,h2,h3,h4,h5,h6,p,ul{
 
 body{
 	background:#ffffff;
-	text-align:center;	
+	text-align:center;
 	font:12px verdana;
 	padding:0;
 	margin:0;
@@ -1210,6 +1210,13 @@ body{
 .error_class
 {
 	border-color: #FF0000;
+}
+
+span.anchor {
+    display: block;
+    height: 64px;
+    margin-top: -64px;
+    visibility: hidden;
 }
 
 #topHeader{
@@ -1242,13 +1249,13 @@ body{
 			height:128px;
 		}
 		.clsMainNav{
-		
+
 			float:right;
 			width:550px;
 			margin-top:20px;
 		}
 		.clsMainNavList li{
-		
+
 			float:left;
 			list-style-type:none;
 		}
@@ -1270,15 +1277,15 @@ body{
 	.clsBigPic{
 		background:transparent url(../images/bg_BigPic.jpg) no-repeat right bottom;
 		text-align:center;
-		height:672px;
+		height:530px;
 	}
-		
-		#bigPic .wrap{	
+
+		#bigPic .wrap{
 			margin:0 auto;
 			position:relative;
 			width:985px;
-		
-		}	
+
+		}
 			.clsBigPicContent{
 				width:680px;
 				height:400px;
@@ -1288,28 +1295,28 @@ body{
 				position:absolute;
 				padding-top:50px;
 				padding-left:50px;
-				
+
 			}
 			.largeTitle{
 				font-size:27px;
-				
+
 			}
 			.largeTitle2{
 				font-size:27px;
 				padding-Left:100px;
-				
+
 			}
 			.largeTitle3{
 				font-size:30px;
 				font-weight:200px;
 				padding-Left:100px;
-				
+
 			}
 			.largeContent{
 				font-size:18px;
 				padding-left:100px;
 			}
-			
+
 			.spaceShuttle{
 				width:172px;
 				height:177px;
@@ -1317,25 +1324,25 @@ body{
 				padding-top:250px;
 				float:right;
 			}
-	
-	
+
+
 	#whatWeDo {
 		background:transparent url(../images/bg_WhatWeDo.jpg) no-repeat right top;
 		height:648px;
-		
+
 	}
 	/*#whatWeDo .wrap{
 		position:relative;
 		margin:0 auto;
 		width:985px;
 	}*/
-	
-	
+
+
 		#whatWeDo .contentText{
 			padding-left:580px;
 			font-size:16px;
 		}
-		
+
 		#carousel1{
 			background:transparent url(../images/slide1.png) no-repeat left 125px ;
 			height:600px;
@@ -1343,7 +1350,7 @@ body{
 			padding-top:70px;
 			text-align:left;
 		}
-		
+
 		#carousel2{
 			background:transparent url(../images/slide2.png) no-repeat left 125px ;
 			height:600px;
@@ -1351,7 +1358,7 @@ body{
 			padding-top:70px;
 			text-align:left;
 		}
-		
+
 		#carousel3{
 			background:transparent url(../images/slide3.png) no-repeat left 125px ;
 			height:600px;
@@ -1380,9 +1387,9 @@ body{
 			padding-top:70px;
 			text-align:left;
 		}
-	
+
 			.prevNext{
-				margin: -300px 0 0 0; 
+				margin: -300px 0 0 0;
 				width:100%;
 				position:absolute;
 			}
@@ -1393,7 +1400,7 @@ body{
 				float:left;
 				text-indent:-999em;
 			}
-			
+
 			.rightArrow {
 				background:transparent url(../images/rightArrow.png) no-repeat left top;
 				width:55px;
@@ -1401,19 +1408,19 @@ body{
 				float:right;
 				text-indent:-999em;
 			}
-	
+
 	#dcBlog{
 		background:transparent url(../images/bg_WhatWeDo.jpg) no-repeat left top;
 		height:648px;
 	}
-	
+
 	#dcBlog .wrap{
 		width:985px;
 		margin:0 auto;
 		position:relative;
-		
+
 	}
-		
+
 		.dcBlogSection{
 			width:440px;
 			height:500px;
@@ -1425,10 +1432,10 @@ body{
 			width:400px;
 			height:450px;
 			}
-			
+
 			.twitterFeed li{
 				float:left;
-				
+
 				list-style-type:none;
 				padding-bottom:20px;
 				padding-top:10px;
@@ -1438,7 +1445,7 @@ body{
 						text-decoration:none;
 						text-align:left;
 					}
-			
+
 			.listBlock {
 				height:60px;
 				padding-bottom:10px;
@@ -1447,7 +1454,7 @@ body{
 				border-left: 1px solid #47c8f5;
 				border-bottom:1px solid #47c8f5;
 			}
-			
+
 			.listContent2{
 			float:right;
 			}
@@ -1457,26 +1464,26 @@ body{
 				background:transparent url(../images/icon_twitter_blue.png) no-repeat left top ;
 				padding-left: 60px;
 			}
-			
+
 			.blogTitle2{
 				height:50px;
 				position:absolute;
 				background:transparent url(../images/icon_blog_blue.png) no-repeat left top;
 				padding-left: 60px;
 			}
-	
+
 	#contact{
 		background:transparent url(../images/bg_contacts.jpg) no-repeat left -50px;
 		height:648px;
 	}
-	
+
 		#contact .wrap{
 			width:985px;
 			margin:0 auto;
 			position:relative;
-			
+
 		}
-		
+
 		.contactSection{
 		float:left;
 			width:440px;
@@ -1496,11 +1503,11 @@ body{
 		width:220px;
 		height:210px;
 		}
-		
+
 		.contactList li{
 			float:right;
 			list-style-type:none;
-			
+
 			width:200px;
 		}
 		.contactList li a{
@@ -1513,21 +1520,21 @@ body{
 			text-align:left;
 		}
 		.contactTr{
-		
+
 				background:transparent url(../images/icon_sketch_tr.jpg) no-repeat left top;
 		}
 		.contactFb{
-		
+
 				background:transparent url(../images/icon_sketch_fb.jpg) no-repeat left top;
 		}
 		.contactIn{
-		
+
 				background:transparent url(../images/icon_sketch_in.jpg) no-repeat left top;
 		}.contactEmail{
-		
+
 				background:transparent url(../images/icon_sketch_mail.jpg) no-repeat left top;
 		}.contactHome{
-		
+
 				background:transparent url(../images/icon_sketch_home.jpg) no-repeat left top ;
 				padding-left:50px;
 				position:relative;
@@ -1540,29 +1547,29 @@ body{
 				padding-top:290px;
 				float:left;
 			}
-			
-			
-			
+
+
+
 #contactForm{
 		width:400px;
 		padding:10px;
 		position:relative;
 		text-align:left;
 }
-		
+
 		#contactForm input , #contactForm textarea{
 				width:370px;
-				margin-top:10px; 
-				margin-bottom:10px; 
+				margin-top:10px;
+				margin-bottom:10px;
 				margin-right:10px;
-		
+
 		}
-		
+
 		#contactForm textarea{
 				height:80px;
 		}
 
-		
+
 		input {
 			background-image:
 			}
@@ -1603,10 +1610,18 @@ body{
 	}
 	.touchslider-nav-item-current
 	{
-		 background-color:#fcc72a;
-		 border:solid 2px #47c8f5;
-		 box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
-		 color:#FFFFFF !important;
+    font-size: 9px;
+    color: #000000;
+    background: #fcc72b;
+    padding-top: 2px;
+    width: 16px;
+    height: 16px;
+    margin: 0 16px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 12px;
+    border:2px solid;
+    border-color: #000000;
 	}
 
 input:focus{

@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head profile="http://www.w3.org/2005/10/profile">
-<link rel="icon" 
-      type="image/png" 
+<link rel="icon"
+      type="image/png"
       href="images/favicon.png">
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="web design, web development digitalchakra">
-	<meta name="tags" content="web design, web development">
-	<meta name="description" content="Business Technology Consulting, IT solutions and IT Services, Design & UI/UX Consulting, Cloud Computing and support services that deliver measurable business value. Transform your business, and make Operations efficient with innovative solutions from Digital Chakra">
-	<title>Digital Chakra | Web Development, Design & Cloud Computing Solutions.</title>
+	<meta name="title" content=" India affordable web development, design and cloud deployment services">
+	<meta name="keywords" content="web development, web design, responsive design, product development, cloud computing">
+	<meta name="tags" content="web design, web development, digitalchakra, digital chakra">
+	<meta name="description" content="Digital Chakra is a leader in Web Design, Development and Deployment based out of Chennai, India. We offer Business Technology, UI/UX Consulting and cloud computing services/support. Improve your business reach and efficiency with responsive web design solutions and mobile applications.">
+	<title>Digital Chakra | Web Development, Design & Cloud Computing Solutions	Made Affordable!</title>
 	<link rel="stylesheet" type="text/css" href="css/dc.min.css"/>
 
 </head>
@@ -18,38 +19,39 @@
 			<div class="clsLogo">
 				<h1><a href="#body" title="DigitalChakra">Digital Chakra</a></h1>
 			</div>
-			<nav class="clsMainNav">
+			<nav class="clsMainNav" id="mainmenu">
 				<ul class="clsMainNavList">
-					<li><a href="#bigPic" alt="The Big Picture" class="anchor link activeHeader" link="#bigPic">The Big Picture</a></li>
-					<li><a href="#whatWeDo" alt="What We Do" class="anchor link" link="#whatWeDo">What We Do</a></li>
+					<li><a href="#bigPicTop" class="anchor link ">The Big Picture</a></li>
+					<li><a href="#whatWeDo" class="anchor link">What We Do</a></li>
 					<!-- <li><a href="#dcBlog">DC Blog</a></li> -->
-					<li><a href="#contact" alt="Contact Us" class="anchor link" link="#contact">Contact Us</a></li>
+					<li><a href="#contactTop" class="anchor link">Contact Us</a></li>
 				</ul>
 			</nav>
 		</div>
     </header>
     <div id="bodyContent" class="clsBodyContent">
 		<!-- ===========================================Big picture =========================================================== -->
+		<span class="anchor" id="bigPicTop"></span>
 		<div id="bigPic" class="clsBigPic">
 			<div class="wrap">
-			
+
 			<!--<img src="images/dcLogoBig.jpg"/> -->
 				<div class="clsBigPicContent">
 					<h2 class="largeTitle2">Hello World!</h2>
 					<h2 class="largeTitle2">We've just dropped anchor on earth.</h2>
 					</br>
-					<p class="largeContent"> 		The web has become an integral part of our culture, whether it be to run businesses or to socialize. Our persona online is what defines us in the global arena where decisions are made based on how much value is showcased online. We pride ourselves as the innovators of tomorrow and we are here to help you make a lasting impression worldwide. <a class="anchor" style="color:#47c8f5; text-decoration: none;"href="#whatWeDo">Learn how <img src="images/triangle_small.png"/></a></p>
+					<p class="largeContent">Digital Chakra is professional web development and offshore outsourcing company based in Chennai, India. We provide web design, web development and deployment services, product development and cloud based application development. Take your business to the next level with mobile-friendly responsive web designs and mobile applications.<a class="anchor" style="color:#47c8f5; text-decoration: none;"href="#whatWeDo"> Learn More&nbsp;<img src="images/triangle_small.png"/></a></p>
 				</div>
 				<div class="spaceShuttle">
 					<img src="images/spaceShuttle.png" />
 				</div>
-			</div>	
+			</div>
 		</div>
 		<!-- ===========================================What we do =========================================================== -->
-		<div id="whatWeDo">		
-				
+		<div id="whatWeDo">
+
 			<div class="touchslider">
-				
+
 				<div class="touchslider-viewport" style="width:985px;overflow:hidden;position:relative;height:600px;margin:0 auto; z-index:1;">
 					<div>
 						<div class="touchslider-item">
@@ -75,18 +77,6 @@
 									</ul></p>
 							</div>
 						</div>
-						<!--<div class="touchslider-item">
-							<div id="carousel3">
-								<h2 class="largeTitle3">SAAS - based Offerings</h2></br></br>
-								<p class="contentText">We help you implement the SaaS delivery model to take you to the next level by centralizing your business applications. We provide you with solutions to host and manage your customized business applications.
-								 <ul style=" margin:16px;" class="contentText">
-										<li>Management Information Systems</li>
-										<li>Accounting, Collaboration and CRM</li>
-										<li>Enterprise Resource Planning</li>
-										<li>Invoicing and Human Resource Management</li>
-									</ul></p>
-							</div>
-						</div>-->
 						<div class="touchslider-item">
 							<div id="carousel4">
 								<h2 class="largeTitle3">Design Consultation & Offerings</h2></br></br>
@@ -116,7 +106,7 @@
 							<div id="carousel6">
 								<h2 class="largeTitle3">Cloud Computing</h2>
 								</br></br>
-								<p class="contentText">Taking you to the cloud. Whether you are looking to improve/leverage your existing cloud investment or trying to get there we can do it for you. We have a dedicated group of system admins who can deploy, support and maintain your application on the cloud. 
+								<p class="contentText">Taking you to the cloud. Whether you are looking to improve/leverage your existing cloud investment or trying to get there we can do it for you. We have a dedicated group of system admins who can deploy, support and maintain your application on the cloud.
 								<ul style=" margin:16px;" class="contentText">
 										<li>Cloud Migration Advisory</li>
 										<li>Cloud Application Development</li>
@@ -127,35 +117,37 @@
 					</div>
 				</div>
 				<div  class="prevNext" >
-					
+
 					<a class="touchslider-prev leftArrow">Prev</a>
-					
-					
+
+
 					<a class="touchslider-next rightArrow">Next</a>
-					
-					
+
+
 				</div>
 				<div>
-						
+
 						<a class="touchslider-nav-item touchslider-nav-item-current">1</a>
 						<a class="touchslider-nav-item">2</a>
 						<a class="touchslider-nav-item">3</a>
 						<a class="touchslider-nav-item">4</a>
 						<a class="touchslider-nav-item">5</a>
 						<!--<a class="touchslider-nav-item">6</a>-->
-						
+
 				</div>
-					
+
 			</div>
-				
-		</div>	
-		
-								
-		
+
+		</div>
+
+
+
 		<!-- ===========================================DC blog =========================================================== -->
-		<!-- <div id="dcBlog">
+		<!--
+	<span class="anchor" id="dcblogtop"></span>
+		<div id="dcBlog">
 			<div class="wrap">
-			
+
 			<div class="dcBlogSection">
 				<ul class="twitterFeed">
 					<li>
@@ -170,14 +162,14 @@
 						<p class="listContent2">2 hours ago</p>
 					</div>
 					</li>
-					
+
 					<li>
 					<div class="listBlock">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a  quam ipsum. In ut dapibus quam. Praesent eu ipsum vitae est sagittis facilisis vitae id odio.</p>
 						<p class="listContent2">2 hours ago</p>
 					</div>
 					</li>
-					
+
 					<li>
 					<div class="listBlock">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a  quam ipsum. In ut dapibus quam. Praesent eu ipsum vitae est sagittis facilisis vitae id odio.</p>
@@ -203,14 +195,14 @@
 						<p class="listContent2">2 hours ago</p>
 					</div>
 					</li>
-					
+
 					<li>
 					<div class="listBlock">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a  quam ipsum. In ut dapibus quam. Praesent eu ipsum vitae est sagittis facilisis vitae id odio.</p>
 						<p class="listContent2">2 hours ago</p>
 					</div>
 					</li>
-					
+
 					<li>
 					<div class="listBlock">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a  quam ipsum. In ut dapibus quam. Praesent eu ipsum vitae est sagittis facilisis vitae id odio.</p>
@@ -225,6 +217,7 @@
 			</div>
 		</div> -->
 		<!-- ===========================================Contact us =========================================================== -->
+		<span class="anchor" id="contactTop"></span>
 		<div id="contact">
 			<div class="wrap">
 				<div class="contactSection">
@@ -233,57 +226,56 @@
 					</div>
 						<ul class="contactList" style="text-align:left;">
 							<!--<li ><a href="#" class="contactIn">linked in id</a></li>-->
-							<li ><a href="https://www.facebook.com/digitalchakra" target="_blank" alt="Digital Chakra on Facebook" class="contactFb"style="color:#47c8f5; text-decoration: none;" ><b>Facebook Page</b></a></li>
-							<li ><a href="http://twitter.com/digitalchakra" target="_blank" class="contactTr" alt="Digital Chakra on Twitter"style="color:#47c8f5; text-decoration: none;" ><b>Twitter Page</b></a></li>
-							<li ><a href="mailto:queries@digitalchakra.in" class="contactEmail" alt="Contact Digital Chakra"style="color:#47c8f5; text-decoration: none;"><b>queries@digitalchakra.in</b></a></li>
+							<li ><a href="https://www.facebook.com/digitalchakra" target="_blank" class="contactFb"style="color:#47c8f5; text-decoration: none;" ><b>Facebook Page</b></a></li>
+							<li ><a href="http://twitter.com/digitalchakra" target="_blank" class="contactTr" style="color:#47c8f5; text-decoration: none;" ><b>Twitter Page</b></a></li>
+							<li ><a href="mailto:queries@digitalchakra.in" class="contactEmail" style="color:#47c8f5; text-decoration: none;"><b>queries@digitalchakra.in</b></a></li>
 							<li><p class ="contactHome"><b>Address:</b> Shree Park 3rd Floor West Wing</br> # 578 Anna Salai Chennai-600 018</br>
 Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="_blank"style="color:#47c8f5; text-decoration: none;"><b>Show On Map</b></a></p></li>
 						</ul>
 				</div>
 				<div class="contactSection2">
-				<form id="contactForm" method="post" action="">
-					 <div id="status" class="">  
-						<span id="info"></span>  
-					</div>  
-						
+				<form id="contactForm" method="post">
+					 <div id="status" class="">
+						<span id="info"></span>
+					</div>
+
 					<!-- <label for="name"></label> -->
 					<input type="text" name="name" id= "contact_name" placeholder="Name (required)">
 
-					 
+
 					<!-- <label for="email">E-mail</label> -->
 					<input type="email" name="email" id= "contact_email" placeholder="Email">
-					 
+
 					<!-- <label for="skype">Skype id</label> -->
 
-					<input type="text" name="skype" id= "contact_skype" placeholder="Skype ID and/or Phone Number (required)">					
+					<input type="text" name="skype" id= "contact_skype" placeholder="Skype ID and/or Phone Number (required)">
 					<!-- <label for="phone">Phone</label>
 					<input type="tel" name="phone" placeholder="ex. (555) 555-5555"> -->
-					 
+
 					<!-- <label for="location">Location</label> -->
 					<input type="text" name="location" id= "contact_loc" placeholder="Your Location (required)">
-					
+
 
 					<input type="text" name="time" id="contact_time" placeholder="When Can We Call You?">
 
-					<!-- <label for="message">What can we help you with</label> -->	
-					<textarea name="message" id= "contact_mesg" placeholder="What can we help you with?"  ></textarea>  
-					 
+					<!-- <label for="message">What can we help you with</label> -->
+					<textarea name="message" id= "contact_mesg" placeholder="What can we help you with?"  ></textarea>
+
 					<input id="submit" type="button" name="submit" value="Submit" style="margin-right:24px;"/>
-					
+
 
 				</form>
 
-				 
+
 				</div>
 			</div>
 		</div>
     </div>
-   
+
     <footer>
 		<section>
         <p style="margin-bottom:20px;">&copy; copyright 2013 | www.digitalchakra.in </p>
-		
-		</section>	
+		</section>
     </footer>
     <script type="text/javascript">
 
@@ -298,90 +290,64 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
   })();
 
 </script>
-   
+
 	<script src="js/dc.min.js"></script>
-		<script>
-			$(document).ready(function() {
-				var wlocation = window.location;
-				var values = String(wlocation).split('#');
-				if(values.length >1)
-				{
-					if(values[1].length>0)
-					{
-						$('html,body').animate({
-				        scrollTop: $("#"+values[1]).offset().top});
-				        $(".link").each(function()
-				     		{
-				     			$(this).removeClass('activeHeader');
-				     			if($(this).attr('link')=="#"+values[1])
-				     			{
-				     				$(this).addClass('activeHeader');
-				     			}
-				     		});
-					}
-				}
+	<script type="text/javascript">
+	 var topRange  = 200,  // measure from the top of the viewport to X pixels down
+     edgeMargin    = 90,   // margin above the top or margin from the end of the page
+     animationTime = 800, // time in milliseconds
+     contentTop = [];
 
-				/* Make the url change based on div view */
-					$('#contact').waypoint(function() {
-						//alert('Top of thing hit top of viewport.');
-						$(".link").each(function()
-				     		{
-				     			$(this).removeClass('activeHeader');
-				     			if($(this).attr('link')=="#contact")
-				     			{
-				     				$(this).addClass('activeHeader');
-				     			}
-				     		});
-						 window.location.href = '#contact';
-			         });
-					$('#whatWeDo').waypoint(function() {
-						//alert('Top of thing hit top of viewport.');
-						 $(".link").each(function()
-				     		{
-				     			$(this).removeClass('activeHeader');
-				     			if($(this).attr('link')=="#whatWeDo")
-				     			{
-				     				$(this).addClass('activeHeader');
-				     			}
-				     		});
-						 window.location.href = '#whatWeDo';
-			         });
-					$('#bigPic').waypoint(function() {
-						//alert('Top of thing hit top of viewport.');
-						$(".link").each(function()
-				     		{
-				     			$(this).removeClass('activeHeader');
-				     			if($(this).attr('link')=="#bigPic")
-				     			{
-				     				$(this).addClass('activeHeader');
-				     			}
-				     		});
-						 window.location.href = '#bigPic';
-			         });
+$(document).ready(function(){
 
-				$(".touchslider").touchSlider({mouseTouch: true, autoplay: true,delay: 15000});
-				/*nice = $("html").niceScroll({touchbehavior:true, bouncescroll:true});*/
-				//
-				$('.anchor').click(function()
-			     {
-			     	var link=$(this).attr('href');
-			     	$(".link").each(function()
-			     		{
-			     			$(this).removeClass('activeHeader');
-			     			if($(this).attr('link')==link)
-			     			{
-			     				$(this).addClass('activeHeader');
-			     			}
-			     		});
-			     	$('.link[value=link]').addClass('activeHeader');
-			     });
+ // Stop animated scroll if the user does something
+ $('html,body').bind('scroll mousedown DOMMouseScroll mousewheel keyup', function(e){
+ if ( e.which > 0 || e.type == 'mousedown' || e.type == 'mousewheel' ){
+  $('html,body').stop();
+ }
+})
+
+ // Set up content an array of locations
+ $('#mainmenu').find('a').each(function(){
+  contentTop.push( $( $(this).attr('href') ).offset().top );
+ })
+
+ // Animate menu scroll to content
+  $('#mainmenu').find('a').click(function(){
+   var sel = this,
+       newTop = Math.min( contentTop[ $('#mainmenu a').index( $(this) ) ], $(document).height() - $(window).height() ); // get content top or top position if at the document bottom
+   $('html,body').stop().animate({ 'scrollTop' : newTop }, animationTime, function(){
+    window.location.hash = $(sel).attr('href');
+   });
+   return false;
+ })
+
+ // adjust side menu
+ $(window).scroll(function(){
+  var winTop = $(window).scrollTop(),
+      bodyHt = $(document).height(),
+      vpHt = $(window).height() + edgeMargin;  // viewport height + margin
+  $.each( contentTop, function(i,loc){
+   if ( ( loc > winTop - edgeMargin && ( loc < winTop + topRange || ( winTop + vpHt ) >= bodyHt ) ) ){
+    $('#mainmenu li')
+     .removeClass('activeHeader')
+     .eq(i).addClass('activeHeader');
+   }
+  })
+ })
+
+})
+</script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+				$(".touchslider").touchSlider({mouseTouch: true, autoplay: true,delay: 10000});
 
 				//datetime
 				$("#contact_time").datetimepicker({
 				dateFormat: "yy-mm-dd",
 			      timeFormat: "h:mm tt",
 			      hour:'10',
-			      minDate:0 
+			      minDate:0
 			    });
 				//anchor likns move animation
 				$('a[href^="#"]').bind('click.smoothscroll',function (e) {
@@ -394,7 +360,7 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 				        'scrollTop': scrollto
 				    }, 500, 'swing', function () {
 				        window.location.hash = target;
-				    });	
+				    });
 				});
 				$('#submit').click(function()
 					{
@@ -475,5 +441,5 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 					});
 			});
 		</script>
-</body>
+	</body>
 </html>
