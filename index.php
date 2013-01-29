@@ -10,7 +10,7 @@
 	<meta name="tags" content="web design, web development, digitalchakra, digital chakra">
 	<meta name="description" content="Digital Chakra is a leader in Web Design, Development and Deployment based out of Chennai, India. We offer Business Technology, UI/UX Consulting and cloud computing services/support. Improve your business reach and efficiency with responsive web design solutions and mobile applications.">
 	<title>Digital Chakra | Web Development, Design & Cloud Computing Solutions	Made Affordable!</title>
-	<link rel="stylesheet" type="text/css" href="css/dc.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/dc.min.c788d0f223aeb6bc143908fc5ea34026e531ca79.css"/>
 
 </head>
 <body id="body">
@@ -291,7 +291,7 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 
 </script>
 
-	<script src="js/dc.min.js"></script>
+	<script src="js/dc.min.c788d0f223aeb6bc143908fc5ea34026e531ca79.js"></script>
 	<script type="text/javascript">
 	 var topRange  = 200,  // measure from the top of the viewport to X pixels down
      edgeMargin    = 90,   // margin above the top or margin from the end of the page
