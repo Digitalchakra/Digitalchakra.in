@@ -4,16 +4,16 @@
 	<link rel="icon" type="image/png" href="images/favicon.png">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="web development, web design, responsive design, product development, cloud computing">
-	<meta name="description" content="Digital Chakra is a leader in Web Design, Development and Deployment based out of Chennai, India. We offer Business Technology, UI/UX Consulting and cloud computing services/support. Improve your business reach and efficiency with responsive web design solutions and mobile applications.">
-	<title>Digital Chakra | Web Development, Design & Cloud Computing Solutions	Made Affordable!</title>
-	<link rel="stylesheet" type="text/css" href="css/dc.min.7b8a37e69fd6d4a75e5be37364af83b977056a5f.css"/>
-
+	<meta name="description" content="DigitalChakra is a leader in Web Design, Development and Deployment based in Chennai, India. We offer Business Technology, UI/UX Consulting and cloud computing services/support. Improve your business reach and efficiency with responsive web design solutions and mobile applications.">
+	<title>DigitalChakra | Web Development, Design & Cloud Computing Solutions	Made Affordable!</title>
+	<link rel="stylesheet" type="text/css" href="css/dc.min.d3f08c1c9dcdcd49ea772c81e82340ffa286f082.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Oxygen:300,400,700' rel='stylesheet' type='text/css'>
 </head>
 <body id="body">
     <header id="topHeader">
 		<div class="wrap">
 			<div class="clsLogo">
-				<h1><a href="#body" title="DigitalChakra">Digital Chakra</a></h1>
+				<h1><a href="#body" title="DigitalChakra">DigitalChakra</a></h1>
 			</div>
 			<nav class="clsMainNav" id="mainmenu">
 				<ul class="clsMainNavList">
@@ -23,6 +23,10 @@
 					<li><a href="#contactTop" class="anchor link">Contact Us</a></li>
 				</ul>
 			</nav>
+			<div style="float:left; padding-top:6px;">
+				<a href="https://www.facebook.com/digitalchakra" target="_blank"  style="color:#47c8f5; text-decoration: none;	" ><img src="images/digitalchakra_sketch_fb.jpg" /></a>
+				<a href="http://twitter.com/digitalchakra" target="_blank"  style="color:#47c8f5; text-decoration: none; padding-left:10px;" ><img src="images/digitalchakra_sketch_tr.jpg" /></a>
+			</div>
 		</div>
     </header>
     <div id="bodyContent" class="clsBodyContent">
@@ -31,16 +35,26 @@
 		<div id="bigPic" class="clsBigPic">
 			<div class="wrap">
 
+				<!--<div class="bigPicLogo">
+					<img src="images/digitalchakra_bigpic_logo.jpg" alt="Digitalchakra logo" />
+
+				</div>-->
+				<div class="spaceShuttle">
+					<img src="images/spaceShuttleBig.png" alt="Space Shuttle" />
+
+				</div>
 			<!--<img src="images/dcLogoBig.jpg" alt="logo_digitalchakra_big"/> -->
 				<div class="clsBigPicContent">
-					<h2 class="largeTitle2">Hello World!</h2>
-					<h2 class="largeTitle2">We've just dropped anchor on earth.</h2>
+					<h2 class="largeTitle2">Hello World! We've Just Dropped Anchor on Earth.</h2>
 					<br />
-					<p class="largeContent">Digital Chakra is professional web development and offshore outsourcing company based in Chennai, India. We provide web design, web development and deployment services, product development and cloud based application development. Take your business to the next level with mobile-friendly responsive web designs and mobile applications.<a class="anchor" style="color:#47c8f5; text-decoration: none;" href="#whatWeDo"> Learn More&nbsp;<img src="images/triangle_small.png" alt="Learn More"/></a></p>
+					<h2 class="largeTitle2">We are a Professional Web Development and Offshore Outsourcing Company based in Chennai, India.</h2>
+					<br />
+					<p class="largeContent">We offer UI/UX Consulting/Development, Business Technology Consulting and Cloud Computing Services/Support. Improve your Business Reach and Efficiency with Responsive Web Design Solutions and Mobile Applications.<a class="anchor" style="color:#47c8f5; text-decoration: none;" href="#whatWeDo"> Learn More&nbsp;<img src="images/triangle_small.png" alt="Learn More" style="padding-top:2px; position:absolute;"/></a></p>
 				</div>
-				<div class="spaceShuttle">
-					<img src="images/spaceShuttle.png" alt="Space Shuttle" />
-				</div>
+
+				<!--<div class="bigPicBg">
+					<img src="images/digitalchakra_bigpic_bg.jpg" alt="Digitalchakra Big picture" />
+				</div>-->
 			</div>
 		</div>
 		<!-- ===========================================What we do =========================================================== -->
@@ -64,7 +78,7 @@
 						<div class="touchslider-item">
 							<div id="carousel2">
 								<h2 class="largeTitle3">Custom-built Web Applications</h2><br/><br/>
-								<p class="contentText">We provide end-to-end development services from initial use case analysis to post-implementation support. Industry standard best practices and latest technologies ensure high quality apps every time.Our customer-centric process ensures that you effectively plan, implement and maintain a solution that is in line with your business objectives.</p>
+								<p class="contentText">We provide end-to-end development services from the initial use case analysis to post-implementation support. Industry standard best practices and latest technologies ensure high quality apps every time.Our customer-centric process ensures that you effectively plan, implement and maintain a solution that is in line with your business objectives.</p>
  							<ul style=" margin:16px;" class="contentText">
 										<li>Low Cost, High Quality, On Time</li>
 										<li>Agile, Process Driven Approach</li>
@@ -75,8 +89,8 @@
 						</div>
 						<div class="touchslider-item">
 							<div id="carousel4">
-								<h2 class="largeTitle3">Design Consultation</h2><br/><br/>
-								<p class="contentText">To us design is not just about what it looks like. It is also about how well it does the job. We take your idea and help you convert it into a compelling user experience with our creative team of designers and experienced team of UI/UX consultants and business analysts.</p>
+								<h2 class="largeTitle3">Design Consultation & Offerings</h2><br/><br/>
+								<p class="contentText">To us design is not just about what it looks like. It is also about what or rather how well it does the job. We take your idea and help you convert it into a compelling user experience with our creative team of designers and experienced team of UI/UX consultants and business analysts.</p>
 								<ul style=" margin:16px;" class="contentText">
 										<li>Concept Development, Functional Spec & Analysis</li>
 										<li>UX Focused High fidelity mock-ups</li>
@@ -123,11 +137,11 @@
 				</div>
 				<div>
 
-						<a class="touchslider-nav-item touchslider-nav-item-current">1</a>
-						<a class="touchslider-nav-item">2</a>
-						<a class="touchslider-nav-item">3</a>
-						<a class="touchslider-nav-item">4</a>
-						<a class="touchslider-nav-item">5</a>
+						<a class="touchslider-nav-item touchslider-nav-item-current"></a>
+						<a class="touchslider-nav-item"></a>
+						<a class="touchslider-nav-item"></a>
+						<a class="touchslider-nav-item"></a>
+						<a class="touchslider-nav-item"></a>
 						<!--<a class="touchslider-nav-item">6</a>-->
 
 				</div>
@@ -222,12 +236,19 @@
 					</div>
 						<ul class="contactList" style="text-align:left;">
 							<!--<li ><a href="#" class="contactIn">linked in id</a></li>-->
-							<li ><a href="https://www.facebook.com/digitalchakra" target="_blank" class="contactFb" style="color:#47c8f5; text-decoration: none;" ><b>Facebook Page</b></a></li>
-							<li ><a href="http://twitter.com/digitalchakra" target="_blank" class="contactTr" style="color:#47c8f5; text-decoration: none;" ><b>Twitter Page</b></a></li>
+							<!--<li ><a href="https://www.facebook.com/digitalchakra" target="_blank" class="contactFb" style="color:#47c8f5; text-decoration: none;" ><b>Facebook Page</b></a></li>
+							<li ><a href="http://twitter.com/digitalchakra" target="_blank" class="contactTr" style="color:#47c8f5; text-decoration: none;" ><b>Twitter Page</b></a></li>-->
 							<li ><a href="mailto:queries@digitalchakra.in" class="contactEmail" style="color:#47c8f5; text-decoration: none;"><b>queries@digitalchakra.in</b></a></li>
-							<li><p class ="contactHome"><b>Address:</b> Shree Park 3rd Floor West Wing<br/> # 578 Anna Salai Chennai-600 018<br/>
-Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="_blank" style="color:#47c8f5; text-decoration: none;"><b>Show On Map</b></a></p></li>
+							<li ><p class="contactPhone"><b>+9144 2433-0401 <br/> +9144 2433-0402</b></a></li>
+							<!--<li ><p class ="contactHome"><b>Address:</b> Shree Park 3rd Floor West Wing<br/> # 578 Anna Salai Chennai-600 018</p></li>-->
+							 <li ><p class ="contactHome"><b>Address:</b> </br>Shree Park 3rd Floor West Wing<br/> # 578 Anna Salai Chennai-600 018<br/>
+							 </p><a href="http://goo.gl/maps/y8n25" target="_blank" style="color:#47c8f5; text-decoration: none;"><b>Show On Map</b></a></li>
+
 						</ul>
+						<!--<div >
+								<iframe width="235" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=13.049575,80.249083&amp;num=1&amp;t=m&amp;ie=UTF8&amp;z=14&amp;iwloc=A&amp;ll=13.049575,80.249084&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=13.049575,80.249083&amp;num=1&amp;t=m&amp;ie=UTF8&amp;z=14&amp;iwloc=A&amp;ll=13.049575,80.249084&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+						</div>-->
+
 				</div>
 				<div class="contactSection2">
 				<form id="contactForm" method="post">
@@ -259,18 +280,23 @@ Ph : +9144 2433-0401  +9144 2433-0402<a href="http://goo.gl/maps/y8n25" target="
 
 					<input id="submit" type="button" name="submit" value="Submit" style="margin-right:24px;"/>
 
+						<!--<div class="socialMedia">
+
+							<a href="https://www.facebook.com/digitalchakra" target="_blank"  style="color:#47c8f5; text-decoration: none;	" ><img src="images/digitalchakra_sketch_fb.jpg" /></a>
+							<a href="http://twitter.com/digitalchakra" target="_blank"  style="color:#47c8f5; text-decoration: none;" ><img src="images/digitalchakra_sketch_tr.jpg" /></a>
+						</div>-->
 
 				</form>
 
-
 				</div>
+
 			</div>
 		</div>
     </div>
 
     <footer>
 		<section>
-        <p style="margin-bottom:20px;">&copy; copyright 2013 | www.digitalchakra.in </p>
+        <p style="margin-bottom:30px;">&copy; copyright 2013 | www.digitalchakra.in </p>
 		</section>
     </footer>
     <script type="text/javascript">
