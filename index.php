@@ -77,7 +77,7 @@
 						</div>
 						<div class="touchslider-item">
 							<div id="carousel2">
-								<h2 class="largeTitle3">Custom-built Web Applications</h2><br/><br/>
+								<h2 class="largeTitle3">Custom-Built Web Applications</h2><br/><br/>
 								<p class="contentText">We provide end-to-end development services from the initial use case analysis to post-implementation support. Industry standard best practices and latest technologies ensure high quality apps every time.Our customer-centric process ensures that you effectively plan, implement and maintain a solution that is in line with your business objectives.</p>
  							<ul style=" margin:16px;" class="contentText">
 										<li>Low Cost, High Quality, On Time</li>
@@ -362,7 +362,7 @@ $(document).ready(function(){
 </script>
 		<script type="text/javascript">
 		$(document).ready(function() {
-				$(".touchslider").touchSlider({mouseTouch: true, autoplay: true,delay: 10000});
+				$(".touchslider").touchSlider({mouseTouch: true, autoplay: true,delay: 8000});
 
 				//datetime
 				$("#contact_time").datetimepicker({
