@@ -24,8 +24,8 @@
 				</ul>
 			</nav>
 			<div style="float:left; padding-top:6px;">
-				<a href="https://www.facebook.com/digitalchakra" target="_blank"  style="color:#47c8f5; text-decoration: none;	" ><img src="images/digitalchakra_sketch_fb.jpg" /></a>
-				<a href="http://twitter.com/digitalchakra" target="_blank"  style="color:#47c8f5; text-decoration: none; padding-left:10px;" ><img src="images/digitalchakra_sketch_tr.jpg" /></a>
+				<a href="https://www.facebook.com/digitalchakra" target="_blank"  style="color:#47c8f5; text-decoration: none;	" ><img src="images/digitalchakra_sketch_fb.jpg" alt="Digital chakra facebook page"/></a>
+				<a href="http://twitter.com/digitalchakra" target="_blank"  style="color:#47c8f5; text-decoration: none; padding-left:10px;" ><img src="images/digitalchakra_sketch_tr.jpg" alt="Digital chakra twitter page" /></a>
 			</div>
 		</div>
     </header>
@@ -239,9 +239,9 @@
 							<!--<li ><a href="https://www.facebook.com/digitalchakra" target="_blank" class="contactFb" style="color:#47c8f5; text-decoration: none;" ><b>Facebook Page</b></a></li>
 							<li ><a href="http://twitter.com/digitalchakra" target="_blank" class="contactTr" style="color:#47c8f5; text-decoration: none;" ><b>Twitter Page</b></a></li>-->
 							<li ><a href="mailto:queries@digitalchakra.in" class="contactEmail" style="color:#47c8f5; text-decoration: none;"><b>queries@digitalchakra.in</b></a></li>
-							<li ><p class="contactPhone"><b>+9144 2433-0401 <br/> +9144 2433-0402</b></a></li>
+							<li ><p class="contactPhone"><b>+9144 2433-0401 <br/> +9144 2433-0402</b></li>
 							<!--<li ><p class ="contactHome"><b>Address:</b> Shree Park 3rd Floor West Wing<br/> # 578 Anna Salai Chennai-600 018</p></li>-->
-							 <li ><p class ="contactHome"><b>Address:</b> </br>Shree Park 3rd Floor West Wing<br/> # 578 Anna Salai Chennai-600 018<br/>
+							 <li ><p class ="contactHome"><b>Address:</b> <br/>Shree Park 3rd Floor West Wing<br/> # 578 Anna Salai Chennai-600 018<br/>
 							 </p><a href="http://goo.gl/maps/y8n25" target="_blank" style="color:#47c8f5; text-decoration: none;"><b>Show On Map</b></a></li>
 
 						</ul>

@@ -1,3 +1,4 @@
+@charset "utf-8";
 .ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
 .ui-timepicker-div dl { text-align: left; }
 .ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
@@ -1329,7 +1330,7 @@ span.anchor {
 			.largeTitle2{
 				font-size:22px;
 				font-family: 'Oxygen', sans-serif;
-				font-weight: 700px;
+				font-weight: 700;
 				color: #484848;
 				padding-left:100px;
 
@@ -1338,14 +1339,14 @@ span.anchor {
 				color: #484848;
 				font-family: 'Oxygen', sans-serif;
 				font-size:30px;
-				font-weight:300px;
+				font-weight:300;
 				padding-left:100px;
 
 			}
 
 			.largeTitle4{
 				font-size:30px;
-				font-weight:200px;
+				font-weight:200;
 				padding-left:100px;
 
 			}
@@ -1647,10 +1648,6 @@ span.anchor {
 				height:80px;
 		}
 
-
-		input {
-			background-image:
-			}
 	.activeHeader
 		{
 		  background:transparent url(../images/digitalchakra_underline.png) no-repeat 20px bottom;
