@@ -90,7 +90,7 @@
 						<div class="touchslider-item">
 							<div id="carousel4">
 								<h2 class="largeTitle3">Design Consultation & Offerings</h2><br/><br/>
-								<p class="contentText">To us design is not just about what it looks like. It is also about what or rather how well it does the job. We take your idea and help you convert it into a compelling user experience with our creative team of designers and experienced team of UI/UX consultants and business analysts.</p>
+								<p class="contentText">To us design is not just about what it looks like. It is also about how well it enhances functionality and makes life easier for the end user. We take your idea and help you convert it into a compelling user experience with our creative team of designers and experienced team of UI/UX consultants and business analysts.</p>
 								<ul style=" margin:16px;" class="contentText">
 										<li>Concept Development, Functional Spec & Analysis</li>
 										<li>UX Focused High fidelity mock-ups</li>
