@@ -1630,15 +1630,34 @@ span.anchor {
 
 
 #contactForm{
-		width:400px;
+		width:420px;
 		padding:10px;
 		position:relative;
 		text-align:left;
 }
 
+		
+
+		.formLabels{
+			width: 100px;
+			height: 30px;
+			padding-top: 10px;	
+			float: left;
+			text-align: right;
+
+		}
+
+		#contactForm #status {
+				width: 420px;
+				float: left;
+
+		}
+
 		#contactForm input , #contactForm textarea{
-				width:370px;
-				margin-top:10px;
+				float: left;
+				width:275px;
+				margin-top: 10px;
+				margin-left: 10px;
 				margin-bottom:10px;
 				margin-right:10px;
 

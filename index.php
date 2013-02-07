@@ -252,30 +252,29 @@
 				</div>
 				<div class="contactSection2">
 				<form id="contactForm" method="post">
-					 <div id="status" class="">
+					 <div id="status" class="" >
 						<span id="info"></span>
 					</div>
 
-					<!-- <label for="name"></label> -->
+					<label class="formLabels" for="name">Name</label>
 					<input type="text" name="name" id= "contact_name" placeholder="Name (required)">
 
 
-					<!-- <label for="email">E-mail</label> -->
+					<label class="formLabels" for="email">E-mail</label>
 					<input type="email" name="email" id= "contact_email" placeholder="Email">
 
-					<!-- <label for="skype">Skype id</label> -->
-
+					<label class="formLabels" for="skype">Skype/Phone</label>
 					<input type="text" name="skype" id= "contact_skype" placeholder="Skype ID and/or Phone Number (required)">
 					<!-- <label for="phone">Phone</label>
 					<input type="tel" name="phone" placeholder="ex. (555) 555-5555"> -->
 
-					<!-- <label for="location">Location</label> -->
+					<label class="formLabels" for="location">Location</label>
 					<input type="text" name="location" id= "contact_loc" placeholder="Your Location (required)">
 
-
+					<label class="formLabels" for="skype">Schedule Time</label>
 					<input type="text" name="time" id="contact_time" placeholder="When Can We Call You?">
 
-					<!-- <label for="message">What can we help you with</label> -->
+					<label class="formLabels" for="message">Description</label> 
 					<textarea name="message" id= "contact_mesg" placeholder="What can we help you with?"  ></textarea>
 
 					<input id="submit" type="button" name="submit" value="Submit" style="margin-right:24px;"/>
