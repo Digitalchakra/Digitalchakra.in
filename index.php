@@ -255,7 +255,7 @@
 					 
 
 					<label class="formLabels" for="name">Name</label>
-					<input type="text" name="name" id= "contact_name" placeholder="(required)">
+					<input type="text" name="name" id= "contact_name" placeholder="Name (required)">
 
 
 					<label class="formLabels" for="email">E-mail</label>
