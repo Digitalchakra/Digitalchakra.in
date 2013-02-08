@@ -43,7 +43,7 @@ if(isset($_POST['email']))
 }
 $mail_subject = 'New Enquiry - Digital Chakra';
 $mail_message = 'Name : '.$name.'<br />'.'Email: '.$email.'<br />Message: '.$message.'<br />Skype/Phone: '.$skype.'<br />Time to call: '.$time.'<br />Location: '.$location;
-if (smtpmailer('aditya@digitalchakra.in', 'webmaster.digitalchakra@gmail.com', 'Admin', $mail_subject, $mail_message))
+if (smtpmailer('queries@digitalchakra.in', 'webmaster.digitalchakra@gmail.com', 'Admin', $mail_subject, $mail_message))
 {
 	$mail_sent=1;
 }
