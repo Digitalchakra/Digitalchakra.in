@@ -393,7 +393,7 @@ $(document).ready(function(){
 						{
 							$('#contact_name').addClass('error_class');
 							$('#contact_name').focus();
-							$('#info').html('Please fill in the highlighted fields.');
+							$('#info').html('<span style="color:red;">Please fill in the highlighted fields.</span>');
 							return false;
 						}
 						else
@@ -404,7 +404,7 @@ $(document).ready(function(){
 						{
 							$('#contact_skype').addClass('error_class');
 							$('#contact_skype').focus();
-							$('#info').html('Please fill in the highlighted fields.');
+							$('#info').html('<span style="color:red;">Please fill in the highlighted fields.</span>');
 							return false;
 						}
 						else
@@ -415,7 +415,7 @@ $(document).ready(function(){
 						{
 							$('#contact_loc').addClass('error_class');
 							$('#contact_loc').focus();
-							$('#info').html('Please fill in the highlighted fields.');
+							$('#info').html('<span style="color:red;">Please fill in the highlighted fields.</span>');
 							return false;
 						}
 						else
