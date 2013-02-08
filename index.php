@@ -252,9 +252,7 @@
 				</div>
 				<div class="contactSection2">
 				<form id="contactForm" method="post">
-					 <div id="status" class="" >
-						<span id="info"></span>
-					</div>
+					 
 
 					<label class="formLabels" for="name">Name</label>
 					<input type="text" name="name" id= "contact_name" placeholder="Name (required)">
@@ -286,7 +284,9 @@
 						</div>-->
 
 				</form>
-
+					<div id="status" class="" >
+						<span id="info"></span>
+					</div>
 				</div>
 
 			</div>
@@ -437,6 +437,7 @@ $(document).ready(function(){
 
 						var postdata=$("#contactForm").serialize();
 						//alert(data);
+						$('#info').html('Submitting...');
 						$.ajax(
 							{
 								url:'contact.php',
@@ -451,12 +452,12 @@ $(document).ready(function(){
 									}
 									else
 									{
-										$('#info').html('Thank you. We will contact you shortly.');
+										$('#info').html('Server error. Please try again');
 									}
 								},
 								error:function()
 								{
-									$('#info').html('Thank you. We will contact you shortly.');
+									$('#info').html('Server error. Please try again');
 								}
 							});
 					});
