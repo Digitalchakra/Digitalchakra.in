@@ -255,14 +255,14 @@
 					 
 
 					<label class="formLabels" for="name">Name</label>
-					<input type="text" name="name" id= "contact_name" placeholder="Name (required)">
+					<input type="text" name="name" id= "contact_name" placeholder="(required)">
 
 
 					<label class="formLabels" for="email">E-mail</label>
-					<input type="email" name="email" id= "contact_email" placeholder="Email">
+					<input type="email" name="email" id= "contact_email" placeholder="Your Email" >
 
 					<label class="formLabels" for="skype">Skype/Phone</label>
-					<input type="text" name="skype" id= "contact_skype" placeholder="Skype ID and/or Phone Number (required)">
+					<input type="text" name="skype" id= "contact_skype" placeholder="Skype ID and/or Phone (required)">
 					<!-- <label for="phone">Phone</label>
 					<input type="tel" name="phone" placeholder="ex. (555) 555-5555"> -->
 
