@@ -17,15 +17,18 @@
 			</div>
 			<nav class="clsMainNav" id="mainmenu">
 				<ul class="clsMainNavList">
-					<li><a href="#bigPicTop" class="anchor link ">The Big Picture</a></li>
+					<li><a href="#bigPicTop" class="anchor link ">The Big Picture</a> <span class=""> </span></li>
 					<li><a href="#whatWeDo" class="anchor link">What We Do</a></li>
 					<!-- <li><a href="#dcBlog">DC Blog</a></li> -->
 					<li><a href="#contactTop" class="anchor link">Contact Us</a></li>
 				</ul>
 			</nav>
 			<div style="float:left; padding-top:6px;">
-				<a href="https://www.facebook.com/digitalchakra" target="_blank"  style="color:#47c8f5; text-decoration: none;	" ><img src="images/digitalchakra_sketch_fb.jpg" alt="Digital chakra facebook page"/></a>
-				<a href="http://twitter.com/digitalchakra" target="_blank"  style="color:#47c8f5; text-decoration: none; padding-left:10px;" ><img src="images/digitalchakra_sketch_tr.jpg" alt="Digital chakra twitter page" /></a>
+				<!--<a href="https://www.facebook.com/digitalchakra" target="_blank"  style="color:#47c8f5; text-decoration: none;	" ><img src="images/digitalchakra_sketch_fb.jpg" alt="Digital chakra facebook page"/></a>
+				<a href="http://twitter.com/digitalchakra" target="_blank"  style="color:#47c8f5; text-decoration: none; padding-left:10px;" ><img src="images/digitalchakra_sketch_tr.jpg" alt="Digital chakra twitter page" /></a>-->
+				<a href="https://www.facebook.com/digitalchakra" target="_blank" class="dc_fb">Facebook</a>
+				<a href="http://twitter.com/digitalchakra" target="_blank" class="dc_twitter">Twitter</a>
+				
 			</div>
 		</div>
     </header>
@@ -33,14 +36,17 @@
 		<!-- ===========================================Big picture =========================================================== -->
 		<span class="anchor" id="bigPicTop"></span>
 		<div id="bigPic" class="clsBigPic">
+			<div class="spriteBg1_line"> </div>
 			<div class="wrap">
-
+				<div class="spriteBg1"> </div>
 				<!--<div class="bigPicLogo">
 					<img src="images/digitalchakra_bigpic_logo.jpg" alt="Digitalchakra logo" />
 
 				</div>-->
+
 				<div class="spaceShuttle">
-					<img src="images/spaceShuttleBig.png" alt="Space Shuttle" />
+					<span class="spaceShuttleSprite"></span>
+					<!--<img src="images/spaceShuttleBig.png" alt="Space Shuttle" />-->
 
 				</div>
 			<!--<img src="images/dcLogoBig.jpg" alt="logo_digitalchakra_big"/> -->
@@ -49,19 +55,22 @@
 					<br />
 					<h2 class="largeTitle2">We are a Professional Web Development and Offshore Outsourcing Company based in Chennai, India.</h2>
 					<br />
-					<p class="largeContent">We offer UI/UX Consulting/Development, Business Technology Consulting and Cloud Computing Services/Support. Improve your Business Reach and Efficiency with Responsive Web Design Solutions and Mobile Applications.<a class="anchor" style="color:#47c8f5; text-decoration: none;" href="#whatWeDo"> Learn More&nbsp;<img src="images/triangle_small.png" alt="Learn More" style="padding-top:2px; position:absolute;"/></a></p>
+					<p class="largeContent">We offer UI/UX Consulting/Development, Business Technology Consulting and Cloud Computing Services/Support. Improve your Business Reach and Efficiency with Responsive Web Design Solutions and Mobile Applications.<a class="anchor" style="color:#47c8f5; text-decoration: none;" href="#whatWeDo"> Learn More&nbsp;<span class="learmMoreArrow"></span></a></p>
 				</div>
-
+				
 				<!--<div class="bigPicBg">
 					<img src="images/digitalchakra_bigpic_bg.jpg" alt="Digitalchakra Big picture" />
 				</div>-->
+
+				
 			</div>
 		</div>
 		<!-- ===========================================What we do =========================================================== -->
 		<div id="whatWeDo">
-
+			<div style="width:100%;position:absolute;z-index:-999999;">
+				<span class="spriteBg2"></span>
+			</div>
 			<div class="touchslider">
-
 				<div class="touchslider-viewport" style="width:985px;overflow:hidden;position:relative;height:600px;margin:0 auto; z-index:1;">
 					<div>
 						<div class="touchslider-item">
@@ -73,6 +82,7 @@
 										<li>Product Development/Enchancement</li>
 										<li>QA, Testing and Support</li>
 									</ul>
+									<span class="carousel1Bg"></span>
 							</div>
 						</div>
 						<div class="touchslider-item">
@@ -85,6 +95,7 @@
 										<li>Effective Collaboration and Communication</li>
 										<li>Adaptable, Flexible Solutions</li>
 									</ul>
+									<span class="carousel2Bg"></span>
 							</div>
 						</div>
 						<div class="touchslider-item">
@@ -98,6 +109,7 @@
 										<li>Cross-Browser Testing, Responsive Design</li>
 										<li>JS Framework Integration & SEO</li>
 									</ul>
+									<span class="carousel3Bg"></span>
 							</div>
 						</div>
 						<div class="touchslider-item">
@@ -109,7 +121,7 @@
 										<li>Quality Assurance</li>
 										<li>Tailored Development Services</li>
 									</ul>
-
+									<span class="carousel4Bg"></span>	
 							</div>
 						</div>
 						<div class="touchslider-item">
@@ -122,32 +134,24 @@
 										<li>Cloud Application Development</li>
 										<li>Cloud Application Support & Maintenance</li>
 									</ul>
+									<span class="carousel5Bg"></span>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div  class="prevNext" >
-
 					<a class="touchslider-prev leftArrow">Prev</a>
-
-
 					<a class="touchslider-next rightArrow">Next</a>
-
-
 				</div>
-				<div>
-
+				<div >
 						<a class="touchslider-nav-item touchslider-nav-item-current"></a>
 						<a class="touchslider-nav-item"></a>
 						<a class="touchslider-nav-item"></a>
 						<a class="touchslider-nav-item"></a>
 						<a class="touchslider-nav-item"></a>
 						<!--<a class="touchslider-nav-item">6</a>-->
-
 				</div>
-
 			</div>
-
 		</div>
 
 
@@ -229,20 +233,22 @@
 		<!-- ===========================================Contact us =========================================================== -->
 		<span class="anchor" id="contactTop"></span>
 		<div id="contact">
+			<div class="spriteBg2_line"> </div>
 			<div class="wrap">
+				<div class="spriteBg3"> </div>
 				<div class="contactSection">
 					<div class="contactSpaceShuttle">
-						<img src="images/spaceShuttle_contacts.png" alt="Contacts" />
+						<span class="spaceShuttle_contact_Sprite"></span>
+						<!--<img src="images/spaceShuttle_contacts.png" alt="Contacts" />-->
 					</div>
 						<ul class="contactList" style="text-align:left;">
 							<!--<li ><a href="#" class="contactIn">linked in id</a></li>-->
 							<!--<li ><a href="https://www.facebook.com/digitalchakra" target="_blank" class="contactFb" style="color:#47c8f5; text-decoration: none;" ><b>Facebook Page</b></a></li>
 							<li ><a href="http://twitter.com/digitalchakra" target="_blank" class="contactTr" style="color:#47c8f5; text-decoration: none;" ><b>Twitter Page</b></a></li>-->
-							<li ><a href="mailto:queries@digitalchakra.in" class="contactEmail" style="color:#47c8f5; text-decoration: none;"><b>queries@digitalchakra.in</b></a></li>
-							<li ><p class="contactPhone"><b>+9144 2433-0401 <br/> +9144 2433-0402</b></li>
-							<!--<li ><p class ="contactHome"><b>Address:</b> Shree Park 3rd Floor West Wing<br/> # 578 Anna Salai Chennai-600 018</p></li>-->
-							 <li ><p class ="contactHome"><b>Address:</b> <br/>Shree Park 3rd Floor West Wing<br/> # 578 Anna Salai Chennai-600 018<br/>
-							 </p><a href="http://goo.gl/maps/y8n25" target="_blank" style="color:#47c8f5; text-decoration: none;"><b>Show On Map</b></a></li>
+							<li ><span class="contactEmail"> </span><a href="mailto:queries@digitalchakra.in"  style="color:#47c8f5; text-decoration: none;"><b>queries@digitalchakra.in</b></a></li>
+							<li ><span class="contactPhoneIcon"> </span><p class="contactPhone" ><b>+9144 2433-0401 <br/> +9144 2433-0402</b></li>
+							<li ><span class="contactHomeIcon"> </span><p class="contactHome"><b>Address:</b> <br/>Shree Park 3rd Floor West Wing<br/> # 578 Anna Salai Chennai-600 018<br/>
+							</p><a href="http://goo.gl/maps/y8n25" target="_blank" style="color:#47c8f5; text-decoration: none;"><b>Show On Map</b></a></li>
 
 						</ul>
 						<!--<div >
@@ -252,29 +258,29 @@
 				</div>
 				<div class="contactSection2">
 				<form id="contactForm" method="post">
-					 <div id="status" class="" >
+					 <div id="status" style="padding-left:110px;" class="" >
 						<span id="info"></span>
 					</div>
 
-					<label class="formLabels" for="name">Name</label>
+					<label class="formLabels">Name</label>
 					<input type="text" name="name" id= "contact_name" placeholder="Name (required)">
 
 
-					<label class="formLabels" for="email">E-mail</label>
+					<label class="formLabels" >E-mail</label>
 					<input type="email" name="email" id= "contact_email" placeholder="Email">
 
-					<label class="formLabels" for="skype">Skype/Phone</label>
+					<label class="formLabels">Skype/Phone</label>
 					<input type="text" name="skype" id= "contact_skype" placeholder="Skype ID and/or Phone Number (required)">
 					<!-- <label for="phone">Phone</label>
 					<input type="tel" name="phone" placeholder="ex. (555) 555-5555"> -->
 
-					<label class="formLabels" for="location">Location</label>
+					<label class="formLabels">Location</label>
 					<input type="text" name="location" id= "contact_loc" placeholder="Your Location (required)">
 
-					<label class="formLabels" for="skype">Schedule Time</label>
+					<label class="formLabels" >Schedule Time</label>
 					<input type="text" name="time" id="contact_time" placeholder="When Can We Call You?">
 
-					<label class="formLabels" for="message">Description</label> 
+					<label class="formLabels" >Description</label> 
 					<textarea name="message" id= "contact_mesg" placeholder="What can we help you with?"  ></textarea>
 
 					<input id="submit" type="button" name="submit" value="Submit" style="margin-right:24px;"/>
