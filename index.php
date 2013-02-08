@@ -437,7 +437,7 @@ $(document).ready(function(){
 
 						var postdata=$("#contactForm").serialize();
 						//alert(data);
-						$('#info').html('Submitting...');
+						$('#info').html('<span class="btxt">Submitting...</span>');
 						$.ajax(
 							{
 								url:'contact.php',
@@ -448,16 +448,16 @@ $(document).ready(function(){
 								{
 									if(output.success==1)
 									{
-										$('#info').html('Thank you. We will contact you shortly.');
+										$('#info').html('<span class="gtxt">Thank you. We will contact you shortly.</span>');
 									}
 									else
 									{
-										$('#info').html('Server error. Please try again');
+										$('#info').html('<span class="rtxt">Server error. Please try again</span>');
 									}
 								},
 								error:function()
 								{
-									$('#info').html('Server error. Please try again');
+									$('#info').html('<span class="rtxt">Server error. Please try again</span>');
 								}
 							});
 					});
