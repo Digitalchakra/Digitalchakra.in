@@ -6,7 +6,7 @@
 	<meta name="keywords" content="web development, web design, responsive design, product development, cloud computing">
 	<meta name="description" content="DigitalChakra is a leader in Web Design, Development and Deployment based in Chennai, India. We offer Business Technology, UI/UX Consulting and cloud computing services/support. Improve your business reach and efficiency with responsive web design solutions and mobile applications.">
 	<title>DigitalChakra | Web Development, Design & Cloud Computing Solutions	Made Affordable!</title>
-	<link rel="stylesheet" type="text/css" href="css/dc.min.aa15baaebe8f193108327207a2e8cd91460d27ce.css"/>
+	<link rel="stylesheet" type="text/css" href="css/dc.min.d4241aa254dc2d6abe7108fa0845137d3e3bdaed1.css"/>
 	<link href='http://fonts.googleapis.com/css?family=Oxygen:300,400,700' rel='stylesheet' type='text/css'>
 </head>
 <body id="body">
