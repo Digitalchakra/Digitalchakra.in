@@ -5,6 +5,7 @@ to add the contact in DB and send mail to DC support
 */
 include('class.phpmailer.php');
 include('class.smtp.php');
+require('db.php');
 $email=NULL;
 $location=NULL;
 $time=NULL;
@@ -46,8 +47,8 @@ if (smtpmailer('queries@digitalchakra.in', 'webmaster.digitalchakra@gmail.com', 
 {
 	$mail_sent=1;
 }
-$con=mysql_connect('localhost','root','password');
-$db=mysql_select_db('dc');
+
+
 $query="INSERT INTO `tbl_contact` (`name`, `email`, `message`, `skype`, `call_time`, `location`, `mail_sent`) VALUES ('$name', '$email', '$message', '$skype', '$time', '$location', '$mail_sent')";
 if(mysql_query($query))
 {
