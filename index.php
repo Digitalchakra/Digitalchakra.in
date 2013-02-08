@@ -6,7 +6,7 @@
 	<meta name="keywords" content="web development, web design, responsive design, product development, cloud computing">
 	<meta name="description" content="DigitalChakra is a leader in Web Design, Development and Deployment based in Chennai, India. We offer Business Technology, UI/UX Consulting and cloud computing services/support. Improve your business reach and efficiency with responsive web design solutions and mobile applications.">
 	<title>DigitalChakra | Web Development, Design & Cloud Computing Solutions	Made Affordable!</title>
-	<link rel="stylesheet" type="text/css" href="css/dc.min.d3f08c1c9dcdcd49ea772c81e82340ffa286f082.css"/>
+	<link rel="stylesheet" type="text/css" href="css/dc.min.aa15baaebe8f193108327207a2e8cd91460d27ce.css"/>
 	<link href='http://fonts.googleapis.com/css?family=Oxygen:300,400,700' rel='stylesheet' type='text/css'>
 </head>
 <body id="body">
@@ -259,10 +259,10 @@
 
 
 					<label class="formLabels" for="email">E-mail</label>
-					<input type="email" name="email" id= "contact_email" placeholder="Email">
+					<input type="email" name="email" id= "contact_email" placeholder="Your Email" >
 
 					<label class="formLabels" for="skype">Skype/Phone</label>
-					<input type="text" name="skype" id= "contact_skype" placeholder="Skype ID and/or Phone Number (required)">
+					<input type="text" name="skype" id= "contact_skype" placeholder="Skype ID and/or Phone (required)">
 					<!-- <label for="phone">Phone</label>
 					<input type="tel" name="phone" placeholder="ex. (555) 555-5555"> -->
 
