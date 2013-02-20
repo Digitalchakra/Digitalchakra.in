@@ -2,6 +2,7 @@
 <html>
 	<head>
 	<link rel="icon" type="image/png" href="images/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="web development, web design, responsive design, product development, cloud computing">
 	<meta name="description" content="DigitalChakra is a leader in Web Design, Development and Deployment based in Chennai, India. We offer Business Technology, UI/UX Consulting and cloud computing services/support. Improve your business reach and efficiency with responsive web design solutions and mobile applications.">
@@ -258,27 +259,46 @@
 				</div>
 				<div class="contactSection2">
 				<form id="contactForm" method="post">
+				<div>
 					<label class="formLabels">Name</label>
 					<input type="text" name="name" id= "contact_name" placeholder="Name (required)">
-
-					<label class="formLabels" for="email">E-mail</label>
+				</div>
+				<div style="clear:both"></div>
+					
+				<div><label class="formLabels" for="email">E-mail</label>
 					<input type="email" name="email" id= "contact_email" placeholder="Your Email" >
-
+				</div>
+				<div style="clear:both"></div>
+					
+				<div>
 					<label class="formLabels" for="skype">Skype/Phone</label>
 					<input type="text" name="skype" id= "contact_skype" placeholder="Skype ID and/or Phone (required)">
+				</div>
+				<div style="clear:both"></div>
 					<!-- <label for="phone">Phone</label>
 					<input type="tel" name="phone" placeholder="ex. (555) 555-5555"> -->
-
+				<div>
 					<label class="formLabels">Location</label>
 					<input type="text" name="location" id= "contact_loc" placeholder="Your Location (required)">
+				</div>
+				<div style="clear:both"></div>
 
+				<div>
 					<label class="formLabels" >Schedule Time</label>
 					<input type="text" name="time" id="contact_time" placeholder="When Can We Call You?">
+				</div>
+				<div style="clear:both"></div>
 
+				<div>
 					<label class="formLabels" >Description</label> 
 					<textarea name="message" id= "contact_mesg" placeholder="What can we help you with?"  ></textarea>
-
+				</div>
+				<div style="clear:both"></div>
+				<div>
 					<input id="submit" type="button" name="submit" value="Submit" style="margin-right:24px;"/>
+				</div>
+				<div style="clear:both"></div>
+					
 
 						<!--<div class="socialMedia">
 
