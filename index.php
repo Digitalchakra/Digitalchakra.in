@@ -4,7 +4,7 @@
 	<link rel="icon" type="image/png" href="images/favicon.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="web development, web design, responsive design, product development, cloud computing">
+	<meta name="keywords" content="web development, web design, responsive design, product development, cloud computing, digital chakra, digital, chakra, digitalchakra, website, website development, website design, APIs, Widgets, Facebook, Twitter, Google, UI, UX, templates, CMS">
 	<meta name="description" content="DigitalChakra is a leader in Web Design, Development and Deployment based in Chennai, India. We offer Business Technology, UI/UX Consulting and cloud computing services/support. Improve your business reach and efficiency with responsive web design solutions and mobile applications.">
 	<title>DigitalChakra | Web Development, Design & Cloud Computing Solutions	Made Affordable!</title>
 	<link rel="stylesheet" type="text/css" href="css/dc.min.d4241aa254dc2d6abe7108fa0845137d3e3bdaed1.css"/>
