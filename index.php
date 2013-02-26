@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="web development, web design, responsive design, product development, cloud computing, digital chakra, digital, chakra, digitalchakra, website, website development, website design, APIs, Widgets, Facebook, Twitter, Google, UI, UX, templates, CMS">
-	<meta name="description" content="DigitalChakra is a leader in Web Design, Development and Deployment based in Chennai, India. We offer Business Technology, UI/UX Consulting and cloud computing services/support. Improve your business reach and efficiency with responsive web design solutions and mobile applications.">
+	<meta name="description" content="DigitalChakra is a leader in Web Design, Development and Deployment based in Chennai, India. We offer Business Technology, UI/UX Consulting and Cloud Computing Solutions and Support. Improve your business reach and efficiency with Responsive Web Design Solutions and Mobile Applications.">
 	<title>DigitalChakra | Web Development, Design & Cloud Computing Solutions	Made Affordable!</title>
 	<link rel="stylesheet" type="text/css" href="css/dc.min.d4241aa254dc2d6abe7108fa0845137d3e3bdaed1.css"/>
 	<link href='http://fonts.googleapis.com/css?family=Oxygen:300,400,700' rel='stylesheet' type='text/css'>
@@ -54,9 +54,9 @@
 				<div class="clsBigPicContent">
 					<h2 class="largeTitle2">Hello World! We've Just Dropped Anchor on Earth.</h2>
 					<br />
-					<h2 class="largeTitle2">We are a Professional Web Development and Offshore Outsourcing Company based in Chennai, India.</h2>
+					<h2 class="largeTitle2">We are a Professional Web Development and Consulting Company Headquartered in Chennai, India.</h2>
 					<br />
-					<p class="largeContent">We offer UI/UX Consulting/Development, Business Technology Consulting and Cloud Computing Services/Support. Improve your Business Reach and Efficiency with Responsive Web Design Solutions and Mobile Applications.<a class="anchor" style="color:#47c8f5; text-decoration: none;" href="#whatWeDo"> Learn More&nbsp;<span class="learmMoreArrow"></span></a></p>
+					<p class="largeContent">We offer UI/UX Consulting/Development, Business Technology Consulting and Cloud Computing Solutions and Support. Improve your Business Reach and Efficiency with Responsive Web Design Solutions and Mobile Applications.<a class="anchor" style="color:#47c8f5; text-decoration: none;" href="#whatWeDo"> Learn More&nbsp;<span class="learmMoreArrow"></span></a></p>
 				</div>
 				
 				<!--<div class="bigPicBg">
