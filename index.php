@@ -21,6 +21,7 @@
 					<li><a href="#bigPicTop" class="anchor link ">The Big Picture</a> <span class=""> </span></li>
 					<li><a href="#whatWeDo" class="anchor link">What We Do</a></li>
 					<!-- <li><a href="#dcBlog">DC Blog</a></li> -->
+          <li><a href="#ourwork" class="anchor link">Our Works</a></li>
 					<li><a href="#contactTop" class="anchor link">Contact Us</a></li>
 				</ul>
 			</nav>
@@ -231,6 +232,52 @@
 			</div>
 			</div>
 		</div> -->
+    
+        <!-- =========================================== Our Works =========================================================== -->
+		<span class="anchor" id="bigPicTop"></span>
+		<div id="ourwork" class="clsBigPic">
+			
+			<div class="wrap">
+				<!--<div class="spriteBg1"> </div>-->
+				<!--<div class="bigPicLogo">
+					<img src="images/digitalchakra_bigpic_logo.jpg" alt="Digitalchakra logo" />
+
+				</div>-->
+
+<!--				<div class="spaceShuttle">
+					<span class="spaceShuttleSprite"></span>
+					<!--<img src="images/spaceShuttleBig.png" alt="Space Shuttle" />
+
+				</div> -->
+			<!--<img src="images/dcLogoBig.jpg" alt="logo_digitalchakra_big"/> -->
+				<div class="portfolio_heading">
+					<h2 class="portfolio1">Our Works</h2>
+				
+
+				</div>
+				
+				<!--<div class="bigPicBg">
+					<img src="images/digitalchakra_bigpic_bg.jpg" alt="Digitalchakra Big picture" />
+				</div>-->
+       
+        
+          <div class="portfolio_container">
+          	
+            	<a href="ezcv.php"><div class="portfolio_list0"><p class="portfolio_list_cnt">EZCV</p></div></a>
+            	<a href="bcci.php"><div class="portfolio_list1"><p class="portfolio_list_cnt">BCCI</p></div></a>
+            	<a href="anabond-hsbutyl.php"><div class="portfolio_list2"><p class="portfolio_list_cnt">Anabond HSbutyl</p></div></a>
+            	<a href="kvm-advisory.php"><div class="portfolio_list3"><p class="portfolio_list_cnt">KVM Advisory</p></div></a>
+            	<a href="kvm-trading.php"><div class="portfolio_list4"><p class="portfolio_list_cnt">KVM Trading</p></div></a>
+            	<a href="kvm-academy.php"><div class="portfolio_list5"><p class="portfolio_list_cnt">KVM Academy</p></div></a>
+            	<a href="oasis.php"><div class="portfolio_list6"><p class="portfolio_list_cnt">Oasis</p></div></a>
+            	<a href="anabond.php"><div class="portfolio_list7"><p class="portfolio_list_cnt">Anabond</p></div></a>
+            
+          </div>
+
+				
+			</div>
+		</div><div class="clearall"></div>
+    
 		<!-- ===========================================Contact us =========================================================== -->
 		<span class="anchor" id="contactTop"></span>
 		<div id="contact">

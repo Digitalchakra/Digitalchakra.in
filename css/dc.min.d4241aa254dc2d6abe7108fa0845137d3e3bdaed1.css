@@ -1240,7 +1240,7 @@ body{
 span.anchor {
     display: block;
     height: 64px;
-    margin-top: -64px;
+    margin-top: -45px;
     visibility: hidden;
 }
 
@@ -1271,7 +1271,7 @@ span.anchor {
 			display:block;
 			padding-left:30px;
 			width:313px;
-			height:128px;
+			height:52px;
 		}
 		.clsMainNav{
 
@@ -1282,7 +1282,7 @@ span.anchor {
 
 		.clsMainNavList {
 
-			padding-left: 70px;
+			padding-left: 5px;
 		}
 
 		.clsMainNavList li{
@@ -1466,6 +1466,7 @@ span.anchor {
 				overflow: hidden;
 				float:left;
 				text-indent:-999em;
+				cursor:pointer;
 			}
 
 			.rightArrow {
@@ -1476,6 +1477,7 @@ span.anchor {
 				overflow: hidden;
 				float:right;
 				text-indent:-999em;
+				cursor:pointer;
 			}
 
 	#dcBlog{
@@ -1756,3 +1758,73 @@ textarea:focus{
 .spriteBg2_line { margin-top:478px;width:100%;height:4px;  background-position:-938px -0px;background-repeat:repeat-x; display: block; z-index: -99999; position: absolute;}
 .spriteBg3 { margin-top:387px; margin-left:-110px;width: 477px; background-position: -461px -235px; height: 123px; display: block; position: absolute; z-index: -99996;}
 .spaceShuttle_contact_Sprite{ margin-top:-20px; margin-left:100px;width:197px; height:216px; background-position: -264px -235px; background-repeat: no-repeat;display: block;}
+
+
+#ourwork .wrap{margin:0 auto; position:relative; width:985px; height:530px;}
+#ourwork .wrap .top_space h2{margin-top:140px;}
+.portfolio_container{width:100%; margin:0 20px 0 53px;}
+
+.portfolio_container .portfolio_list0{ width:299px; height:224px;  display:block; float:left; background-color:gray; background-size:cover!important; margin:0 10px 60px 0; cursor:pointer; background:url(../images/EZCV-thump.jpg) no-repeat;}
+.portfolio_container .portfolio_list1{ width:299px; height:224px;  display:block; float:left; background-color:gray; background-size:cover!important; margin:0 10px 60px 0; cursor:pointer; background:url(../images/portfolio_img1-thump.jpg) no-repeat;}
+.portfolio_container .portfolio_list2{ width:299px; height:224px; display:block; float:left; background-color:gray; background-size:cover!important; margin:0 10px 60px 0; cursor:pointer; background:url(../images/hsbutyl-thump.jpg) no-repeat;}
+.portfolio_container .portfolio_list3{ width:299px; height:224px; display:block; float:left; background-color:gray; background-size:cover!important; margin:0 10px 60px 0; cursor:pointer; background:url(../images/kvm-academy-thump.jpg) no-repeat;}
+.portfolio_container .portfolio_list4{ width:299px; height:224px; display:block; float:left; background-color:gray; background-size:cover!important; margin:0 10px 60px 0; cursor:pointer; background:url(../images/kvm-trading-thump.jpg) no-repeat;}
+.portfolio_container .portfolio_list5{ width:299px; height:224px; display:block; float:left; background-color:gray; background-size:cover!important; margin:0 10px 60px 0; cursor:pointer; background:url(../images/kvm-advisory-thump.jpg) no-repeat;}
+.portfolio_container .portfolio_list6{ width:299px; height:224px; display:block; float:left; background-color:gray; background-size:cover!important; margin:0 10px 60px 0; cursor:pointer; background:url(../images/oasis-thump.jpg) no-repeat;}
+.portfolio_container .portfolio_list7{ width:299px; height:224px; display:block; float:left; background-color:gray; background-size:cover!important; margin:0 10px 60px 0; cursor:pointer; background:url(../images/Anabond-thump.jpg) no-repeat;}
+
+
+
+.portfolio_list_cnt{margin-top:240px;/* padding:10px 0px; background:#000; opacity:0.88;*/ color:#0679A2; font-size:14px; font-family:'Oxygen', sans-serif; font-weight:700;}
+.portfolio_list_cnt a{text-decoration:none; color:#0679A2; font-size:14px; font-family:'Oxygen', sans-serif; font-weight:700;}
+.clearall{clear:both;}
+
+			.portfolio1{
+				font-size:22px;
+				font-family: 'Oxygen', sans-serif;
+				font-weight: 700;
+				color: #484848;
+				margin-top:80px;
+
+			}			
+			.portfolio_heading{
+				width:800px;
+				height:130px;
+				float:left;
+				text-align:left;
+				/*padding-top:50px;*/
+				padding-left:50px;
+
+			}
+						
+		.portfolio_pg_lft{
+				width:172px;
+				height:370px;
+				margin-left:0px;
+				padding-top:40px;
+				float:left;
+			}
+	.portfolio_pg_rit{
+				width:770px;
+				text-align:left;				
+				float:left;
+				margin-top:55px;
+			}
+.pg_img_container{border: 1px solid #E4E4E4; padding-left:10px; margin:0 0 50px 0;}
+.portfolio_pg_lft li{list-style:none; padding: 10px 0;}
+.portfolio_pg_lft li a{display:block; list-style:none; text-decoration:none; font-size: 14px; font-family: 'Oxygen', sans-serif; color:#47c8f5; font-weight:700; height:27px;}
+
+
+.portfolio_pg_lft li a:hover{background:url(../images/digitalchakra_sprites.png) 7px -165px  no-repeat; display:block; color:#f7bf24; height:27px;}
+.activeHeader_pg a{background:url(../images/digitalchakra_sprites.png) 7px -165px  no-repeat; display:block; color:red; height:27px}
+
+
+
+.portfolio_pg_rit .pg2_img{width:750px; min-height:300px; display:block; margin-top:10px; background-size:cover; margin:15px 0 0 0;}
+.portfolio_pg_rit p{font-size: 16px; font-family: 'Oxygen', sans-serif; padding:15px 10px 0px 0;}
+
+.portfolio_pg_rit h1{font-size: 18px; margin:10px 0 0 0; font-family: 'Oxygen', sans-serif; font-weight: 700; float:left;}
+.portfolio_pg_rit a{font-size: 16px; margin:10px 0 0 0; font-family: 'Oxygen', sans-serif; font-weight: 700; float:right; padding:0 10px 0 0; color:#47c8f5;}
+.portfolio_pg_rit a:hover{color:#f7bf24;}
+
+.ourworks_alin{border-bottom:1px solid #E9E9E9; width:97%; text-align:left; padding:0 0 20px 0; margin:0 0 0 20px;}
