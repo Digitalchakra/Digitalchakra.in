@@ -53,6 +53,9 @@
           		<li><a href="kvm-academy.php">KVM Academy</a></li>
           		<li><a href="oasis.php">Oasis</a></li>
           		<li class="activeHeader_pg"><a href="anabond.php">Anabond</a></li>
+          		<li><a href="Science-city.php">Science city</a></li>
+          		<li><a href="mobile-apps.php">Mobile Apps</a></li>
+          		<li><a href="firstd.php">Firstd</a></li>
           </ul>
 				</div>
 				<div class="portfolio_pg_rit">

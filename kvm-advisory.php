@@ -53,6 +53,9 @@
           		<li><a href="kvm-academy.php">KVM Academy</a></li>
           		<li><a href="oasis.php">Oasis</a></li>
           		<li><a href="anabond.php">Anabond</a></li>
+          		<li><a href="Science-city.php">Science city</a></li>
+          		<li><a href="mobile-apps.php">Mobile Apps</a></li>
+          		<li><a href="firstd.php">Firstd</a></li>
           </ul>
 				</div>
 				<div class="portfolio_pg_rit">
@@ -61,8 +64,7 @@
             <a href="http://www.kvmadvisory.com/"  target="_blank">Goto Website</a>
             <div class="clearall"></div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae elit et nibh sagittis rutrum non quis lorem.</p>
-            <img class="pg2_img" src="images/KVM-Advisory-home.png" alt="KVM Advisory" title="KVM Advisory" />
-            <img class="pg2_img" src="images/KVM-Advisory-The-People.png" alt="KVM Advisory" title="KVM Advisory" />
+            <img class="pg2_img" src="images/KVM-Advisory-home.jpg" alt="KVM Advisory" title="KVM Advisory" />
  					</div>
         </div>							
 			</div>

@@ -268,11 +268,12 @@
             	<a href="anabond-hsbutyl.php"><div class="portfolio_list2"><p class="portfolio_list_cnt">Anabond HSbutyl</p></div></a>
             	<a href="kvm-advisory.php"><div class="portfolio_list3"><p class="portfolio_list_cnt">KVM Advisory</p></div></a>
             	<a href="kvm-trading.php"><div class="portfolio_list4"><p class="portfolio_list_cnt">KVM Trading</p></div></a>
-            	<a href="kvm-academy.php"><div class="portfolio_list5"><p class="portfolio_list_cnt">KVM Academy</p></div></a>
-            	<a href="oasis.php"><div class="portfolio_list6"><p class="portfolio_list_cnt">Oasis</p></div></a>
-            	<a href="anabond.php"><div class="portfolio_list7"><p class="portfolio_list_cnt">Anabond</p></div></a>
+            	<a href="ezcv.php"><div class="portfolio_list5"><p class="portfolio_list_cnt">and more..</p></div></a>
+<!--            	<a href="oasis.php"><div class="portfolio_list6"><p class="portfolio_list_cnt">Oasis</p></div></a>
+            	<a href="anabond.php"><div class="portfolio_list7"><p class="portfolio_list_cnt">Anabond</p></div></a>-->
             
           </div>
+        
 
 				
 			</div>

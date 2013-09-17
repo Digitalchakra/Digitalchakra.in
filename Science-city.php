@@ -47,25 +47,25 @@
 					<ul class="">
           		<li><a href="ezcv.php">EZCV</a></li>
           		<li><a href="bcci.php">BCCI</a></li>
-          		<li class="activeHeader_pg"><a href="anabond-hsbutyl.php">Anabond HSbutyl</a></li>
+          		<li><a href="anabond-hsbutyl.php">Anabond HSbutyl</a></li>
           		<li><a href="kvm-advisory.php">KVM Advisory</a></li>
           		<li><a href="kvm-trading.php">KVM Trading</a></li>
           		<li><a href="kvm-academy.php">KVM Academy</a></li>
           		<li><a href="oasis.php">Oasis</a></li>
           		<li><a href="anabond.php">Anabond</a></li>
-          		<li><a href="Science-city.php">Science city</a></li>
+          		<li class="activeHeader_pg"><a href="Science-city.php">Science city</a></li>
           		<li><a href="mobile-apps.php">Mobile Apps</a></li>
           		<li><a href="firstd.php">Firstd</a></li>
           </ul>
 				</div>
 				<div class="portfolio_pg_rit">
         	<div class="pg_img_container">
-            <h1>Anabond HSbutyl</h1>
-            <a href="http://demo.digitalchakra.in/hsbutyl/" target="_blank">Goto Website</a>
+            <h1>Science city Website</h1>
+            <!--<a href="#" target="_blank">Goto Website</a>-->
             <div class="clearall"></div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae elit et nibh sagittis rutrum non quis lorem.</p>
-            <img class="pg2_img" src="images/Anabond-HS-Butyl.png" alt="Anabond-HS-Butyl" title="Anabond-HS-Butyl" />
-            <img class="pg2_img" src="images/Anabond-HS-Butyl1.png" alt="Anabond-HS-Butyl" title="Anabond-HS-Butyl" />
+            <img class="pg2_img" src="images/Sciencity.jpg" alt="Science-city" title="Science city" />
+            <img class="pg2_img" src="images/Sciencity1.jpg" alt="Science-city" title="Science city" />
  					</div>
         </div>							
 			</div>
