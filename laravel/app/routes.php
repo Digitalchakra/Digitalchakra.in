@@ -19,3 +19,11 @@
 
 //default controller
 Route::get('/', 'IndexController@index');
+
+//Resource Controllers
+
+Route::resource('our-process', 'OurprocessController');
+Route::resource('our-projects', 'OurprojectsController');
+Route::resource('what-we-do', 'WhatwedoController');
+Route::resource('hosting', 'HostingController');
+Route::resource('about-us', 'AboutusController');
