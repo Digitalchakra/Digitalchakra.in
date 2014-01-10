@@ -38,11 +38,11 @@
 			        <div class="navbar-collapse collapse">
 			          <ul class="nav navbar-nav">
 				            <li class="active"><a href="/">BIG PICTURE</a></li>
-				            <li><a href="/what-we-do">WHAT WE DO</a></li>
-				            <li><a href="/our-process">OUR PROCESS</a></li>
-				            <li><a href="/our-projects">OUR PROJECTS</a></li>
-				            <li><a href="/hosting">HOSTING</a></li>
-				            <li><a href="/about-us">ABOUT US</a></li>
+				            <li><a href={{url("what-we-do")}}>WHAT WE DO</a></li>
+				            <li><a href={{url("our-process")}}>OUR PROCESS</a></li>
+				            <li><a href={{url("our-projects")}}>OUR PROJECTS</a></li>
+				            <li><a href={{url("hosting")}}>HOSTING</a></li>
+				            <li><a href={{url("about-us")}}>ABOUT US</a></li>
 			          </ul>
 			        </div><!--/.nav-collapse -->
 			      </div>
