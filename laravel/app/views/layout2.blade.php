@@ -42,12 +42,12 @@
 					        </div>
 					        <div class="navbar-collapse collapse">
 					            <ul class="nav navbar-nav">
-						            <li class="active"><a href={{url("/")}}>BIG PICTURE</a></li>
-									<li><a href={{url("what-we-do")}}>WHAT WE DO</a></li>
-									<li><a href={{url("our-process")}}>OUR PROCESS</a></li>
-									<li><a href={{url("our-projects")}}>OUR PROJECTS</a></li>
-									<li><a href={{url("hosting")}}>HOSTING</a></li>
-									<li><a href={{url("about-us")}}>ABOUT US</a></li>
+						            <li @if (Request::is('/')) class="active" @endif ><a href={{url("/")}}>BIG PICTURE</a></li>
+									<li @if (Request::is('what-we-do')) class="active" @endif><a href={{url("what-we-do")}}>WHAT WE DO</a></li>
+									<li @if (Request::is('our-process')) class="active" @endif><a href={{url("our-process")}}>OUR PROCESS</a></li>
+									<li @if (Request::is('our-projects')) class="active" @endif><a href={{url("our-projects")}}>OUR PROJECTS</a></li>
+									<li @if (Request::is('hosting')) class="active" @endif ><a href={{url("hosting")}}>HOSTING</a></li>
+									<li @if (Request::is('about-us')) class="active" @endif><a href={{url("about-us")}}>ABOUT US</a></li>
 					            </ul>
 					        </div>
 				     	</div>
