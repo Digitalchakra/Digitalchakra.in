@@ -35,7 +35,7 @@
 			          </button>
 			        <div class="align_center"> 
 				        <div class="navbar-brand logo_bg">
-							<h1><a class="logo" href="#" target="_blank">Digital Chakra</a></h1>
+							<h1><a class="logo" href={{url("/")}} target="_blank">Digital Chakra</a></h1>
 						</div>
 					</div>
 			        </div>

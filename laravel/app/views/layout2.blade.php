@@ -37,7 +37,7 @@
 						            <span class="icon-bar"></span>
 					            </button>
 					            <div class="navbar-brand small_logo_bg">
-									<h1 class="sm_h1"><a class="small_logo" href="#">digital chakra</a></h1>
+									<h1 class="sm_h1"><a class="small_logo" href={{url("/")}}>digital chakra</a></h1>
 								</div>					          
 					        </div>
 					        <div class="navbar-collapse collapse">
