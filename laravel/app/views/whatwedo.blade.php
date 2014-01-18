@@ -22,9 +22,11 @@
 								<div id="scrolldiv">
 										<div id="drag">
 											<p class="cnt_arrow">d</p>
+											<!--<span id="draghint" style="color:#FFFFFF; cursor:pointer"><=Drag-me=></span>-->
+											<img id="draghint" style="color:#FFFFFF;" src="img/arrow4.png" />
 										</div>
 								</div>
-								<span id="draghint" style="color:#FFFFFF; "><== Drag me! ==></span>
+
 							</div>
 								<!-- <div id="trace"></div> -->
 							<!-- End Drog and Drop -->
