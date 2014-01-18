@@ -24,6 +24,7 @@
 											<p class="cnt_arrow">d</p>
 										</div>
 								</div>
+								<span id="draghint" style="color:#FFFFFF; "><== Drag me! ==></span>
 							</div>
 								<!-- <div id="trace"></div> -->
 							<!-- End Drog and Drop -->

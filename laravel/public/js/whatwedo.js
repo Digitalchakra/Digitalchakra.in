@@ -7,6 +7,25 @@ $(document).ready(function()
 							leftVal = $('#drag').css("left");
 							$('#img1').width(leftVal);
 							$('#trace').text(leftVal);
+							$( "#draghint" ).css({"left":leftVal});
 							}
 				});
+				$( "#draghint" ).position({
+					my: "left bottom",
+					at: "left top",
+					of: "#drag"
+					});
+				$( "#draghint" ).css({"margin-left": "-50px"});
+				y=0;
+				setInterval(function() {
+						if(y == 0) {
+							$('#draghint').css('color', '#FFFFFF');
+							y = 1;
+						} else  {
+							if(y = 1) {
+								$('#draghint').css('color', '#FF0000');
+								y = 0;
+							}
+						}
+					}, 500);
 			});
