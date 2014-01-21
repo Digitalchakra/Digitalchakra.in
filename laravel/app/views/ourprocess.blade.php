@@ -170,7 +170,7 @@
 						</div>		
 					</div>
 				</article>
-				
+				<!-- page 4 -->
 				<article id="testings">
 					<div class="content_container min-height-620">
 						<header>
@@ -202,14 +202,14 @@
 
 						<div class="bottom_fix padding_disable">
 							<div class="row ">
-								<div class="col-md-6">
-									<p class="pg2_font text-alin-right p88">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet ipsum in venenatis. </p>
+								<div class="col-md-5">
+									<p class="pg2_font text-alin-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet ipsum in venenatis. </p>
 								</div>
-								<!-- <div class="col-md-2">
-									<p>test</p>
-								</div> -->
-								<div class="col-md-6">
-									<p class="pg2_font text-alin-left p103">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet.</p>
+								 <div class="col-md-2">
+									
+								</div>
+								<div class="col-md-5">
+									<p class="pg2_font text-alin-left m40">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet.</p>
 								</div>
 							</div>
 						</div>	
@@ -219,7 +219,7 @@
 						</nav> -->
 					</div>
 				</article>
-
+				<!-- page 5 -->
 				<article id="characteris">
 					<div class="content_container min-height-620">
 						<header>
@@ -241,7 +241,7 @@
 						</div>
 					</div>					
 				</article>
-
+				<!-- page 6 -->
 				<article id="scrum">
 					<div class="content_container min-height-620">
 						
