@@ -130,12 +130,14 @@ p{
   margin: 0 auto -60px;
   /* Pad bottom by footer height */
   padding: 0 0 60px;
+  background-color: #f7f7f7;
+  z-index: -9999;
 }
 
 /* Set the fixed height of the footer here */
 #footer {
   height: 60px;
-  background-color: #fff;
+  background-color: #f7f7f7;
 }
 
 
@@ -172,6 +174,7 @@ color: #000!important; background-color: transparent!important; font-weight: bol
 
 .navbar-default {border: none; border-color:none;}
 
+.m40{margin:0 22px 0 40px;}
 .mt20{margin-top:20px;}
 .p68{padding-right: 73px!important;}
 .p50{padding-left: 50px;}
@@ -212,29 +215,30 @@ line-height: 24px;
 }
 #blue_btn {
     position:absolute;
-    top:100px;
-    left:100px;
+top: 39px;
+left: 5%;
 }
 #blue_btn_hover {
     display:none;
     position:absolute;
-    top:107px;
-    left:107px;
+    top: 46px;
+left: 5.7%;
     z-index: -99999;
 }
 .blue_slide2_line1{
 	background: url('../img/slide_2/slider2_blue_line_1.png') 0 0 no-repeat;
-	top: 37.5%;
-	left: 122px;
+	top: 17.5%;
+	left: 7%;
 	position: absolute;
 	width: 100%;
 	display: block;
 	height: 1px;
+	z-index: -999;
 }
 .blue_slide2_line2{
 	background: url('../img/slide_2/slider2_blue_line_2.png') 0 0 no-repeat;
-	top: 37.5%;
-	left: 209px;
+	top: 17.5%;
+	left: 163px;
 	position: absolute;
 	width: 100%;
 	display: block;
@@ -271,13 +275,13 @@ line-height: 24px;
 }
 #yellow_btn {
     position:absolute;
-	top: 33%;
+	top: 13%;
 	left: 28%;	
 
 }
 .yellow_slide2_line1{
 	background: url('../img/slide_2/slider2_yellow_line_1.png') 0 0 no-repeat;
-	top: 37.5%;
+	top: 17.5%;
 	left: 29px;
 	position: absolute;
 	width: 100%;
@@ -286,7 +290,7 @@ line-height: 24px;
 }
 .yellow_slide2_line2{
 	background: url('../img/slide_2/slider2_yellow_line_2.png') 0 0 no-repeat;
-	top: 37.5%;
+	top: 17.5%;
 	left: -131px;
 	position: absolute;
 	width: 100%;
@@ -296,7 +300,7 @@ line-height: 24px;
 #yellow_btn_hover {
     display:none;
     position:absolute;
-top: 35.4%;
+top: 15.3%;
 left: 30%;
 }
 .yellow_icon_hover_container{
@@ -327,14 +331,14 @@ left: 30%;
 }
 #slide3_blue_btn {
     position:absolute;
-	top: -18%;
-	left: 56%;
+top: -50%;
+left: 54%;
 }
 #slide3_blue_btn_hover {
     display:none;
     position:absolute;
-	top: -14%;
-	left: 56.6%;
+top: -45.7%;
+left: 54.69%;
     z-index: -99999;
 }
 /*.blue_slide3_line1{
@@ -347,7 +351,7 @@ left: 170px;
 	height: 234px;
 }*/
 .blue_icon_hover_container_slide3{
-	margin:-56px 0 0 701px;
+	margin:-56px 0 0 625px;
 	z-index: 9999;
 	display: inline-block;
 }
@@ -491,7 +495,7 @@ nav.next-prev {
 	}
 .content_container {
 	width: 100%;
-	min-height: 550px;
+	min-height: 462px;
 /*	background: gray;*/
 	display:inline-block;
 }
@@ -578,7 +582,7 @@ nav.next-prev {
 	/*margin-left: -470px;*/ /* move left by half element's width */
 	margin-left:-508px;
 
-	z-index: -999;
+	/*z-index: -999;*/
 	}
 	/* balloon */
 	#bg3-1 {
@@ -588,13 +592,13 @@ nav.next-prev {
 		}
 	#bg3-2 {
 		position: absolute;
-		top: 1140px;
-		left: -118px;
+		top: 1093px;
+		left: -139px;
 		}
 	#bg3-3 {
 		position: absolute;
-		top: 2177px;
-		left: -118px;
+		top: 2135px;
+		left: -143px;
 		}
 	#bg3-4 {
 		position: absolute;
@@ -614,7 +618,7 @@ nav.next-prev {
 
 /* midground (page 1) */
 #parallax-bg2 {
-	z-index: 2;
+	z-index: 999;
 	position: fixed;
 	left: 50%; /* align left edge with center of viewport */
 	top: 0;
@@ -623,142 +627,142 @@ nav.next-prev {
 	}
 	#bg2-1 {
 		position: absolute;
-top: 315px;
+top: 290px;
 left: 113px;
 		}
 	#bg2-2 {
 		position: absolute;
-top: 196px;
+top: 176px;
 left: 183px;
 		}
 	#bg2-3 {
 		position: absolute;
-top: 449px;
+top: 413px;
 left: 140px;
 
 		}
 	#bg2-4 {
 		position: absolute;
-top: 309px;
+top: 291px;
 left: 257px;
 		}
 	#bg2-5 {
 		position: absolute;
-top: 417px;
+top: 372px;
 left: 263px;
 		}
 	#bg2-6 {
 		position: absolute;
-top: 511px;
+top: 468px;
 left: 267px;
 		}
 	#bg2-7 {
 		position: absolute;
-top: 199px;
+top: 138px;
 left: 319px;
 
 		}
 	#bg2-8 {
 		position: absolute;
-top: 358px;
-left: 355px;
+top: 329px;
+left: 375px;
 		}
 	#bg2-9 {
 		position: absolute;
-top: 553px;
+top: 511px;
 left: 382px;
 		}
 	#bg2-10 {
 		position: absolute;
-top: 282px;
+top: 245px;
 left: 417px;
 
 		}
 	#bg2-11 {
 		position: absolute;
-top: 439px;
-left: 423px;
+top: 400px;
+left: 413px;
 		}
 	#bg2-12 {
 		position: absolute;
-top: 190px;
+top: 144px;
 left: 482px;
 		}
 	#bg2-13 {
 		position: absolute;
-top: 341px;
-left: 521px;
+top: 308px;
+left: 514px;
 		}
 	#bg2-14 {
 		position: absolute;
-top: 515px;
-left: 534px;
+top: 458px;
+left: 528px;
 		}
 	#bg2-15 {
 		position: absolute;
-top: 198px;
+top: 157px;
 left: 588px;
 		}
 	#bg2-16 {
 		position: absolute;
-top: 309px;
+top: 288px;
 left: 647px;
 		}
 	#bg2-17 {
 		position: absolute;
-top: 513px;
+top: 459px;
 left: 640px;
 		}
 	#bg2-18 {
 		position: absolute;
-top: 199px;
+top: 161px;
 left: 711px;
 		}
 	#bg2-19 {
 		position: absolute;
-top: 371px;
+top: 334px;
 left: 748px;
 		}
 	#bg2-20 {
 		position: absolute;
-top: 500px;
+top: 456px;
 left: 729px;
 		}
 	#bg2-21 {
 		position: absolute;
-top: 222px;
-left: 885px;
+top: 197px;
+left: 901px;
 		}
 	#bg2-22 {
 		position: absolute;
-top: 291px;
-left: 863px;
+top: 278px;
+left: 858px;
 		}
 	#bg2-23 {
 		position: absolute;
-top: 417px;
-left: 849px;
+top: 390px;
+left: 806px;
 		}
 	#bg2-24 {
 		position: absolute;
-top: 524px;
+top: 475px;
 left: 850px;
 		}
 	#bg2-25 {
 		position: absolute;
-top: 371px;
-left: 966px;
+top: 323px;
+left: 991px;
 		}	
 	#bg2-26 {
 		position: absolute;
-top: 478px;
-left: 964px;
+top: 429px;
+left: 954px;
 		}
 
 /***************************************************** background (clouds) page 2 **********************************/
 
 #parallax-bg1 {
-	z-index: 1;
+	z-index: 3;
 	position: fixed;
 	left: 50%; /* align left edge with center of viewport */
 	top: 0;
@@ -767,145 +771,145 @@ left: 964px;
 	}	
 	#bg1-big-blue {
 		position: absolute;
-top: 2187px;
-left: 408px;
+top: 2143px;
+left: 375px;
 		}
 
 	#bg1-big-yellow {
 		position: absolute;
-		top: 2122px;
-		left: 587px;
+top: 2079px;
+left: 565px;
 		}
 
 	#bg1-1 {
 		position: absolute;
-top: 2105px;
-left: 162px;
+top: 2045px;
+left: 146px;
 		}
 	#bg1-2 {
 		position: absolute;
-top: 1995px;
-left: 232px;
+top: 1938px;
+left: 223px;
 		}
 	#bg1-3 {
 		position: absolute;
-top: 2218px;
-left: 191px;
+top: 2145px;
+left: 156px;
 		}
 	#bg1-4 {
 		position: absolute;
-top: 2081px;
-left: 302px;
+top: 2021px;
+left: 282px;
 		}
 	#bg1-5 {
 		position: absolute;
-top: 2180px;
-left: 305px;
+top: 2136px;
+left: 283px;
 		}
 	#bg1-6 {
 		position: absolute;
-top: 2261px;
-left: 278px;	
+top: 2222px;
+left: 251px;	
 		}
 	#bg1-7 {
 		position: absolute;
-top: 1960px;
-left: 384px;
+top: 1901px;
+left: 365px;
 		}
 	#bg1-8 {
 		position: absolute;
-top: 2123px;
-left: 385px;
+top: 2077px;
+left: 363px;
 		}
 	#bg1-9 {
 		position: absolute;
-top: 2046px;
-left: 445px;
+top: 1999px;
+left: 429px;
 		}
 	#bg1-10 {
 		position: absolute;
-top: 2150px;
-left: 460px;
+top: 2107px;
+left: 436px;
 		}
 	#bg1-11 {
 		position: absolute;
-		top: 1932px;
-		left: 548px;
+top: 1888px;
+left: 529px;
 		}
 	#bg1-12 {
 		position: absolute;
-top: 2025px;
-left: 533px;
+top: 1980px;
+left: 523px;
 		}
 	#bg1-13 {
 		position: absolute;
-top: 1936px;
-left: 625px;
+top: 1887px;
+left: 605px;
 		}
 	#bg1-14 {
 		position: absolute;
-top: 2054px;
-left: 682px;
+top: 2013px;
+left: 661px;
 		}
 	#bg1-15 {
 		position: absolute;
-top: 1937px;
-left: 752px;
+top: 1886px;
+left: 729px;
 		}
 	#bg1-16 {
 		position: absolute;
-top: 1965px;
-left: 908px;
+top: 1918px;
+left: 888px;
 		}
 	#bg1-17 {
 		position: absolute;
-top: 2054px;
-left: 888px;
+top: 2002px;
+left: 855px;
 		}
 	#bg1-18 {
 		position: absolute;
-top: 2174px;
-left: 836px;
+top: 2135px;
+left: 814px;
 		}
 	#bg1-19 {
 		position: absolute;
-top: 2245px;
+top: 2209px;
 left: 840px;
 		}
 	#bg1-20 {
 		position: absolute;
-top: 2151px;
-left: 988px;
+top: 2089px;
+left: 966px;
 		}
 	#bg1-21 {
 		position: absolute;
-top: 2258px;
-left: 942px;
+top: 2200px;
+left: 925px;
 		}
 	#bg1-22 {
 		position: absolute;
-top: 2082px;
-left: 777px;
+top: 2034px;
+left: 757px;
 		}
 	#bg1-boy_blue {
 		position: absolute;
-	top: 2417px;
-	left: 519px;
+	top: 2353px;
+	left: 493px;
 		}
 	#bg1-boy_yellow {
 		position: absolute;
-	top: 2417px;
-	left: 720px;
+	top: 2353px;
+	left: 667px;
 		}
 	#bg1-behavior {
 		position: absolute;
-	top: 2423px;
-	left: 381px;
+	top: 2363px;
+	left: 350px;
 		}
 	#bg1-look-feel {
 		position: absolute;
-	top: 2423px;
-	left: 828px;
+	top: 2363px;
+	left: 778px;
 		}
 /*	#bg1-blue-line-1 {
 		position: absolute;
@@ -934,7 +938,7 @@ left: 669px;
 /***************************************************** background (clouds) page 3 **********************************/
 
 #parallax-bg4 {
-	z-index: 1;
+	z-index: 3;
 	position: fixed;
 	left: 50%; /* align left edge with center of viewport */
 	top: 0;
@@ -943,100 +947,100 @@ left: 669px;
 	}
 	#bg4-big-blue {
 		position: absolute;
-top: 4975px;
-left: 398px;
+top: 4934px;
+left: 377px;
 		}
 	#bg4-big-blue-big {
 		position: absolute;
-top: 4805px;
-left: 259px;
+top: 4764px;
+left: 238px;
 		}
 	#bg4-big-yellow {
 		position: absolute;
-top: 4907px;
-left: 579px;
+top: 4866px;
+left: 562px;
 		}
 
 	#bg4-1 {
 		position: absolute;
-top: 4776px;
-left: 234px;
+top: 4737px;
+left: 208px;
 		}
 	#bg4-2 {
 		position: absolute;
-top: 4737px;
-left: 384px;
+top: 4696px;
+left: 359px;
 		}
 	#bg4-3 {
 		position: absolute;
-top: 4834px;
-left: 464px;
+top: 4794px;
+left: 439px;
 		}
 	#bg4-4 {
 		position: absolute;
-top: 4729px;
-left: 544px;
+top: 4683px;
+left: 523px;
 		}
 	#bg4-5 {
 		position: absolute;
-top: 4725px;
-left: 638px;
+top: 4686px;
+left: 612px;
 		}
 	#bg4-6 {
 		position: absolute;
-top: 4835px;
-left: 708px;		
+top: 4793px;
+left: 687px;		
 		}
 	#bg4-7 {
 		position: absolute;
-top: 4716px;
-left: 751px;
+top: 4678px;
+left: 729px;
 		}
 	#bg4-8 {
 		position: absolute;
-top: 4751px;
-left: 909px;
+top: 4709px;
+left: 880px;
 		}
 	#bg4-9 {
 		position: absolute;
-top: 4838px;
-left: 869px;
+top: 4805px;
+left: 826px;
 		}
 	#bg4-10 {
 		position: absolute;
-top: 4967px;
-left: 836px;
+top: 4922px;
+left: 814px;
 		}
 	#bg4-11 {
 		position: absolute;
-top: 5039px;
-left: 841px;
+top: 4991px;
+left: 822px;
 		}
 	#bg4-12 {
 		position: absolute;
-top: 4928px;
-left: 982px;
+top: 4884px;
+left: 971px;
 		}
 	#bg4-13 {
 		position: absolute;
-top: 5040px;
-left: 939px;
+top: 5003px;
+left: 911px;
 		}	
 	#bg4-boy_blue {
 	position: absolute;
-	top: 5201px;
-	left: 519px;
+	top: 5140px;
+	left: 493px;
 		}
 	#bg4-boy_yellow {
 		position: absolute;
-	top: 5201px;
+	top: 5140px;
 	left: 720px;
 	display: none;
 		}
 	#bg4-behavior {
 		position: absolute;
-	top: 5207px;
-	left: 381px;
+	top: 5152px;
+	left: 350px;
 		}
 	#bg4-look-feel {
 		position: absolute;
@@ -1047,14 +1051,15 @@ left: 939px;
 
 	#bg4-blue-line-1 {
 		position: absolute;
-	top: 4722px;
-	left: 389px;
+		top: 4665px;
+		left: 360px;
+		z-index: -999;
 		}
 
 /***************************************************** background page 4 **********************************/
 
 #parallax-bg5 {
-	z-index: 1;
+	z-index: 3;
 	position: fixed;
 	left: 50%; /* align left edge with center of viewport */
 	top: 0;
@@ -1122,28 +1127,28 @@ left: 850px;
 	#bg5-boy_blue {
 	position: absolute;
 	top: 9077px;
-	left: 519px;
+	left: 493px;
 		}
 	#bg5-boy_yellow {
 	position: absolute;
 	top: 9077px;
-	left: 720px;
+	left: 667px;
 		}
 	#bg5-unit-testing {
 	position: absolute;
 	top: 9077px;
-	left: 329px;
+	left: 293px;
 		}
 	#bg5-manual-testing {
 	position: absolute;
 	top: 9077px;
-	left: 828px;
+	left: 778px;
 		}
 
 /***************************************************** background page 5 **********************************/
 
 #parallax-bg6 {
-	z-index: 1;
+	z-index: 3;
 	position: fixed;
 	left: 50%; /* align left edge with center of viewport */
 	top: 0;
@@ -1297,7 +1302,7 @@ left: -10%!important;
 @media (min-width: 1299px) {
 		.min-height-620 {
 		width: 100%;
-		min-height: 625px!important;
+		min-height: 561px!important;
 	}
 /*	#yellow_btn {
 	    position:absolute;

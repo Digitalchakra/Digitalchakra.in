@@ -1,6 +1,7 @@
 @extends('layout3')
 
 @section('content')
+<div class="parallax_body_bg">
 <nav id="primary">
 				<ul>
 					<li>						
@@ -27,28 +28,30 @@
 		<!-- ----------------------- Navigation End ----------------------- -->	
 		<!-- ----------------------- Content Start ----------------------- -->	
 			<div id="content">
-				
-					<article id="our-process-page1">
-						<div class="content_container">
-							<header>
-								<h1>&nbsp;</h1>
-							</header>
-							<div class="bottom_fix padding_disable">
-								<div class="row ">
-									<div class="col-md-5">
-										<p class="pg2_font text-alin-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet ipsum in venenatis. </p>
-									</div>
-									 <div class="col-md-2">
-										<a class="next behavior_look_and_feel center_align" href="#behavior_look_and_feel"></a>
-									</div>
-									<div class="col-md-5">
-										<p class="pg2_font text-alin-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet.</p>
-									</div>
+				<!-- page 1 -->
+				<article id="our-process-page1">
+					<div class="content_container">
+						<header>
+							<h1>&nbsp;</h1>
+						</header>
+						<div class="bottom_fix padding_disable">
+							<div class="row ">
+								<div class="col-md-5">
+									<p class="pg2_font text-alin-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet ipsum in venenatis. </p>
+								</div>
+								 <div class="col-md-2">
+									<a class="next behavior_look_and_feel center_align" href="#behavior_look_and_feel"></a>
+								</div>
+								<div class="col-md-5">
+									<p class="pg2_font text-alin-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet.</p>
 								</div>
 							</div>
 						</div>
-					</article>
-				
+					</div>
+				</article>
+
+				<!-- page 2 -->
+
 				<article id="behavior_look_and_feel">
 					<div class="content_container min-height-620">
 						<header>
@@ -101,7 +104,7 @@
 							</div>							
 						</div>
 						<div class="bottom_fix padding_disable">
-							<div class="row ">
+						<!-- 	<div class="row ">
 								<div class="col-md-6">
 									<p class="pg2_font text-alin-right p88">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet ipsum in venenatis. </p>
 								</div>
@@ -109,11 +112,24 @@
 								<div class="col-md-6">
 									<p class="pg2_font text-alin-left p103">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet.</p>
 								</div>
+							</div> -->
+							<div class="row ">
+								<div class="col-md-5">
+									<p class="pg2_font text-alin-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet ipsum in venenatis. </p>
+								</div>
+								 <div class="col-md-2">
+									
+								</div>
+								<div class="col-md-5">
+									<p class="pg2_font text-alin-left m40">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet.</p>
+								</div>
 							</div>
+
+
 						</div>
 					</div>
 				</article>
-				
+				<!-- page 3 -->
 				<article id="behaviour_page3">
 					<div class="content_container min-height-620">
 						<header>
@@ -143,11 +159,12 @@
 
 						<div class="bottom_fix padding_disable">
 							<div class="row ">
-								<div class="col-md-6">
-									<p class="pg2_font text-alin-right p88">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet ipsum in venenatis. </p>
+								<div class="col-md-5">
+									<p class="pg2_font text-alin-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet ipsum in venenatis. </p>
 								</div>
-								<div class="col-md-6">
-									
+								 <div class="col-md-2">									
+								</div>
+								<div class="col-md-5">									
 								</div>
 							</div>
 						</div>		
@@ -255,7 +272,7 @@
 			<!-- -------------------  Parallax background ------------------ -->
 			<div id="parallax-bg3">
 				<img id="bg3-1" src="img/slide_1/slider1_bg.png" width="1257" height="768" alt=""/>
-				<img id="bg3-2" src="img/slide_2/slider2_bg.png" width="1257" height="768" alt=""/>
+				<img id="bg3-2" src="img/slide_2/slider2_bg.png" width="1257" height="718" alt=""/>
 				<img id="bg3-3" src="img/slide_3/slider3_bg.png" width="1257" height="768" alt=""/>
 				<img id="bg3-4" src="img/slide_4/slider4_bg.png" width="1257" height="768" alt=""/>				
 				<img id="bg3-5" src="img/slide_5/slider5_bg.png" width="1257" height="768" alt=""/>			
@@ -406,4 +423,5 @@
 		</div>
 
     </div>
+</div>
 @stop
