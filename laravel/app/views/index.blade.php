@@ -1,7 +1,7 @@
 @extends('layout1')
 
 @section('content')
-			<div class="container body_bg">
+			<div class="container">
 				<div class="row align_center padding_top padding_btm">
 					<div class="col-lg-12 col-md-12">
 		        		<h1 class="f52">We are thought leaders in creating an entirely <br>new user experience through responsive <br>web design and emerging technologies.</h1>
@@ -9,7 +9,7 @@
 		      	</div>
 		    </div>
 
-			<div class="container body_bg space_botttom">
+			<div class="container space_botttom">
 				<div class="row ">
 					<div class="col-lg-4 col-md-4">
 						<img class="boxes_img" src="img/our-intelligent-solutions.png" alt="" title="">
@@ -66,7 +66,7 @@
 		<!-- ----------------------- PROJECT End ----------------------- -->
 
 		<!-- ----------------------- CONTACT start --------------------- -->
-			<div class="container border_top_blue">
+			<div class="container border_top_blue bg_white">
 				<div class="row">
 					<div class="col-md-4">
 						<h2 class="blue lheight">CONTACT</h2>
@@ -76,7 +76,7 @@
 			<div class="padding_disable">	
 				<div class="row padding_disable">
 					<div class="col-lg-12 padding_disable map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d485.84720717046525!2d80.24821965814768!3d13.049819963106827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeb6905de192bbbb2!2sDigital+Chakra!5e0!3m2!1sen!2s!4v1387267922359" width="100%" height="500" frameborder="0" style="border:0"></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d485.84720717046525!2d80.24821965814768!3d13.049819963106827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeb6905de192bbbb2!2sDigital+Chakra!5e0!3m2!1sen!2s!4v1387267922359" width="100%" height="550" frameborder="0" style="border:0"></iframe>
 
 						<div class="contact_form">
 							<div class="contact_bg">

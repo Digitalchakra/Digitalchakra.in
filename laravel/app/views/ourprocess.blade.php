@@ -5,21 +5,27 @@
 <nav id="primary">
 				<ul>
 					<li>						
+						<h1>Our Process</h1>
 						<a class="our-process-page1" href="#our-process-page1"></a>
 					</li>
 					<li>
+						<h1>Behavior and feel</h1>
 						<a class="behavior_look_and_feel" href="#behavior_look_and_feel"></a>
 					</li>
 					<li>
+						<h1>Behavior</h1>
 						<a class="behaviour_page3" href="#behaviour_page3"></a>
 					</li>
 					<li>
+						<h1>Testings</h1>
 						<a class="testings" href="#testings"></a>
 					</li>
 					<li>
+						<h1>Characteristics</h1>
 						<a class="characteris" href="#characteris"></a>
 					</li>
 					<li>
+						<h1>Scrum</h1>
 						<a class="scrum" href="#scrum"></a>
 					</li>
 				</ul>
@@ -60,59 +66,57 @@
 						<div class="blue_icon_button">							
 							<div class="col-md-12">
 								<!-- Start -->
-									<img id="blue_btn" src="img/slide_2/blue_btn.png" class="blue_icon" alt="icon">
-									<img id="blue_btn_hover" src="img/slide_2/blue_btn_hover.png" class="blue_icon" alt="icon">
-									<div class="blue_slide2_line1"></div>
-									<div class="blue_slide2_line2"></div>
-									<div class="blue_icon_hover_container">
-										<div class="blue_i_hover">
-										<h2>Lorem ipsum</h2>
-
-										<li class="arrow_right">&nbsp;</li>
-										<ul>
-											<li>Lorem ipsum 1</li>
-											<li>Lorem ipsum 2</li>
-											<li>Lorem ipsum 3</li>
-											<li>Lorem ipsum 4</li>
-										</ul>
-										</div>
-									</div>
+									<img id="blue_btn" src="img/slide_2/blue_btn.png" class="blue_icon but-2-1 opt-anc" alt="icon">
+									<img id="blue_btn_hover" src="img/slide_2/blue_btn_hover.png" class="blue_icon but-2-1 opt-anc" alt="icon">
+									<div class="blue_slide2_line1"></div>									
 								<!-- End -->
 							</div>							
 						</div>
-						<div class="yellow_icon_button">							
+						<div class="yellow_icon_button media_1366">							
 							<div class="col-md-12">
 								<!-- Start -->
-									<img id="yellow_btn" src="img/slide_2/yellow_btn.png" class="yellow_icon" alt="icon">
-									<img id="yellow_btn_hover" src="img/slide_2/yellow_btn_hover.png" class="yellow_icon" alt="icon">
-									<div class="yellow_slide2_line1"></div>
-									<div class="yellow_slide2_line2"></div>
-									<div class="yellow_icon_hover_container">
-										<div class="yellow_i_hover">
-										<h2>Lorem ipsum</h2>
-
-										<li class="arrow_left">&nbsp;</li>
-										<ul>
-											<li>Lorem ipsum 1</li>
-											<li>Lorem ipsum 2</li>
-											<li>Lorem ipsum 3</li>
-											<li>Lorem ipsum 4</li>
-										</ul>
-										</div>
-									</div>
+									<img id="yellow_btn" src="img/slide_2/yellow_btn.png" class="yellow_icon but-2-2" alt="icon">
+									<img id="yellow_btn_hover" src="img/slide_2/yellow_btn_hover.png" class="yellow_icon but-2-2" alt="icon">
+									<div class="yellow_slide2_line1"></div>								
 								<!-- End -->
 							</div>							
 						</div>
+						<!-- blue box cmd start -->
+							<div class="blue_icon_hover_container tip-box" style="display:none;">
+								<div class="blue_i_hover">
+									<h2>Lorem ipsum</h2>
+
+									<li class="arrow_right">&nbsp;</li>
+									<ul>
+										<li>Lorem ipsum 1</li>
+										<li>Lorem ipsum 2</li>
+										<li>Lorem ipsum 3</li>
+										<li>Lorem ipsum 4</li>
+									</ul>
+								</div>
+							</div>
+						<!-- blue box cmd end -->
+
+						<!-- yellow box cmd start -->
+						<div class="">
+							<div class="yellow_icon_hover_container" style="display:none;">
+								<div class="yellow_i_hover">
+									<h2>Lorem ipsum</h2>
+
+									<li class="arrow_left">&nbsp;</li>
+									<ul>
+										<li>Lorem ipsum 1</li>
+										<li>Lorem ipsum 2</li>
+										<li>Lorem ipsum 3</li>
+										<li>Lorem ipsum 4</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- yellow box cmd end -->
+
+						<!-- bottom cmd -->
 						<div class="bottom_fix padding_disable">
-						<!-- 	<div class="row ">
-								<div class="col-md-6">
-									<p class="pg2_font text-alin-right p88">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet ipsum in venenatis. </p>
-								</div>
-								
-								<div class="col-md-6">
-									<p class="pg2_font text-alin-left p103">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet.</p>
-								</div>
-							</div> -->
 							<div class="row ">
 								<div class="col-md-5">
 									<p class="pg2_font text-alin-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet ipsum in venenatis. </p>
@@ -138,24 +142,27 @@
 						<div class="blue_icon_button">							
 							<div class="col-md-12">
 								<!-- Start -->
-									<img id="slide3_blue_btn" src="img/slide_2/blue_btn.png" class="blue_icon" alt="icon">
-									<img id="slide3_blue_btn_hover" src="img/slide_2/blue_btn_hover.png" class="blue_icon" alt="icon">
-									<div class="blue_icon_hover_container_slide3">
-										<div class="blue_i_hover">
-										<h2>Lorem ipsum</h2>
-
-										<li class="arrow_left">&nbsp;</li>
-										<ul>
-											<li>Lorem ipsum 1</li>
-											<li>Lorem ipsum 2</li>
-											<li>Lorem ipsum 3</li>
-											<li>Lorem ipsum 4</li>
-										</ul>
-										</div>
-									</div>
+									<img id="slide3_blue_btn" src="img/slide_2/blue_btn.png" class="blue_icon but-3-1" alt="icon">
+									<img id="slide3_blue_btn_hover" src="img/slide_2/blue_btn_hover.png" class="blue_icon but-3-1" alt="icon">
 								<!-- End -->
 							</div>							
 						</div>
+
+						<!-- blue box cmd start -->
+						<div class="blue_icon_hover_container_slide3" style="display:none;">
+							<div class="blue_i_hover">
+							<h2>Lorem ipsum</h2>
+
+							<li class="arrow_left">&nbsp;</li>
+							<ul>
+								<li>Lorem ipsum 1</li>
+								<li>Lorem ipsum 2</li>
+								<li>Lorem ipsum 3</li>
+								<li>Lorem ipsum 4</li>
+							</ul>
+							</div>
+						</div>
+						<!-- blue box cmd end -->
 
 						<div class="bottom_fix padding_disable">
 							<div class="row ">
@@ -180,10 +187,10 @@
 						<div class="yellow_icon_button">							
 							<div class="col-md-12">
 								<!-- Start -->
-									<img id="yellow_btn_slide4" src="img/slide_2/yellow_btn.png" class="yellow_icon" alt="icon">
-									<img id="yellow_btn_hover_slide4" src="img/slide_2/yellow_btn_hover.png" class="" alt="icon">
+									<img id="yellow_btn_slide4" src="img/slide_2/yellow_btn.png" class="yellow_icon but-4-1" alt="icon">
+									<img id="yellow_btn_hover_slide4" src="img/slide_2/yellow_btn_hover.png" class="yellow_icon but-4-1" alt="icon">
 									<div class="yellow_slide4_line1"></div>
-									<div class="yellow_icon_hover_container_slide4">
+									<div class="yellow_icon_hover_container_slide4" style="display:none;">
 										<div class="yellow_i_hover">
 										<h2>Lorem ipsum</h2>
 

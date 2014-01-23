@@ -31,6 +31,7 @@ color: #000!important; background-color: transparent!important; font-weight: bol
 .p_top40{padding-top: 40px;}
 .p_btm40{padding-bottom: 40px;}
 .p_20_40{padding: 20px 0 60px 0;}
+.p_left20{padding: 0 0 0 20px!important;}
 .m32{margin:32px 0;}
 
 .kvm_holding_logo{width: 257px; height: 310px; }
@@ -49,12 +50,19 @@ color: #000!important; background-color: transparent!important; font-weight: bol
 .host_btn:hover{background-color: #42bfea!important; text-decoration: none; color: #fff}
 .mail_host{padding: 0;}
 .mail_host li{background:url(../img/blue_bullet.png) 0 17px no-repeat; list-style: none; padding-left: 20px;}
+.caret_custom{margin-top: 24px !important;     position: absolute!important;     right: 22px!important;}
+.btn-custom{padding:0!important;}
+.custom-dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus { color: #fff!important; text-decoration: none; background-color: #3dbde9!important; }
 /******************************************************************  what we do page **********************************************/
 .wwd_imge_1{width: 618px;}
 .slider_container{height: 465px;}
 .slider_box{height: 422px; margin: 20px 0 0 0;}
 .shadow {height: 72px; bottom: 0; position: absolute; }
+#draghint{margin: 0px 0 0 -14px;}
 
+.drag_line{border-bottom: 2px solid #92dffb; margin: 61px 0 0 0; width: 99%; }
+.drag_lft{margin: -9px 0 0 -33px;}
+.drag_rit{margin: -9px 0 0 0; position: absolute; right: -35px;}
 /******** Drog and Drop Slider ***********/
 	#div2
 	{

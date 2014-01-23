@@ -20,7 +20,7 @@
 	</head>
 	<body>
 		<!-- -----------------------  Wrap all page  ------------------ -->
-		<div id="wrap">
+		<div id="wrap" class="body_bg">
 		<!-- ----------------------- HEADER start --------------------- -->		
 			<div class="header-container">
 				<!-- Static navbar -->

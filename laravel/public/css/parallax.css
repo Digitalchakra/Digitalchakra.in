@@ -244,8 +244,8 @@ left: 5.7%;
 	display: block;
 	height: 234px;
 }
-.blue_icon_hover_container{
-	margin:60px 0 0 -106px;
+#behavior_look_and_feel .blue_icon_hover_container{
+	margin:50px 0 0 125px;
 	z-index: 9999;
 	display: inline-block;
 }
@@ -270,25 +270,26 @@ left: 5.7%;
 .yellow_icon{
 	cursor: pointer;
 }
-.yellow_icon_button{
+#behavior_look_and_feel .yellow_icon_button{
 	margin-left: 875px;
-	margin-top: -11px;
+	margin-top: 38px!important;
 	position: absolute;
 }
-#yellow_btn {
+#behavior_look_and_feel #yellow_btn {
     position:absolute;
-	top: 13%;
-	left: 28%;	
-
+	top: 7px;
+	left: 100px;	
+	cursor: pointer;
 }
-.yellow_slide2_line1{
+#behavior_look_and_feel .yellow_slide2_line1{
 	background: url('../img/slide_2/slider2_yellow_line_1.png') 0 0 no-repeat;
-	top: 17.5%;
-	left: 29px;
+	top: 21px;
+	left: -92px;
 	position: absolute;
-	width: 100%;
+	width: 200px;
 	display: block;
-	height: 1px;
+	height: 175px;
+	z-index: -99999;
 }
 .yellow_slide2_line2{
 	background: url('../img/slide_2/slider2_yellow_line_2.png') 0 0 no-repeat;
@@ -299,16 +300,19 @@ left: 5.7%;
 	display: block;
 	height: 234px;
 }
-#yellow_btn_hover {
+#behavior_look_and_feel #yellow_btn_hover {
     display:none;
     position:absolute;
-top: 15.3%;
-left: 30%;
+	top: 14px;
+	left: 107px;
 }
-.yellow_icon_hover_container{
-	margin:60px 0 0 160px;
+#behavior_look_and_feel .yellow_icon_hover_container{
+	margin:0px 0 0 160px;
 	z-index: 9999;
 	display: inline-block;
+	position: absolute;
+	top: 187px;
+	right: 134px;
 }
 .yellow_i_hover{
 	text-align: center;
@@ -328,19 +332,19 @@ left: 30%;
 }
 /********************* slide 3 blinking button and text *******************************/
 .blue_icon_button{
-	margin-left: 275px;
+	margin-left: 255px;
 	margin-top: -59px;
 }
 #slide3_blue_btn {
     position:absolute;
-top: -50%;
-left: 54%;
+top: -87px;
+left: 55%;
 }
 #slide3_blue_btn_hover {
     display:none;
     position:absolute;
-top: -45.7%;
-left: 54.69%;
+	top: -80px;
+	left: 55.69%;
     z-index: -99999;
 }
 /*.blue_slide3_line1{
@@ -353,7 +357,7 @@ left: 170px;
 	height: 234px;
 }*/
 .blue_icon_hover_container_slide3{
-	margin:-56px 0 0 625px;
+	margin:-72px 0 0 918px;
 	z-index: 9999;
 	display: inline-block;
 }
@@ -396,9 +400,9 @@ left: 87px;
 	top: -92px;
 	left: 0px;
 	position: absolute;
-	width: 100%;
+	width: 360px;
 	display: block;
-	height: 356px;
+	height: 309px;
 	z-index: -9999!important;
 }
 
@@ -451,7 +455,7 @@ nav#primary a:hover, nav#primary a.active {
 nav#primary h1 {
 	position: absolute;
 	right: 22px;
-	top: -7px;
+	top: -21px;
 	display: none;
 	padding: 4px 20px 4px 7px;;
 	color: #fff;
@@ -542,8 +546,11 @@ nav.next-prev {
 		#our-process-page1 ,
 		#behavior_look_and_feel,
 		#behaviour_page3,
-		#testings, #characteris, #scrum{
+		#testings, #characteris{
 			padding-top: 105px;
+			}
+		#scrum{
+			padding-top: 45px;
 			}
 		#our-process-page1 {
 			position: absolute;
@@ -1057,7 +1064,7 @@ left: 911px;
 	#bg4-blue-line-1 {
 		position: absolute;
 		top: 4665px;
-		left: 360px;
+		left: 363px;
 		z-index: -999;
 		}
 
@@ -1296,12 +1303,16 @@ left: 445px;
 		left: 30%!important;
 	}*/
 }
-@media (min-width: 1200px) {
-/*	#yellow_btn {
-	    position:absolute;
-top: 30%!important;
-left: -10%!important;
-	}*/
+@media (min-width: 1366px) {
+	.media_1366{
+		margin: 0 0 0 947px!important;
+	}
+	#behavior_look_and_feel .yellow_icon_hover_container{
+		right: 188px!important;
+	}
+	.blue_icon_hover_container_slide3 {
+		margin: -65px 0 0 990px;
+	}
 }
 @media (min-width: 1299px) {
 		.min-height-620 {

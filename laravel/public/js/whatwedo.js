@@ -10,7 +10,7 @@ $(document).ready(function()
 							//$( "#draghint" ).css({"left":leftVal});
 							}
 				});
-				$( "#draghint" ).position({
+				/*$( "#draghint" ).position({
 					my: " bottom",
 					at: " bottom",
 					of: "#drag"
@@ -29,5 +29,5 @@ $(document).ready(function()
 								y = 0;
 							}
 						}
-					}, 500);
+					}, 500);*/
 			});

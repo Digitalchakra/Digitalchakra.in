@@ -79,6 +79,7 @@ p{font-family:'HelveNueThin'!important;}
 .font_MyriadPro{font-family:'myriad_proregular'!important;}
 
 .w100{width: 92%;}
+.w100pr{width: 100%!important;}
 .margin_left{margin-left:150px;}
 .margin_right{margin-right: 150px;}
 .margin_top{margin-top: 80px;}
@@ -102,6 +103,7 @@ p{font-family:'HelveNueThin'!important;}
 .padding_top_disable{ padding-top:0!important;}
 
 .align_center{text-align: center;}
+.align_lft{text-align: left!important;}
 
 .body_bg{background: url(../img/header-bg.png)repeat;}
 .yellow{color: #fcc72a;}
@@ -122,7 +124,7 @@ p{font-family:'HelveNueThin'!important;}
 .lheight{line-height: 64px!important;}
 
 /******************************************************************  header  *************************************************************/
-.header-container{width: 100%; background: url(../img/header-bg.png)repeat; border-top: 3px solid #47c8f5; display: inline-block; }
+.header-container{width: 100%; border-top: 3px solid #47c8f5; display: inline-block; }
 .header-container header{width: 100%; line-height: 70px; }
 .logo_bg{background: url(../img/logo_bg-y.png) center top no-repeat ; height: 119px; margin-top: -3px; width: 330px;}
 .logo{height: 77px; text-indent: -999em; background: url(../img/digitalchakra-y.png) 50% 17px no-repeat ;  cursor: pointer; /*width: 326px; margin: 0 auto;*/
@@ -169,17 +171,17 @@ color: #000!important; background-color: transparent!important; font-weight: bol
 .boxes_hover_all:hover{opacity:1;}
 /******************************************************************  contacts *************************************************************/
 .border_top_blue{border-top:5px solid #47c8f5!important;}
-.map{height: 500px; width: 100%!important;}
+.map{height: 550px; width: 100%!important;}
 .contact_form{position: absolute; top:0; margin-left: 150px; margin-top: 100px; border: 1px solid #bababa; background-color: #fff; width:50%; padding:40px;}
 .write1{font-size: 26px; color:#b7b7b7;}
 .font_forte{font-family:'forteregular' arial!important; font-size: 48px; font-style: italic; font-weight: bold;}
 .font_segoe{font-family:'segoe_printregular'!important; font-size: 18px;}
 .text1, .text2 {width: 83%;}
-.text3{margin: 0px; width:84%; height: 32px;}
+.text3{margin: 0px; width:84%; height: 76px;}
 .text1, .text2, .text3{border-width: 0px 0px 1px; border-bottom-style: dotted; border-bottom-color: #000; color: #b7b7b7;}
 .btn_send{background: url(../img/sprites.png) -168px 0px no-repeat; width: 117px; height: 51px; border: 0px; text-indent: -9999px; cursor: pointer;}
 .btn_send:hover{background: url(../img/sprites.png) -287px 0px no-repeat; width: 117px; height: 51px; border: 0px; text-indent: -9999px; cursor: pointer;}
-
+.bg_white{background: #fff;}
 
 
 /******************************************************************  footer *************************************************************/

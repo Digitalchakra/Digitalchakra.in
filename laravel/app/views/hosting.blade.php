@@ -9,7 +9,7 @@
 							<input class="font34 color_gray font_HelveNue hosting_srh" type="text" placeholder="Enter the domain name you want to search">								
 						</div>
 						<nav class="col-md-3 m32 nav_bar">
-							<ul class="outer_ul font34 font_HelveNue select_srh color_gray">
+<!-- 							<ul class="outer_ul font34 font_HelveNue select_srh color_gray">
 								<li><a class="color_gray" href="#">.com<div id="down-triangle"></div></a>
 									<ul class="inner_ul">
 										<li><a href="#">.com<div class="circle"></div></a></li>
@@ -19,10 +19,21 @@
 										<li><a href="#">.org<div class="circle"></div></a></li>
 									</ul>
 								</li>
-							</ul>
+							</ul> -->
+							        <div class="btn-group w100pr">
+							            <button data-toggle="dropdown" class="btn btn-default dropdown-toggle p_left20 align_lft outer_ul font34 font_HelveNue select_srh color_gray">.COM <span class="caret caret_custom"></span></button>
+							            <ul class="dropdown-menu custom-dropdown-menu inner_ul color_gray w100pr color_gray font34 font_HelveNue">
+							                <li><a href="#">.com</a></li>
+							                <li><a href="#">.net</a></li>
+							                <li><a href="#">.in</a></li>
+							                <li><a href="#">.co.in</a></li>
+							                <li><a href="#">.org</a></li>
+							            </ul>
+							        </div>
 						</nav>	
 						<div class="col-md-2 m32 nav_bar srh_btn">
-							<input class="font34 font_HelveNue hosting_srh srch_btn" type="button" value="Search" >	
+							<!-- <input class="font34 font_HelveNue hosting_srh srch_btn" type="button" value="Search" > -->
+							<button type="button" class="btn btn-default btn-custom color_gray font34 font_HelveNue hosting_srh srch_btn">Search</button>	
 						</div>					
 					</div>
 				</div>
