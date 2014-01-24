@@ -4,14 +4,10 @@
 		<meta charset="utf-8">
 	</head>
 	<body>
-		<h2>Query From Digitalchakra</h2>
-
 		<div>
-			Sample messaeg dkjnd bhjntbknet ggoiej ,m oihjt ggkn klj 
-
-			ber
-			ber
-			
+			<h2>Name : {{ $name }}</h2>
+			<h3>Email : {{ $email }}</h3>
+			<h3>Description :</h3><p> {{ nlbr($message) }}</p>
 		</div>
 	</body>
 </html>

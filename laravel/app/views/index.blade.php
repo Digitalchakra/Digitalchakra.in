@@ -80,12 +80,26 @@
 
 						<div class="contact_form">
 							<div class="contact_bg">
-								{{ Form::open() }}
-									<p class="write1"><span class="blue">Write to us,</span> Lets start with  </p>
-									<p class="font_segoe"><span class="font_forte blue">Hi &#33; </span>I am <input class="text1" type="text" value=""></p>
-									<p class="font_segoe">My Email id is <input class="text2" type="text" value=""></p>
-									<p class="font_segoe">I would like to <textarea class="text3"></textarea></p><br>
-									<input id="contactSubmit" class="rightf btn_send" type="submit" value="SEND">
+								{{ Form::open(array('id'=>'contact_form')) }}
+									<p class="write1">
+										<span class="blue">Write to us,</span> 
+										Lets start with  
+									</p>
+									<p class="font_segoe">
+										<span class="font_forte blue">Hi &#33; </span>
+										I am 
+										<input name='dcname' class="text1" type="text" value="">
+									</p>
+									<p class="font_segoe">
+										My Email id is 
+										<input name='dcemail' class="text2" type="text" value="">
+									</p>
+									<p class="font_segoe">
+										I would like to 
+										<textarea name='dcmessage' class="text3"></textarea>
+									</p><br>
+									<span id="contact_error"></span>
+									<span id="contactSubmit" class="rightf btn_send" type="submit" value="SEND"></span>
 								{{ Form::close() }}
 							</div>
 						</div>
@@ -94,4 +108,5 @@
 			</div>
 
 		<!-- ----------------------- CONTACT End ----------------------- -->
+		<script src="js/index.js"></script>
 @stop
