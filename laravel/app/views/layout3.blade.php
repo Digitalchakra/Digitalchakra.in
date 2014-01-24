@@ -15,8 +15,9 @@
 		<!-- ----------------------- Bootstrap CSS --------------------- -->
 		<link rel="stylesheet" href="css/bootstrap.css" />
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-
-		
+		<script type="text/javascript" charset="utf-8" async defer>
+			baseurl= "{{ url()}}";
+		</script>		
 
 		
 

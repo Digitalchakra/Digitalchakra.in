@@ -5,7 +5,7 @@ $(document).ready(function() {
 		$('#contact_error').html('');
 		postData = $('#contact_form').serialize();
 		$.ajax({
-			url: '/email',
+			url: baseurl+'/email',
 			data:postData,
 			dataType:'JSON',
 			method:'POST',
