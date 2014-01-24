@@ -80,13 +80,13 @@
 
 						<div class="contact_form">
 							<div class="contact_bg">
-								<form>
+								{{ Form::open() }}
 									<p class="write1"><span class="blue">Write to us,</span> Lets start with  </p>
 									<p class="font_segoe"><span class="font_forte blue">Hi &#33; </span>I am <input class="text1" type="text" value=""></p>
 									<p class="font_segoe">My Email id is <input class="text2" type="text" value=""></p>
 									<p class="font_segoe">I would like to <textarea class="text3"></textarea></p><br>
-									<input class="rightf btn_send" type="submit" value="SEND">
-								</form>
+									<input id="contactSubmit" class="rightf btn_send" type="submit" value="SEND">
+								{{ Form::close() }}
 							</div>
 						</div>
 					</div>

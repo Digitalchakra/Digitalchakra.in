@@ -18,6 +18,7 @@
 		<link rel="stylesheet" href="css/common.css" />
 		<link rel="stylesheet" href="css/media.css" />
 		<link rel="stylesheet" href="css/bootstrap.css" />
+		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 
 	</head>
 

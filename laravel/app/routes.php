@@ -19,6 +19,7 @@
 
 //default controller
 Route::get('/', 'IndexController@index');
+Route::post('email', 'EmailController@index');
 
 //Resource Controllers
 
