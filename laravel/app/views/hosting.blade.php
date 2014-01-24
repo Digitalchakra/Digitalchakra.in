@@ -72,7 +72,7 @@
 						<h2 class="font_sans_bold dark_blue header_h2">EasySite DIFM Website</h4>
 						<div class="col-md-6">
 							<div class="col-md-12">
-								<div class="hosting_mail_img align_center">
+								<div class="difm_img align_center">
 								<span class="align_center"></span>
 								</div>
 							</div>

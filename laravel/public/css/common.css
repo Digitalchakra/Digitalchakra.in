@@ -41,6 +41,7 @@ color: #000!important; background-color: transparent!important; font-weight: bol
 .srch_btn{width: 192px; background: url(../img/sprites.png) 0px -247px no-repeat; color: #2d2d2d;}
 .srch_btn:hover{background:#f8f8f8;}
 .hosting_mail_img{background: url(../img/hosting_mail.png) top center no-repeat; text-align: center; height: 122px; }
+.difm_img{background: url(../img/hostin_difm.png) top center no-repeat; text-align: center; height: 122px; }
 .hosting_mail{width: 100%;}
 .cloud_mail_img{background: url(../img/hosting_cloud.png) top center no-repeat; text-align: center; height: 122px;}
 .rubee_img{margin: 0;}
