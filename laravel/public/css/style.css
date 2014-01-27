@@ -183,6 +183,7 @@ color: #000!important; background-color: transparent!important; font-weight: bol
 .btn_send:hover{background: url(../img/sprites.png) -287px 0px no-repeat; width: 117px; height: 51px; border: 0px; text-indent: -9999px; cursor: pointer;}
 .bg_white{background: #fff;}
 
+#contact_error{position: absolute;}
 
 /******************************************************************  footer *************************************************************/
 .social_media{ margin:20px 0 0; display: inline-block; padding: 0;}

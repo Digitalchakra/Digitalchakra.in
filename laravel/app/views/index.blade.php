@@ -2,7 +2,7 @@
 
 @section('content')
 			<div class="container">
-				<div class="row align_center padding_top padding_btm">
+				<div class="row align_center padding_btm">
 					<div class="col-lg-12 col-md-12">
 		        		<h1 class="f52">We are thought leaders in creating an entirely <br>new user experience through responsive <br>web design and emerging technologies.</h1>
 		        	</div>

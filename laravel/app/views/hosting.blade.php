@@ -6,7 +6,7 @@
 				<div class="container">
 					<div class="row">					
 						<div class="col-md-6 m32">						
-							<input class="font34 color_gray font_HelveNue hosting_srh" type="text" placeholder="Enter the domain name you want to search">								
+							<input class="font34 color_gray font_HelveNue hosting_srh" type="text" placeholder="Enter the domain name">								
 						</div>
 						<nav class="col-md-3 m32 nav_bar">
 <!-- 							<ul class="outer_ul font34 font_HelveNue select_srh color_gray">
@@ -50,7 +50,7 @@
 						<h2 class="font_sans_bold dark_blue header_h2">EasySite DIY Website</h4>
 						<div class="col-md-6">
 							<div class="col-md-12">
-								<div class="hosting_mail_img align_center">
+								<div class="diy_img align_center">
 								<span class="align_center"></span>
 								</div>
 							</div>

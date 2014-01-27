@@ -203,7 +203,11 @@ line-height: 24px;
 .scrum_border_btm{padding-bottom: 50px;}
 .blue{color: #47c7f5;}
 .f24{font-size: 24px!important; line-height: 34px!important;}
-
+.f16{font-size:16px!important; line-height:50px!important; color: #707070!important;}
+.fleft_p{float: left;}
+.fright_p{float: right;}
+.bg_000{background: #000;}
+.m_top6{margin: 6px 0 0 0;}
 
 /********************* slide 2 blinking button and text *******************************/
 .blue_icon{
