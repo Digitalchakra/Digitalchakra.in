@@ -62,8 +62,7 @@
 						<div class="row padding_disable">
 							<div class="">
 								<ul class="social_media_header">
-									<li><a class="top_fb" href="#">facebook</a></li>
-									<li><a class="top_fb" href="#">facebook</a></li>
+									<div class="fb-like" data-href="https://www.facebook.com/digitalchakra" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
 								</ul>
 								<ul class="social_media_header">
 									<li><a class="top_twit" href="#">twitter</a></li>

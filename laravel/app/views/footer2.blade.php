@@ -24,6 +24,15 @@
 		<script src="{{ URL::to('js/parallax.js') }}"></script>
 		<script src="{{ URL::to('js/ourprocess.js') }}"></script>
     	<script src="{{ URL::to('js/bootstrap.min.js') }}"></script>
+      <!-- facebook -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=278659298917414";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     	
 	</body>
   
