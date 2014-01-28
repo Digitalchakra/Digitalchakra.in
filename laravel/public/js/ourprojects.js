@@ -3,8 +3,8 @@ $(document).ready(function() {
 		/*maxWidth	: 800,
 		maxHeight	: 600,*/
 		fitToView	: false,
-		/*width		: '70%',
-		height		: '70%',*/
+		width		: '95%',
+		height		: '95%',
 		autoSize	: false,
 		closeClick	: false,
 		openEffect	: 'none',

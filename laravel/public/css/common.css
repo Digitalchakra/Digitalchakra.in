@@ -18,13 +18,14 @@ color: #000!important; background-color: transparent!important; font-weight: bol
 .pro_img{width:100%;}
 .pro_img1{background: url(../img/ezcv-project-page.jpg) no-repeat; width: 100%;}
 
-.light_box_container{width: 100%; height: 100%; background: url(../img/light-box-images/light-box-bg.png) repeat; top: 0; position: fixed; z-index: 99999;}
+.light_box_container{width: 100%;  top: 0; z-index: 99999;}
 .lbox_liks{margin: 33px 0 0 20px;}
 .lbox_liks:hover{color:#fcc72a; text-decoration: none; }
 .lbox_img_container{}
 .lbox_img_container img{width: 100%; background-size: contain;}
-.close_btn{background: url(../img/light-box-images/close.png) no-repeat; cursor: pointer; width: 32px; height: 32px; top: 15px; right: 15px; position: absolute;}
-.close_btn:hover{background: url(../img/light-box-images/close-hover.png) no-repeat;}
+.fancybox-skin{background: url(../css/fancybox/light-box-bg.png) repeat !important; background-color: transparent!important; opacity: 0.9;}
+.fancybox-close {width: 32px!important; height: 32px!important; background: url(../css/fancybox/close.png) !important;}
+.fancybox-close:hover{background: url(../css/fancybox/close-hover.png) !important;}
 
 /******************************************************************  about us  *********************************************************/
 .font15{font-size: 15px;}
