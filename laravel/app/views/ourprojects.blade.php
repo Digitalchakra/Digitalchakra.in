@@ -12,7 +12,7 @@
 					</div>
 					<div class="col-md-4 padding_disable">
 						 <a href="#">
-						 	<img class="pro_img border_top  border_btm border_rit"  href="{{ URL::to('our-projects/projectPage/2')}}" src="img/bindaas-project-page.jpg" onmouseover="this.src='img/bindaas-project-page-fancybox fancybox.ajax hover.jpg'" onmouseout="this.src='img/bindaas-project-page.jpg'"/>
+						 	<img class="pro_img border_top  border_btm border_rit"  href="{{ URL::to('our-projects/projectPage/2')}}" src="img/bindaas-project-page.jpg" onmouseover="this.src='img/bindaas-project-page-hover.jpg'" onmouseout="this.src='img/bindaas-project-page.jpg'"/>
 						 </a>				
 					</div>
 					<div class="col-md-4 padding_disable">
