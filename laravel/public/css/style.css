@@ -140,7 +140,7 @@ margin: -12px 0px 0px 40px;
 .f52{font-size: 52px!important;}
 .f_p32{font-size: 32px!important;}
 
-.social_media_container{position: absolute; top: 20px; right: 20px;}
+.social_media_container{position: absolute; top: 20px; right: 20px; z-index: 99999;}
 .social_media_header{padding:0 5px;}
 .social_media_header li{list-style: none; margin-bottom: 10px; cursor: pointer; display: block; float: left;}
 .top_fb{width: 54px; height: 54px; background: url(../img/sprites.png) -407px 0px no-repeat; padding: 19px 0; display: block; text-indent: -99999px;}
