@@ -69,8 +69,7 @@
 							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 								</ul>
 								<ul class="social_media_header">	
-									<li><a class="top_google" href="#">google+</a></li>
-									<li><a class="top_google" href="#">google+</a></li>
+									<div class="g-follow" data-annotation="bubble" data-height="24" data-href="//plus.google.com/112207697542385472127" data-rel="publisher"></div>
 								</ul>
 							</div>
 						</div>
