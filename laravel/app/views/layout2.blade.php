@@ -14,10 +14,10 @@
 		{{ HTML::style('css/common.css') }}
 		{{ HTML::style('css/media.css') }}
 		{{ HTML::style('css/bootstrap.css') }}-->
-		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="css/common.css" />
-		<link rel="stylesheet" href="css/media.css" />
-		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="{{ URL::to('css/style.css') }}" />
+		<link rel="stylesheet" href="{{ URL::to('css/common.css') }}" />
+		<link rel="stylesheet" href="{{ URL::to('css/media.css') }}" />
+		<link rel="stylesheet" href="{{ URL::to('css/bootstrap.css') }}" />
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" charset="utf-8" async defer>
 			baseurl= "{{ url()}}";

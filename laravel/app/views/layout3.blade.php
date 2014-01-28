@@ -7,13 +7,13 @@
 
 		<meta charset="utf-8" />
 		<meta name="description" content="" />
-		<link rel="icon" type="image/png" href="img/favicon.png">
+		<link rel="icon" type="image/png" href="{{ URL::to('img/favicon.png') }}">
 		
 		<!-- ----------------------- Prallax CSS --------------------- -->
-		<link rel="stylesheet" media="all" href="css/parallax.css" />
+		<link rel="stylesheet" media="all" href="{{ URL::to('css/parallax.css') }}" />
 		
 		<!-- ----------------------- Bootstrap CSS --------------------- -->
-		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="{{ URL::to('css/bootstrap.css') }}" />
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" charset="utf-8" async defer>
 			baseurl= "{{ url()}}";

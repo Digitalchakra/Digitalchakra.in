@@ -20,10 +20,10 @@
     </div>
 
         <!-- ----------------------- Prallax JS --------------------- -->
-		<script src="js/modernizr.custom.37797.js"></script> 
-		<script src="js/parallax.js"></script>
-		<script src="js/ourprocess.js"></script>
-    	<script src="js/bootstrap.min.js"></script>
+		<script src="{{ URL::to('js/modernizr.custom.37797.js') }}"></script> 
+		<script src="{{ URL::to('js/parallax.js') }}"></script>
+		<script src="{{ URL::to('js/ourprocess.js') }}"></script>
+    	<script src="{{ URL::to('js/bootstrap.min.js') }}"></script>
     	
 	</body>
   

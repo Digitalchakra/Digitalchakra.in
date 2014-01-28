@@ -108,5 +108,5 @@
 			</div>
 
 		<!-- ----------------------- CONTACT End ----------------------- -->
-		<script src="js/index.js"></script>
+		<script src="{{ URL::to('js/index.js') }}"></script>
 @stop

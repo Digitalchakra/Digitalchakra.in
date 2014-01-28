@@ -47,7 +47,7 @@
 				<div class="row">
 				<!-- hosting box 1 -->
 					<div class="col-md-6 m32">
-						<h2 class="font_sans_bold dark_blue header_h2">EasySite DIY Website</h4>
+						<h2 class="font_sans_bold dark_blue header_h2">EasySite DIY Website</h2>
 						<div class="col-md-6">
 							<div class="col-md-12">
 								<div class="diy_img align_center">
@@ -69,7 +69,7 @@
 					<!-- hosting box 2 -->
 
 					<div class="col-md-6 m32">
-						<h2 class="font_sans_bold dark_blue header_h2">EasySite DIFM Website</h4>
+						<h2 class="font_sans_bold dark_blue header_h2">EasySite DIFM Website</h2>
 						<div class="col-md-6">
 							<div class="col-md-12">
 								<div class="difm_img align_center">
@@ -92,7 +92,7 @@
 				<div class="row">
 				<!-- hosting box 3 -->
 					<div class="col-md-6 m32">
-						<h2 class="font_sans_bold dark_blue header_h2">Email hosting</h4>
+						<h2 class="font_sans_bold dark_blue header_h2">Email hosting</h2>
 						<div class="col-md-6">
 							<div class="col-md-12">
 								<div class="hosting_mail_img align_center">
@@ -120,7 +120,7 @@
 					<!-- hosting box 4 -->
 
 					<div class="col-md-6 m32">
-						<h2 class="font_sans_bold dark_blue header_h2">Cloud server</h4>
+						<h2 class="font_sans_bold dark_blue header_h2">Cloud server</h2>
 						<div class="col-md-6">
 							<div class="col-md-12">
 								<div class="cloud_mail_img align_center">

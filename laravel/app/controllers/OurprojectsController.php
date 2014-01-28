@@ -6,5 +6,9 @@ class OurprojectsController extends BaseController {
 	{
 		return View::make('ourprojects');
 	}
+	public function projectPage()
+	{
+		return View::make('ourprojects');
+	}
 
 }
