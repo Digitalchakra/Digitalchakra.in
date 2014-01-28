@@ -264,9 +264,9 @@ left: 5.7%;
 }
 .blue_i_hover > ul{
 	color: #fff;
-	padding: 10px 0;
-	background: #738089 ;
-	opacity: 0.8;
+	padding: 0 0 10px 0;
+	background: #636363 ;
+	opacity: 0.9;
 }
 .blue_i_hover > ul >li{
 	line-height: 30px;
@@ -328,11 +328,18 @@ left: 5.7%;
 }
 .yellow_i_hover > ul{
 	color: #fff;
-	padding: 10px 0;
-	background: #738089 ;
+	padding: 0 0 10px 0;
+	background: #636363 ;
+	opacity: 0.9;
 }
 .yellow_i_hover > ul >li{
 	line-height: 30px;
+}
+.yellow_i_hover h3{
+	margin: 0;
+	padding: 10px 20px;
+	background-color: #555;
+	border-bottom: 1px solid #444;
 }
 /********************* slide 3 blinking button and text *******************************/
 .blue_icon_button{
@@ -376,11 +383,17 @@ left: 170px;
 }
 .blue_i_hover > ul{
 	color: #fff;
-	padding: 10px 0;
-	background: #738089 ;
+	padding: 0 0 10px 0;
+	background: #636363 ;
 }
 .blue_i_hover > ul >li{
 	line-height: 30px;
+}
+.blue_i_hover h3 {
+margin: 0;
+padding: 10px 20px;
+background-color: #555;
+border-bottom: 1px solid #444;
 }
 /********************* slide 4 blinking button and text *******************************/
 .yellow_icon_button{
@@ -426,12 +439,18 @@ left: 87px;
 }
 .yellow_i_hover > ul{
 	color: #fff;
-	padding: 10px 0;
-	background: #738089 ;
-	opacity: 0.8;
+	padding: 0 0 10px 0;
+	background: #636363 ;
+	
 }
 .yellow_i_hover > ul >li{
 	line-height: 30px;
+}
+.yellow_i_hover h3 {
+	margin: 0;
+	padding: 10px 20px;
+	background-color: #555;
+	border-bottom: 1px solid #444;
 }
 /* Nav*****************************************************************/
 

@@ -33,7 +33,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h2 class="yellow leftf lheight">PROJECTS</h2>
-						<h2 class="rightf viewall_btn">View all</h2>
+						<h2 class="rightf viewall_btn" Request::is('our-projects') ><a href={{url("our-projects")}}>View all</a></h2>
 					</div>
 					<!-- <div class="col-md-4 col-md-offset-4">
 						

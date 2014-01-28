@@ -84,10 +84,10 @@
 						<!-- blue box cmd start -->
 							<div class="blue_icon_hover_container tip-box" style="display:none;">
 								<div class="blue_i_hover">
-									<h2>Lorem ipsum</h2>
 
-									<li class="arrow_right">&nbsp;</li>
+									<!-- <li class="arrow_right">&nbsp;</li> -->
 									<ul>
+										<li><h3>Lorem ipsum</h3></li>
 										<li>Lorem ipsum 1</li>
 										<li>Lorem ipsum 2</li>
 										<li>Lorem ipsum 3</li>
@@ -101,10 +101,11 @@
 						<div class="">
 							<div class="yellow_icon_hover_container" style="display:none;">
 								<div class="yellow_i_hover">
-									<h2>Lorem ipsum</h2>
+									
 
-									<li class="arrow_left">&nbsp;</li>
+									<!-- <li class="arrow_left">&nbsp;</li> -->
 									<ul>
+										<li><h3>Lorem ipsum</h3></li>
 										<li>Lorem ipsum 1</li>
 										<li>Lorem ipsum 2</li>
 										<li>Lorem ipsum 3</li>
@@ -151,10 +152,9 @@
 						<!-- blue box cmd start -->
 						<div class="blue_icon_hover_container_slide3" style="display:none;">
 							<div class="blue_i_hover">
-							<h2>Lorem ipsum</h2>
-
-							<li class="arrow_left">&nbsp;</li>
+						<!-- 	<li class="arrow_left">&nbsp;</li> -->
 							<ul>
+								<li><h3>Lorem ipsum</h3></li>
 								<li>Lorem ipsum 1</li>
 								<li>Lorem ipsum 2</li>
 								<li>Lorem ipsum 3</li>
@@ -192,10 +192,11 @@
 									<div class="yellow_slide4_line1"></div>
 									<div class="yellow_icon_hover_container_slide4" style="display:none;">
 										<div class="yellow_i_hover">
-										<h2>Lorem ipsum</h2>
+										
 
-										<li class="arrow_left">&nbsp;</li>
+										<!-- <li class="arrow_left">&nbsp;</li> -->
 										<ul>
+											<li><h3>Lorem ipsum</h3></li>
 											<li>Lorem ipsum 1</li>
 											<li>Lorem ipsum 2</li>
 											<li>Lorem ipsum 3</li>

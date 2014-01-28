@@ -14,17 +14,17 @@ $(document).ready(function() {
 				if(!result.success){
 					$.each(result.errors,function(key,value){
 						//error += error+'<p>'+index+'</p>';
-						$('#contact_error').append('<p>'+value+'</p>');
+						$('#contact_error').append('<p class="text-error">'+value+'</p>');
 					});
 					//alert(result.errors);
 				}
 				else
 				{
-					$('#contact_error').html('<p>Thank you !</p>');
+					$('#contact_error').html('<p class="text-success">Thank you !</p>');
 				}
 			},
 			error:function(){
-				$('#contact_error').html('<p>Internal error please after some time !</p>');
+				$('#contact_error').html('<p class="text-warning">Internal error please after some time !</p>');
 			}
 		});
 		

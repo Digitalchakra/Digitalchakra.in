@@ -78,6 +78,7 @@ p{font-family:'HelveNueThin'!important;}
 .font_sans_prolight{font-family:'source_sans_prolight'!important;}
 .font_MyriadPro{font-family:'myriad_proregular'!important;}
 
+.clearall{clear: both;}
 .w100{width: 92%;}
 .w100pr{width: 100%!important;}
 .margin_left{margin-left:150px;}
@@ -117,6 +118,9 @@ p{font-family:'HelveNueThin'!important;}
 .bg_blue{background: #47c8f5!important;}
 .bg_000{background: #000;}
 .bg_transparent{background:transparent!important;}
+.text-error{color: red;}
+.text-success{color: green;}
+.text-warning {color: #c09853;}
 
 .leftf{float: left;}
 .rightf{float: right;}
@@ -162,6 +166,8 @@ color: #000!important; background-color: transparent!important; font-weight: bol
 /******************************************************************  products *************************************************************/
 .border_top_yellow{border-top:5px solid #fcc72a;}
 .bg_333{background-color: #333333;}
+.viewall_btn a{text-decoration: none; color: #fff; border: none!important;}
+.viewall_btn a:hover{text-decoration: none; color: #fff; border: none!important;}
 .viewall_btn{background: url(../img/sprites.png) no-repeat; color: #fff; font-size: 28px; width: 166px; height: 51px; text-align: center; line-height: 55px; cursor: pointer;}
 .viewall_btn:hover{background: url(../img/sprites.png) -346px -144px no-repeat; font-size: 28px; width: 166px; height: 51px; text-align: center; line-height: 55px; cursor: pointer;}
 .border_top{border-top:1px solid #000!important; cursor: pointer;}
