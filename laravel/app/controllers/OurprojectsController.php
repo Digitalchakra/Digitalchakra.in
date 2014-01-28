@@ -6,9 +6,9 @@ class OurprojectsController extends BaseController {
 	{
 		return View::make('ourprojects');
 	}
-	public function projectPage()
+	public function projectPage($projectName)
 	{
-		return View::make('ourprojects');
+		return View::make('projectPage',array('projectName'=>$projectName,'projectLink'=>'http://ezcv.in'));
 	}
 
 }

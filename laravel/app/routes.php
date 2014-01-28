@@ -20,7 +20,7 @@
 //default controller
 Route::get('/', 'IndexController@index');
 Route::post('email', 'EmailController@index');
-Route::resource('our-projects/projectPage', 'OurprojectsController@projectPage');
+Route::get('our-projects/projectPage/{projectName}', 'OurprojectsController@projectPage');
 //Resource Controllers
 
 Route::resource('our-process', 'OurprocessController');
