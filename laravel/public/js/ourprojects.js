@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$(".pro_img").fancybox({
+	$(".boxes_img").fancybox({
 		/*maxWidth	: 800,
 		maxHeight	: 600,*/
 		fitToView	: false,

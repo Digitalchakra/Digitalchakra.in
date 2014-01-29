@@ -3,42 +3,18 @@
 @section('content')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('css/fancybox/jquery.fancybox.css') }}" media="screen" />
 <!-- ----------------------- PROJECTS Start ----------------------- -->	
-			<div class="padding_disable">
-				<div class="row padding_disable">
-					<div class="col-md-4 padding_disable">
-						 <a href="#">
-						 	<img class="pro_img border_top  border_btm border_rit" href="{{ URL::to('our-projects/projectPage/1')}}" src="img/ezcv-project-page.jpg" onmouseover="this.src='img/ezcv-project-page-hover.jpg'" onmouseout="this.src='img/ezcv-project-page.jpg'"/>
-						 </a>
+			<div class="row padding_disable">
+				@foreach ($projects as $key => $value)
+				<?php $images = unserialize($value->images); ?>
+					<div class="col-lg-4 col-md-4 padding_disable">
+							<img class="boxes_img boxes_hover_all boxes_img1 border_top border_btm border_rit" src="{{ URL::to('img/projects/'.$value->id.'/'.$images['I']) }}" alt="{{ $value->title }}" title="{{ $value->title }}" href="{{ URL::to('our-projects/projectPage/'.$value->id)}}">
 					</div>
-					<div class="col-md-4 padding_disable">
-						 <a href="#">
-						 	<img class="pro_img border_top  border_btm border_rit"  href="{{ URL::to('our-projects/projectPage/2')}}" src="img/bindaas-project-page.jpg" onmouseover="this.src='img/bindaas-project-page-hover.jpg'" onmouseout="this.src='img/bindaas-project-page.jpg'"/>
-						 </a>				
-					</div>
-					<div class="col-md-4 padding_disable">
-						 <a href="#">
-						 	<img class="pro_img border_top border_btm"  href="{{ URL::to('our-projects/projectPage/3')}}" src="img/oasis-project-page.jpg" onmouseover="this.src='img/oasis-project-page-hover.jpg'" onmouseout="this.src='img/oasis-project-page.jpg'"/>
-						 </a>				
-					</div>
-					<div class="col-md-4 padding_disable">
-						 <a href="#">
-						 	<img class="pro_img  border_rit"  href="{{ URL::to('our-projects/projectPage/4')}}" src="img/kvm-project-page.jpg" onmouseover="this.src='img/kvm-project-page-hover.jpg'" onmouseout="this.src='img/kvm-project-page.jpg'"/>
-						 </a>
-					</div>
-					<div class="col-md-4 padding_disable">
-						 <a href="#">
-						 	<img class="pro_img  border_rit"  href="{{ URL::to('our-projects/projectPage/5')}}" src="img/anabond-hsbutyl-project-page.jpg" onmouseover="this.src='img/anabond-hsbutyl-project-page-hover.jpg'" onmouseout="this.src='img/anabond-hsbutyl-project-page.jpg'"/>
-						 </a>				
-					</div>
-					<div class="col-md-4 padding_disable">
-						 <a href="#">
-						 	<img class="pro_img "  href="{{ URL::to('our-projects/projectPage/6')}}" src="img/kvm_group-project-page.jpg" onmouseover="this.src='img/kvm_group-project-page-hover.jpg'" onmouseout="this.src='img/kvm_group-project-page.jpg'"/>
-						 </a>					
-					</div>
-				</div>
+				@endforeach
+				
 			</div>
-			<script src="{{ URL::to('js/jquery.fancybox.pack.js')}}" type="text/javascript" charset="utf-8" async defer></script>
-			<script src="{{ URL::to('/js/ourprojects.js') }}" type="text/javascript" charset="utf-8" async defer>
+			<script src="{{ URL::to('js/jquery.fancybox.pack.js')}}" type="text/javascript" charset="utf-8">
+			</script>
+			<script src="{{ URL::to('js/ourprojects.js') }}" type="text/javascript" charset="utf-8">
 				
 			</script>
 

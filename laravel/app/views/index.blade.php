@@ -42,24 +42,12 @@
 			</div>
 			<div class="padding_disable bg_333">
 				<div class="row padding_disable">
-					<div class="col-lg-4 col-md-4 padding_disable">
-						<a href="#"><img class="boxes_img boxes_hover_all boxes_img1 border_top border_btm border_rit" src="img/ezcv.jpg" alt="" title=""></a>
-					</div>
-					<div class="col-lg-4 col-md-4 padding_disable">
-						<a href="#"><img class="boxes_img boxes_hover_all boxes_img2 border_top border_btm border_rit" src="img/bindaas.jpg" alt="" title=""></a>
-					</div>
-					<div class="col-lg-4 col-md-4 padding_disable">
-						<a href="#"><img class="boxes_img boxes_hover_all boxes_img3 border_top border_btm" src="img/oasis.jpg" alt="" title=""></a>
-					</div>
-					<div class="col-lg-4 col-md-4 padding_disable">
-						<a href="#"><img class="boxes_img boxes_hover_all boxes_img4 border_btm border_rit" src="img/kvm.jpg" alt="" title=""></a>
-					</div>
-					<div class="col-lg-4 col-md-4 padding_disable">
-						<a href="#"><img class="boxes_img boxes_hover_all boxes_img5 border_btm border_rit" src="img/anabond-hsbutyl.jpg" alt="" title=""></a>
-					</div>
-					<div class="col-lg-4 col-md-4 padding_disable">
-						<a href="#"><img class="boxes_img boxes_hover_all boxes_img6 border_btm" src="img/kvm-group.jpg" alt="" title=""></a>
-					</div>
+					@foreach ($projects as $key => $value)
+					<?php $images = unserialize($value->images); ?>
+						<div class="col-lg-4 col-md-4 padding_disable">
+								<img class="boxes_img boxes_hover_all boxes_img1 border_top border_btm border_rit" src="{{ URL::to('img/projects/'.$value->id.'/'.$images['I']) }}" alt="{{ $value->title }}" title="{{ $value->title }}" href="{{ URL::to('our-projects/projectPage/'.$value->id)}}">
+						</div>
+					@endforeach
 				</div>
 			</div>
 
@@ -108,5 +96,6 @@
 			</div>
 
 		<!-- ----------------------- CONTACT End ----------------------- -->
+		<script src="{{ URL::to('js/jquery.fancybox.pack.js')}}" type="text/javascript" charset="utf-8"></script>
 		<script src="{{ URL::to('js/index.js') }}"></script>
 @stop
