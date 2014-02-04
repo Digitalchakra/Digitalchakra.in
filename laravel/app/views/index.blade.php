@@ -1,6 +1,8 @@
 @extends('layout1')
 
 @section('content')
+<link rel="stylesheet" type="text/css" href="{{ URL::to('css/fancybox/jquery.fancybox.css') }}" media="screen" />
+
 			<div class="container">
 				<div class="row align_center padding_btm">
 					<div class="col-lg-12 col-md-12">
@@ -64,8 +66,7 @@
 			<div class="padding_disable">	
 				<div class="row padding_disable">
 					<div class="col-lg-12 padding_disable map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d485.84720717046525!2d80.24821965814768!3d13.049819963106827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeb6905de192bbbb2!2sDigital+Chakra!5e0!3m2!1sen!2s!4v1387267922359" width="100%" height="550" frameborder="0" style="border:0"></iframe>
-
+						<iframe width="100%" height="550" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=200362802844573744009.0004f17d964e4f6bd0f60&amp;ie=UTF8&amp;t=m&amp;f=d&amp;daddr=Digital+Chakra+%4013.049551,80.249009&amp;ll=13.051469,80.243282&amp;spn=0.003658,0.00456&amp;z=17&amp;iwloc=0004f17da192ca9e720c5&amp;output=embed"></iframe><br /><small class="view_map">View <a target="_blank" href="https://maps.google.com/maps/ms?msa=0&amp;msid=200362802844573744009.0004f17d964e4f6bd0f60&amp;ie=UTF8&amp;t=m&amp;f=d&amp;daddr=Digital+Chakra+%4013.049551,80.249009&amp;ll=13.051469,80.243282&amp;spn=0.003658,0.00456&amp;z=17&amp;iwloc=0004f17da192ca9e720c5&amp;source=embed" style="color:#0000FF;text-align:left">Digital Chakra</a> in a larger map</small>
 						<div class="contact_form">
 							<div class="contact_bg">
 								{{ Form::open(array('id'=>'contact_form')) }}

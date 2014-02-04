@@ -23,7 +23,7 @@ color: #000!important; background-color: transparent!important; font-weight: bol
 .lbox_liks:hover{color:#fcc72a; text-decoration: none; }
 .lbox_img_container{}
 .lbox_img_container img{width: 100%; background-size: contain;}
-.fancybox-skin{background: url(../css/fancybox/light-box-bg.png) repeat !important; background-color: transparent!important; opacity: 0.9;}
+.fancybox-skin{background: url(../css/fancybox/light-box-bg.png) repeat !important; background-color: transparent!important;}
 .fancybox-close {width: 32px!important; height: 32px!important; background: url(../css/fancybox/close.png) !important;}
 .fancybox-close:hover{background: url(../css/fancybox/close-hover.png) !important;}
 

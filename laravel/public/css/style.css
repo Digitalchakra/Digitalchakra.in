@@ -188,8 +188,12 @@ color: #000!important; background-color: transparent!important; font-weight: bol
 .btn_send{background: url(../img/sprites.png) -168px 0px no-repeat; width: 117px; height: 51px; border: 0px; text-indent: -9999px; cursor: pointer;}
 .btn_send:hover{background: url(../img/sprites.png) -287px 0px no-repeat; width: 117px; height: 51px; border: 0px; text-indent: -9999px; cursor: pointer;}
 .bg_white{background: #fff;}
-
+.view_map{position: absolute; bottom: 3%; right: 42%; font-weight: 700;}
+.view_map a{color: #47c8f5!important; font-size: 18px!important;}
+.view_map a:hover{color:#fcc72a!important; text-decoration: none; }
+.msiw .description font a{color: #47c8f5!important; font-weight: 700;}
 #contact_error{position: absolute;}
+#wizard{display: none!important;}
 
 /******************************************************************  footer *************************************************************/
 .social_media{ margin:20px 0 0; display: inline-block; padding: 0;}
