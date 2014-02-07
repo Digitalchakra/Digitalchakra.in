@@ -77,9 +77,9 @@
 	.logo {
 		height: 77px;
 		text-indent: -999em;
-		background: url(../img/digitalchakra-y.png) 43% 7px no-repeat;
+		background: url(../img/digitalchakra-y.png) 50% 7px no-repeat;
 		cursor: pointer;
-		width: 326px;
+		width: 267px;
 		margin: 0 auto;
 	}
 	#footer_id {
@@ -112,7 +112,7 @@
 	}
 	.navbar-nav {
 	float: left;
-	margin: 19px 40px!important;
+	margin: 19px 0px!important;
 	}
 	.navbar > .container .navbar-brand {
 	margin-left: -35px!important;

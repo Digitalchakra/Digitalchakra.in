@@ -113,6 +113,7 @@ p{
 	font-size: 24px; 
 	color: #000;
 }
+
 /* Page structure
 *****************************************************************/
 
@@ -170,7 +171,7 @@ margin:0px 58px 0 57px;}
 color: #000!important; background-color: transparent!important; font-weight: bold!important;}
 .navbar-custom .navbar-nav > li > a:hover{background-color: transparent!important; color: #47c8f5!important;}
 
-.navbar-nav {margin: 19px 40px!important;}
+.navbar-nav {margin: 19px 0px!important;}
 
 .navbar-default {border: none; border-color:none;}
 
@@ -485,6 +486,7 @@ nav#primary h1 {
 	white-space: nowrap;
 	background: transparent url('../img/nav-arrow.png') 100% 50% no-repeat;
 	font-size: 14px;
+	font-weight: bold;
 	}
 nav.next-prev {
 	margin: 20px 0 0 0;
@@ -1362,3 +1364,5 @@ left: 445px;
 		width: 1350px!important;
 	}
 }*/
+::selection {color:#fff;background:#fcc72a;}
+::-moz-selection {color:#fff;background:#fcc72a;}

@@ -5,7 +5,7 @@
 					<div class="row padding_top padding_btm">
 						<div class="col-md-12">
 							<h1 class="leftf colorfff font_HelveNue">{{$project->title}}</h1>
-							<a class="leftf lbox_liks blue font_HelveNue" href="{{$project->url}}">Goto Website</a>
+							<a class="leftf lbox_liks blue font_HelveNue" target="_blank" href="{{$project->url}}">Goto Website</a>
 						</div>
 						<div class="clearall">		
 						</div>

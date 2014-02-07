@@ -218,3 +218,6 @@ width: 15px;}
 .footer_links li{display: block;}
 .footer_links li a{font-size: 20px; color: #dbdbdb; text-decoration: none;}
 .footer_links li a:hover{color: #47c8f5;}
+
+::selection {color:#fff;background:#fcc72a;}
+::-moz-selection {color:#fff;background:#fcc72a;}

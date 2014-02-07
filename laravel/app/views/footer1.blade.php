@@ -37,7 +37,7 @@
 	        			<address class="office_address font_HelveNue">
 	        				<p># 578, Shree park, Sundar Road, Teynampet, Chennai - 600006</p>
 	        				<ul>
-								<li><a class="addr_font a_hover" href="mailto:querries@digitalchakra.in"><span class="mail-id"></span>querries@digitalchakra.in</a></li>
+								<li><a class="addr_font a_hover" href="mailto:queries@digitalchakra.in"><span class="mail-id"></span>queries@digitalchakra.in</a></li>
 								<li class="addr_font"><span class="phone"></span>+9144 2433 0401</li>
 								<li class="addr_font"><span class="phone"></span>+9144 24330402</li>
 	        				</ul>
