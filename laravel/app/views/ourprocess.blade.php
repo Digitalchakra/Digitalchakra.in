@@ -82,7 +82,7 @@
 							</div>							
 						</div>
 						<!-- blue box cmd start -->
-							<div class="blue_icon_hover_container tip-box" style="display:none;">
+							<div class="blue_icon_hover_container tipbox tip-box" style="display:none;">
 								<div class="blue_i_hover">
 
 									<!-- <li class="arrow_right">&nbsp;</li> -->
@@ -99,7 +99,7 @@
 
 						<!-- yellow box cmd start -->
 						<div class="">
-							<div class="yellow_icon_hover_container" style="display:none;">
+							<div class="yellow_icon_hover_container tipbox" style="display:none;">
 								<div class="yellow_i_hover">
 									
 
@@ -150,7 +150,7 @@
 						</div>
 
 						<!-- blue box cmd start -->
-						<div class="blue_icon_hover_container_slide3" style="display:none;">
+						<div class="blue_icon_hover_container_slide3 tipbox" style="display:none;">
 							<div class="blue_i_hover">
 						<!-- 	<li class="arrow_left">&nbsp;</li> -->
 							<ul>
@@ -190,7 +190,7 @@
 									<img id="yellow_btn_slide4" src="img/slide_2/yellow_btn.png" class="yellow_icon but-4-1" alt="icon">
 									<img id="yellow_btn_hover_slide4" src="img/slide_2/yellow_btn_hover.png" class="yellow_icon but-4-1" alt="icon">
 									<div class="yellow_slide4_line1"></div>
-									<div class="yellow_icon_hover_container_slide4" style="display:none;">
+									<div class="yellow_icon_hover_container_slide4 tipbox" style="display:none;">
 										<div class="yellow_i_hover">
 										
 
