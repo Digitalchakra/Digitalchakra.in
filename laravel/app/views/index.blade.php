@@ -26,7 +26,7 @@
 					<div class="col-lg-4 col-md-4">
 						<img class="boxes_img" src="img/our_designs.png" alt="" title="">
 						<!-- <div class="bg_shadow"></div> -->
-						<p class="f_p32 align_center color000">Our designs are not only creative and elegant but also provides interface for great user experience	</p>
+						<p class="f_p32 align_center color000">Creative and elegant designs, ensuring excellent user interface experiences</p>
 					</div>
 				</div>
 			</div>
@@ -34,7 +34,7 @@
 			<div class="container bg_333 border_top_yellow">
 				<div class="row">
 					<div class="col-md-12">
-						<h2 class="yellow leftf lheight">PROJECTS</h2>
+						<h2 class="yellow leftf lheight">OUR WORK</h2>
 						<h2 class="rightf viewall_btn" Request::is('our-projects') ><a href={{url("our-projects")}}>View all</a></h2>
 					</div>
 					<!-- <div class="col-md-4 col-md-offset-4">

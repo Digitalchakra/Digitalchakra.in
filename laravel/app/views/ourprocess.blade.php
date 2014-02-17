@@ -43,13 +43,14 @@
 						<div class="bottom_fix padding_disable">
 							<div class="row ">
 								<div class="col-md-5">
-									<p class="pg2_font text-alin-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet ipsum in venenatis. </p>
+									<p class="pg2_font text-alin-right">Building a new product or software can be a harrowing experience for any company or individual. The sheer number of items and parameters to take into consideration can make it look like a giant jigsaw puzzle.</p>
 								</div>
 								 <div class="col-md-2">
 									<a class="next behavior_look_and_feel center_align" href="#behavior_look_and_feel"></a>
 								</div>
 								<div class="col-md-5">
-									<p class="pg2_font text-alin-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet.</p>
+									<p class="pg2_font text-alin-left">Fortunately at Digital Chakra we have developed a cost effective and time tested process to tackle this problem. We breakdown the software to its elementary components, study and understand the individual components before bringing it all together in an elegant solution. System is broken down into:
+Behaviour, Characteristics and Look & feel</p>
 								</div>
 							</div>
 						</div>
@@ -120,13 +121,13 @@
 						<div class="bottom_fix padding_disable">
 							<div class="row ">
 								<div class="col-md-5">
-									<p class="pg2_font text-alin-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet ipsum in venenatis. </p>
+									<p class="pg2_font text-alin-right">Defines the functionality of the software system. These are the set of functionalities that help you achieve the desired business output from the software system such as making calculations, storing data, displaying reports etc. We develop the system design based on all the business functionalities a software system is required to perform.</p>
 								</div>
 								 <div class="col-md-2">
 									
 								</div>
 								<div class="col-md-5">
-									<p class="pg2_font text-alin-left m40">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet.</p>
+									<p class="pg2_font text-alin-left m40">This defines the non-functional aspects of the system as a whole. How safe is it? How reliable is it? How many users can use it at a time? These are some of the questions that are important to any business owner depending on a software system to run their business. By taking into account all these real life factors that affect the performance of the software system in various areas such as security, reliability, scalability, load etc we propose and implement a system architecture giving you the confidence required to run your business successfully.</p>
 								</div>
 							</div>
 

@@ -7,7 +7,7 @@
 	        		<article class="col-md-2">
 						<figure class="align_center">
 							<h1 @if (Request::is('/')) @endif><a href={{url("/")}}><img src="img/small_logo.png" alt="digital chakra" title="Digital Chakra" /></a></h1>
-							<p>&copy; Copyright 2013 <br>All Rights Reserved</p>
+							<p>&copy; Copyright 2014 <br>All Rights Reserved</p>
 						</figure>
 	        			
 	        		</article>
@@ -19,14 +19,15 @@
 									<ul class="footer_links font_HelveNue">
 										<li @if (Request::is('/')) @endif><a href={{url("/")}}>Big Picture</a></li>
 										<li @if (Request::is('what-we-do')) @endif><a href={{url("what-we-do")}}>What we do</a></li>
-										<li @if (Request::is('hosting')) @endif><a href={{url("hosting")}}>Hosting</a></li>
+										<li @if (Request::is('about-us')) @endif><a href={{url("about-us")}}>About Us</a></li>
+										<!-- <li @if (Request::is('hosting')) @endif><a href={{url("hosting")}}>Hosting</a></li> -->
 									</ul>
 								</div>
 								<div class="col-md-6">
 									<ul class="footer_links font_HelveNue">
 										<li @if (Request::is('our-process')) @endif><a href={{url("our-process")}}>Our Process</a></li>
 										<li @if (Request::is('our-projects')) @endif><a href={{url("our-projects")}}>Our Projects</a></li>
-										<li @if (Request::is('about-us')) @endif><a href={{url("about-us")}}>About Us</a></li>
+										
 									</ul>								
 								</div>
 							</div>
@@ -47,11 +48,11 @@
 	        		<article class="col-md-3">
 	        			<h2 class="blue">FIND US ON</h2>
 	        			<ul class="social_media">
-							<li><a class="google" href="#" target="_blank">google+</a></li>
-							<li><a class="facebook" href="https://www.facebook.com/digitalchakra" target="_blank">twitter</a></li>
-							<li><a class="linkedin" href="#" target="_blank">linkedin</a></li>
-							<li><a class="twitter" href="http://twitter.com/digitalchakra" target="_blank">facebook</a></li>
-							<li><a class="pintreast" href="#" target="_blank">behance</a></li>
+							<li><a class="google" href="https://plus.google.com/u/0/+DigitalchakraIn/posts" target="_blank">google+</a></li>
+							<li><a class="facebook" href="https://www.facebook.com/digitalchakra" target="_blank">facebook</a></li>
+							<li><a class="linkedin" href="http://www.linkedin.com/company/digitalchakra" target="_blank">linkedin</a></li>
+							<li><a class="twitter" href="http://twitter.com/digitalchakra" target="_blank">twitter</a></li>
+							<!-- <li><a class="pintreast" href="#" target="_blank">behance</a></li> -->
 		        		</ul>
 	        		</article>
 	        	</section>

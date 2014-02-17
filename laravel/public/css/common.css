@@ -62,7 +62,9 @@ color: #000!important; background-color: transparent!important; font-weight: bol
 .host_btn{ padding: 10px 15px; border: 1px solid #3dbde9; font-size: 16px; color: #fff;  display: inline-block; cursor: pointer;}
 .host_btn:hover{background-color: #42bfea!important; text-decoration: none; color: #fff}
 .mail_host{padding: 0;}
-.mail_host li{background:url(../img/blue_bullet.png) 0 17px no-repeat; list-style: none; padding-left: 20px;}
+.mail_host li{background:url(../img/blue_bullet.png) 0 13px no-repeat; list-style: none; padding-left: 20px;}
+.mail_host_white{padding: 0;}
+.mail_host_white li{background:url(../img/white_bullet.png) 0 13px no-repeat; list-style: none; padding-left: 20px;}
 .caret_custom{margin-top: 24px !important;     position: absolute!important;     right: 22px!important;}
 .btn-custom{padding:0!important;}
 .custom-dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus { color: #fff!important; text-decoration: none; background-color: #3dbde9!important; }

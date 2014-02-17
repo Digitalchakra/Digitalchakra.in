@@ -10,7 +10,7 @@
         <div class="row">
           <div class="col-md-12">
             <h1 @if (Request::is('/')) @endif class="f16">
-              <a href={{url("/")}}><img class="fleft_p m_top6" src="img/small_logo.png" alt="digital chakra" title="Digital Chakra" /></a>&nbsp; &copy; Copyright 2013   All Rights Reserved
+              <a href={{url("/")}}><img class="fleft_p m_top6" src="img/small_logo.png" alt="digital chakra" title="Digital Chakra" /></a>&nbsp; &copy; Copyright 2014   All Rights Reserved
             </h1>
             <!-- <p class="text-alin-left"> </p>
  -->          </div>
