@@ -9,6 +9,7 @@ $(document).ready(function() {
 			data:postData,
 			dataType:'JSON',
 			method:'POST',
+			async: false,
 			success:function(result){
 				error='';
 				if(!result.success){
