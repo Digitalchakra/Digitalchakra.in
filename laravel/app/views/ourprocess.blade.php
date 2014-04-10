@@ -13,7 +13,7 @@
 						<a class="behavior_look_and_feel" href="#behavior_look_and_feel"></a>
 					</li>
 					<li>
-						<h1>Behavior</h1>
+						<h1>Characteristics</h1>
 						<a class="behaviour_page3" href="#behaviour_page3"></a>
 					</li>
 					<li>
@@ -21,7 +21,7 @@
 						<a class="testings" href="#testings"></a>
 					</li>
 					<li>
-						<h1>Characteristics</h1>
+						<h1>Relationship</h1>
 						<a class="characteris" href="#characteris"></a>
 					</li>
 					<li>
@@ -37,10 +37,76 @@
 				<!-- page 1 -->
 				<article id="our-process-page1">
 					<div class="content_container">
-						<header>
+
+					<!-- Start responsive fix 350px to 990px -->
+					<div class="img_top20p img_top0 display_none display_none_350to990">								
+						<div class="w1060_header"></div>			
+						<div class="w1060_footer_fixed cnt_btm0">
+							<div class="col-md-5">
+								<p class="list-inline pg2_font text-alin-left tipbox_hide">Building a new product or software can be a harrowing experience for any company or  
+									<a href="#" class="click_read_more tipbox_click ">Read More >></a>
+									<span class="tipbox tipbox_show tip_abs1" style="display:none;">
+										<strong class="popbox_left_arrow"></strong>
+										Building a new product or software can be a harrowing experience for any company or individual. The sheer number of items and parameters to take into consideration can make it look like a giant jigsaw puzzle.
+									</span>
+								</p>									
+							</div>
+							 <!-- <div class="col-md-2">
+								<a class="next1 behavior_look_and_feel center_align" href="#behavior_look_and_feel"></a>
+							</div> -->
+							<div class="col-md-5">
+								<p class="list-inline pg2_font text-alin-left tipbox_hide">Fortunately at Digital Chakra we have developed a cost effective and time tested process 
+									<a href="#" class="click_read_more tipbox_click ">Read More >></a>
+									<span class="tipbox tipbox_show tip_abs2" style="display:none;">
+										<strong class="popbox_right_arrow"></strong>
+										Fortunately at Digital Chakra we have developed a cost effective and time tested process to tackle this problem. We breakdown the software to its elementary components, study and understand the individual components before bringing it all together in an elegant solution. System is broken down into:
+									Behaviour, Characteristics and Look & feel.
+									</span>
+								</p>
+							</div>
+						</div>
+						<img class="img_bg " src="img/slider_bg/slider1.png" alt="" />
+					</div>
+					<!-- End responsive fix 350px to 990px -->
+
+					<!-- Start responsive fix 990px to 1200px -->
+						<div class="img_top20p img_top0 display_none display_none_990to1200">	
+							<!-- <div class="img_slider1"></div> -->								
+							<div class="w1060_header"></div>			
+							<div class="w1060_footer_fixed cnt_btm0">
+								
+								<div class="col-md-5">
+									<p class="list-inline pg2_font text-alin-right tipbox_hide">Building a new product or software can be a harrowing experience for any company or  
+										<a href="#" class="click_read_more tipbox_click ">Read More >></a>
+										<span class="tipbox tipbox_show tip_abs1" style="display:none;">
+											<strong class="popbox_left_arrow"></strong>
+											Building a new product or software can be a harrowing experience for any company or individual. The sheer number of items and parameters to take into consideration can make it look like a giant jigsaw puzzle.
+										</span>
+									</p>									
+								</div>
+								 <div class="col-md-2">
+									<a class="next1 behavior_look_and_feel center_align" href="#behavior_look_and_feel"></a>
+								</div>
+								<div class="col-md-5">
+									<p class="list-inline pg2_font text-alin-left tipbox_hide">Fortunately at Digital Chakra we have developed a cost effective and time tested process 
+										<a href="#" class="click_read_more tipbox_click ">Read More >></a>
+										<span class="tipbox tipbox_show tip_abs2" style="display:none;">
+											<strong class="popbox_right_arrow"></strong>
+											Fortunately at Digital Chakra we have developed a cost effective and time tested process to tackle this problem. We breakdown the software to its elementary components, study and understand the individual components before bringing it all together in an elegant solution. System is broken down into:
+										Behaviour, Characteristics and Look & feel.
+										</span>
+									</p>
+								</div>
+
+							</div>
+							<img class="img_bg " src="img/slider_bg/slider1.png" alt="" />
+						</div>
+						<!-- End responsive fix 990px to 1200px -->
+
+						<header class="display_none_w1060">
 							<h1>&nbsp;</h1>
 						</header>
-						<div class="bottom_fix padding_disable">
+						<div class="bottom_fix padding_disable display_none_w1060">
 							<div class="row ">
 								<div class="col-md-5">
 									<p class="list-inline pg2_font text-alin-right tipbox_hide">Building a new product or software can be a harrowing experience for any company or individual. The sheer number of items and 
@@ -88,10 +154,91 @@
 
 				<article id="behavior_look_and_feel">
 					<div class="content_container min-height-620">
-						<header>
+
+					<!-- Start responsive fix 350px to 990px -->
+					<div class="img_top20p display_none display_none_350to990">								
+						<div class="w1060_header"></div>			
+						<div class="w1060_footer_fixed">
+							<div class="row m_top137">
+								<div class="col-md-12">	
+									<div class="col-md-3">
+										<img class="slide2_img1" src="img/slide_3/boy_blue_left.png" alt="" title=""/>
+										<img class="slide2_img2" src="img/slide_2/behavior.png" alt="" title=""/>
+									</div>
+									<div class="col-md-9">								
+										<p class="cnt1_w350 pg2_font text-alin-right tipbox_hide">Defines the functionality of the software system. These are the set 
+											<a href="javascript:void(0);" class="click_read_more tipbox_click ">Read More >></a>
+											<span class="tipbox tipbox_show tip_abs3" style="display:none;">
+												<strong class="popbox_left_arrow"></strong>
+												Defines the functionality of the software system. These are the set of functionalities that help you achieve the desired business output from the software system such as making calculations, storing data, displaying reports etc. We develop the system design based on all the business functionalities a software system is required to perform.
+											</span>
+										</p>									
+									</div>										
+								</div>
+							</div>	<br/><br/><br/>
+
+							<div class="row">
+								<div class="col-md-12">	
+									<div class="col-md-3">
+										<img class="slide2_img3" src="img/slide_2/look&feel.png" alt="" title=""/>
+										<img class="slide2_img4" src="img/slide_2/boy_yellow.png" alt="" title=""/>
+									</div>
+									<div class="col-md-9">								
+										<p class="cnt2_w350 pg2_font text-alin-left tipbox_hide m40">Most crucial component of any system. As the name suggests this 
+										<a href="javascript:void(0);" class="click_read_more tipbox_click ">Read More >></a>
+										<span class="tipbox tipbox_show tip_abs4" style="display:none;">
+											<strong class="popbox_right_arrow"></strong>
+											Most crucial component of any system. As the name suggests this is what the users see when using the software system. If it works as advertised and performs brilliantly, wouldn't it be great if it also looked stunning and was easy to use? Today with the plethora of devices and screens it is imperative to provide a uniform and pleasing experience to the users irrespective of the device they use to access the system. Through custom built apps for mobiles, tablets and desktops as well as responsive designs for websites we ensure compelling user experiences irrespective of the platform.
+										</span>
+										</p>									
+									</div>										
+								</div>								
+							</div>	
+						</div>
+						<img class="img_bg" src="img/slider_bg/slider2.png" alt="" />
+					</div>
+					<!-- End responsive fix 350px to 990px -->
+
+					<!-- Start responsive fix 990px to 1200px -->
+						<div class="img_top20p display_none display_none_990to1200">			
+							<div class="w1060_header"></div>			
+							<div class="w1060_footer_fixed">
+								<div class="row m_top137">
+									<div class="col-md-5">									
+										<p class="pg2_font text-alin-right tipbox_hide">Defines the functionality of the software system. These are the set of functionalities that help you achieve 
+											<a href="javascript:void(0);" class="click_read_more tipbox_click ">Read More >></a>
+											<span class="tipbox tipbox_show tip_abs3" style="display:none;">
+												<strong class="popbox_left_arrow"></strong>
+												Defines the functionality of the software system. These are the set of functionalities that help you achieve the desired business output from the software system such as making calculations, storing data, displaying reports etc. We develop the system design based on all the business functionalities a software system is required to perform.
+											</span>
+										</p>										
+									</div>
+									 <div class="col-md-2">
+										<img class="slide2_img1" src="img/slide_2/boy_blue.png" alt="" title=""/>
+										<img class="slide2_img2" src="img/slide_2/behavior.png" alt="" title=""/>
+										<img class="slide2_img3" src="img/slide_2/look&feel.png" alt="" title=""/>
+										<img class="slide2_img4" src="img/slide_2/boy_yellow.png" alt="" title=""/>
+									</div>
+									<div class="col-md-5">
+									
+										<p class="pg2_font text-alin-left tipbox_hide m40">Most crucial component of any system. As the name suggests this is what the users
+											<a href="javascript:void(0);" class="click_read_more tipbox_click ">Read More >></a>
+											<span class="tipbox tipbox_show tip_abs4" style="display:none;">
+												<strong class="popbox_right_arrow"></strong>
+												Most crucial component of any system. As the name suggests this is what the users see when using the software system. If it works as advertised and performs brilliantly, wouldn't it be great if it also looked stunning and was easy to use? Today with the plethora of devices and screens it is imperative to provide a uniform and pleasing experience to the users irrespective of the device they use to access the system. Through custom built apps for mobiles, tablets and desktops as well as responsive designs for websites we ensure compelling user experiences irrespective of the platform.
+											</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<img class="img_bg" src="img/slider_bg/slider2.png" alt="" />
+						</div>
+						<!-- End responsive fix 990px to 1200px -->
+
+						<header class="display_none_w1060">
 							<h1>&nbsp;</h1>
 						</header>
-						<div class="blue_icon_button">							
+						<div class="blue_icon_button  display_none_w1060">							
 							<div class="col-md-12">
 								<!-- Start -->
 									<img id="blue_btn" src="img/slide_2/blue_btn.png" class="blue_icon but-2-1 opt-anc" alt="icon">
@@ -100,7 +247,7 @@
 								<!-- End -->
 							</div>							
 						</div>
-						<div class="yellow_icon_button media_1366">							
+						<div class="yellow_icon_button media_1366  display_none_w1060">							
 							<div class="col-md-12">
 								<!-- Start -->
 									<img id="yellow_btn" src="img/slide_2/yellow_btn.png" class="yellow_icon but-2-2" alt="icon">
@@ -110,7 +257,7 @@
 							</div>							
 						</div>
 						<!-- blue box cmd start -->
-							<div class="blue_icon_hover_container tipbox tip-box" style="display:none;">
+							<div class="blue_icon_hover_container tipbox tip-box  class="display_none_w1060"" style="display:none;">
 								<div class="blue_i_hover">
 
 									<!-- <li class="arrow_right">&nbsp;</li> -->
@@ -126,7 +273,7 @@
 						<!-- blue box cmd end -->
 
 						<!-- yellow box cmd start -->
-						<div class="">
+						<div class="display_none_w1060">
 							<div class="yellow_icon_hover_container tipbox" style="display:none;">
 								<div class="yellow_i_hover">
 									
@@ -145,7 +292,7 @@
 						<!-- yellow box cmd end -->
 
 						<!-- bottom cmd -->
-						<div class="bottom_fix padding_disable">
+						<div class="bottom_fix padding_disable display_none_w1060">
 							<div class="row m_top137">
 								<div class="col-md-5">
 									<!-- <p class="pg2_font text-alin-right tipbox_hide">Defines the functionality of the software system. These are the set of functionalities that help you achieve the desired business output from the software system such as making calculations, storing data, displaying reports etc. We develop the system design based on all the business functionalities a software system is required to perform.</p>
@@ -177,13 +324,71 @@
 						</div>
 					</div>
 				</article>
+
 				<!-- page 3 -->
+
 				<article id="behaviour_page3">
 					<div class="content_container min-height-620">
-						<header>
+
+					<!-- Start responsive fix 350px to 990px -->
+					<div class="img_top20p display_none display_none_350to990">								
+						<div class="w1060_header"></div>			
+						<div class="w1060_footer_fixed">
+							<div class="row m_top137">
+								<div class="col-md-12">	
+									<div class="col-md-3">
+										<img class="slide2_img1" src="img/slide_3/boy_blue_left.png" alt="" title=""/>
+										<img class="slide2_img2" src="img/slide_5/character-icon.png" alt="" title=""/>
+									</div>
+									<div class="col-md-9">											
+										<p class="cnt1_w350 slide3_cnt1 pg2_font text-alin-left tipbox_hide p45">This defines the non-functional aspects of the system as a whole. How safe is it? 
+											<a href="javascript:void(0);" class="click_read_more tipbox_click ">Read More >></a>
+											<span class="tipbox tipbox_show tip_abs5" style="display:none;">
+												<strong class="popbox_right_arrow"></strong>
+												This defines the non-functional aspects of the system as a whole. How safe is it? How reliable is it? How many users can use it at a time? These are some of the questions that are important to any business owner depending on a software system to run their business. By taking into account all these real life factors that affect the performance of the software system in various areas such as security, reliability, scalability, load etc we propose and implement a system architecture giving you the confidence required to run your business successfully.
+											</span>
+										</p>								
+									</div>										
+								</div>
+							</div>
+
+								
+						</div>
+						<img class="img_bg" src="img/slider_bg/slider3.png" alt="" />
+					</div>
+					<!-- End responsive fix 350px to 990px -->
+
+
+					<!-- Start responsive fix 990px to 1200px -->
+						<div class="img_top20p display_none display_none_990to1200">			
+							<div class="w1060_header"></div>			
+							<div class="w1060_footer_fixed">
+								<div class="row m_top137">
+									<div class="col-md-4">
+								    </div>
+									<div class="col-md-2">
+										<img class="slide3_img1"  src="img/slide_3/boy_blue_left.png" alt="Digitalchakra" tilte="Characteristics" />
+										<img class="slide3_img2"  src="img/slide_5/character-icon.png" alt="Digitalchakra" tilte="Characteristics" />
+								    </div>
+									<div class="col-md-6">
+										<p class="slide3_cnt1 pg2_font text-alin-left tipbox_hide p45">This defines the non-functional aspects of the system as a whole. How safe is it? How reliable is it? How many users can use
+											<a href="javascript:void(0);" class="click_read_more tipbox_click ">Read More >></a>
+											<span class="tipbox tipbox_show tip_abs5" style="display:none;">
+												<strong class="popbox_right_arrow"></strong>
+												This defines the non-functional aspects of the system as a whole. How safe is it? How reliable is it? How many users can use it at a time? These are some of the questions that are important to any business owner depending on a software system to run their business. By taking into account all these real life factors that affect the performance of the software system in various areas such as security, reliability, scalability, load etc we propose and implement a system architecture giving you the confidence required to run your business successfully.
+											</span>
+										</p>
+									</div>
+								</div>							
+							</div>
+							<img class="img_bg" src="img/slider_bg/slider3.png" alt="Digitalchakra"  title="" />
+						</div>
+				<!-- End responsive fix 990px to 1200px -->
+
+						<header class="display_none_w1060">
 							<h1>&nbsp;</h1>
 						</header>
-						<div class="blue_icon_button">							
+						<div class="blue_icon_button display_none_w1060">							
 							<div class="col-md-12">
 								<!-- Start -->
 									<img id="slide3_blue_btn" src="img/slide_2/blue_btn.png" class="blue_icon but-3-1" alt="icon">
@@ -193,7 +398,7 @@
 						</div>
 
 						<!-- blue box cmd start -->
-						<div class="blue_icon_hover_container_slide3 tipbox" style="display:none;">
+						<div class="blue_icon_hover_container_slide3 tipbox display_none_w1060" style="display:none;">
 							<div class="blue_i_hover">
 						<!-- 	<li class="arrow_left">&nbsp;</li> -->
 							<ul>
@@ -207,7 +412,7 @@
 						</div>
 						<!-- blue box cmd end -->
 
-						<div class="bottom_fix padding_disable">
+						<div class="bottom_fix padding_disable display_none_w1060">
 							<div class="row m_top137">
 								<div class="col-md-4">
 									<!-- <p class="pg2_font text-alin-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet ipsum in venenatis. </p>
@@ -227,14 +432,95 @@
 						</div>		
 					</div>
 				</article>
+
 				<!-- page 4 -->
 				<article id="testings">
 					<div class="content_container min-height-620">
-						<header>
+
+					<!-- Start responsive fix 350px to 990px -->
+					<div class="img_top20p display_none display_none_350to990">								
+						<div class="w1060_header"></div>			
+						<div class="w1060_footer_fixed">
+							<div class="row m_top137">
+								<div class="col-md-12">	
+									<div class="col-md-3">
+										<img class="slide2_img1" src="img/slide_3/boy_blue_left.png" alt="" title=""/>
+										<img class="slide2_img2" src="img/slide_4/design_development.png" alt="" title=""/>
+									</div>
+									<div class="col-md-9">
+										<p class="cnt1_w350 pg2_font text-alin-right tipbox_hide">Each component of the software system is designed/developed/architected
+											<a href="javascript:void(0);" class="click_read_more tipbox_click ">Read More >></a>
+											<span class="tipbox tipbox_show tip_abs6" style="display:none;">
+												<strong class="popbox_left_arrow"></strong>
+												Each component of the software system is designed/developed/architected to meet our highest standard. A team of programmers develop the desired functionalities as per the need, while our Technical Architects propose a system architecture based on the challenges the system must tackle when live. The look and feel of the system is taken care of by a highly creative team of UI & UX experts to bring the software system alive.
+											</span>
+										</p>									
+									</div>										
+								</div>
+							</div>	<br/><br/><br/>
+
+							<div class="row">
+								<div class="col-md-12">	
+									<div class="col-md-3">
+										<img class="slide2_img3" src="img/slide_4/quality_assurance.png" alt="" title=""/>
+										<img class="slide2_img4" src="img/slide_2/boy_yellow.png" alt="" title=""/>
+									</div>
+									<div class="col-md-9">
+										<p class="cnt2_w350 pg2_font text-alin-left tipbox_hide m40">Each individual component is tested individually to ensure it works and meets
+											<a href="javascript:void(0);" class="click_read_more tipbox_click ">Read More >></a>
+											<span class="tipbox tipbox_show tip_abs7" style="display:none;">
+												<strong class="popbox_right_arrow"></strong>
+												Each individual component is tested individually to ensure it works and meets our highest standard before being assembled. Once assembled the system as a whole is again tested to ensure that the final product meets the clients business need and is capable of performing reliably in a real world scenario. At each stage the clients feedback is taken into careful consideration to ensure their satisfaction with the product and also our process. Once the software system is approved by the client we deploy the solution for the client ensuring a hassle free experience for the client.
+											</span>
+										</p>								
+									</div>										
+								</div>								
+							</div>	
+						</div>
+						<img class="img_bg" src="img/slider_bg/slider4.png" alt="" />
+					</div>
+					<!-- End responsive fix 350px to 990px -->
+
+					<!-- Start responsive fix 990px to 1200px -->
+						<div class="img_top20p display_none display_none_990to1200">			
+							<div class="w1060_header"></div>			
+							<div class="w1060_footer_fixed">
+								<div class="row m_top137">
+									<div class="col-md-5">
+										<p class="pg2_font text-alin-right tipbox_hide">Each component of the software system is designed/developed/architected
+											<a href="javascript:void(0);" class="click_read_more tipbox_click ">Read More >></a>
+											<span class="tipbox tipbox_show tip_abs6" style="display:none;">
+												<strong class="popbox_left_arrow"></strong>
+												Each component of the software system is designed/developed/architected to meet our highest standard. A team of programmers develop the desired functionalities as per the need, while our Technical Architects propose a system architecture based on the challenges the system must tackle when live. The look and feel of the system is taken care of by a highly creative team of UI & UX experts to bring the software system alive.
+											</span>
+										</p>
+										
+									</div>
+									 <div class="col-md-2">
+										<img class="slide2_img1" src="img/slide_2/boy_blue.png" alt="" title=""/>
+										<img class="slide4_img1" src="img/slide_4/design_development1.png" alt="" title=""/>
+										<img class="slide4_img2" src="img/slide_4/quality_assurance1.png" alt="" title=""/>
+										<img class="slide4_img3" src="img/slide_2/boy_yellow.png" alt="" title=""/>
+									</div>
+									<div class="col-md-5">
+										<p class="cnt_1160 pg2_font text-alin-left tipbox_hide m40">Each individual component is tested individually to ensure it works and meets
+											<a href="javascript:void(0);" class="click_read_more tipbox_click ">Read More >></a>
+											<span class="tipbox tipbox_show tip_abs7" style="display:none;">
+												<strong class="popbox_right_arrow"></strong>
+												Each individual component is tested individually to ensure it works and meets our highest standard before being assembled. Once assembled the system as a whole is again tested to ensure that the final product meets the clients business need and is capable of performing reliably in a real world scenario. At each stage the clients feedback is taken into careful consideration to ensure their satisfaction with the product and also our process. Once the software system is approved by the client we deploy the solution for the client ensuring a hassle free experience for the client.
+											</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<img class="img_bg" src="img/slider_bg/slider4.png" alt="Digitalchakra"  title="" />
+						</div>
+					<!-- End responsive fix 990px to 1200px -->
+						<header class="display_none_w1060">
 							<h1>&nbsp;</h1>
 						</header>
 
-						<div class="yellow_icon_button">							
+						<div class="yellow_icon_button display_none_w1060">							
 							<div class="col-md-12">
 								<!-- Start -->
 									<img id="yellow_btn_slide4" src="img/slide_2/yellow_btn.png" class="yellow_icon but-4-1" alt="icon">
@@ -258,7 +544,7 @@
 							</div>							
 						</div>
 
-						<div class="bottom_fix padding_disable">
+						<div class="bottom_fix padding_disable display_none_w1060">
 							<div class="row m_top137">
 								<div class="col-md-5">
 									<p class="pg2_font text-alin-right tipbox_hide">Each component of the software system is designed/developed/architected to meet our highest standard. A team of programmers develop 
@@ -271,7 +557,6 @@
 									
 								</div>
 								 <div class="col-md-2">
-									
 								</div>
 								<div class="col-md-5">
 									<p class="pg2_font text-alin-left tipbox_hide m40">Each individual component is tested individually to ensure it works and meets our highest standard before being assembled.
@@ -284,24 +569,75 @@
 								</div>
 							</div>
 						</div>	
-						<!-- <nav class="next-prev">
-							<a class="prev behaviour_page3" href="#behaviour_page3">Prev</a>
-							
-						</nav> -->
 					</div>
 				</article>
+
 				<!-- page 5 -->
 				<article id="characteris">
 					<div class="content_container min-height-620">
-						<header>
+
+					<!-- Start responsive fix 350px to 990px -->
+					<div class="img_top20p display_none display_none_350to990">								
+						<div class="w1060_header"></div>			
+						<div class="w1060_footer_fixed">
+							<div class="row m_top137">
+								<div class="col-md-12">	
+									<div class="col-md-3">
+										<img class="slide5_img1" src="img/slide_5/ball.png" alt="" title=""/>
+										<img class="slide5_img2" src="img/slide_5/relationship.png" alt="" title=""/>
+									</div>
+									<div class="col-md-9">	
+										<p class="cnt3_w350 slide3_cnt1 pg2_font text-alin-left tipbox_hide p45">Post Implementation Warranty - We are quite confident of our development process 
+											<a href="javascript:void(0);" class="click_read_more tipbox_click ">Read More >></a>
+											<span class="tipbox tipbox_show tip_abs8" style="display:none;">
+												<strong class="popbox_right_arrow"></strong>
+												Post Implementation Warranty - We are quite confident of our development process and technological prowess and provide a warranty period for all software based on the type of product or service.<br><br>
+												Software Enhancements & Support - Making changes and enhancements is never a problem with our Enhancement & support engagement plans helping you keep up with changing times and market scenarios.<br><br>
+												Server Support & Maintenance - Server maintenance on the cloud or on premise? Not a problem. Be it backups, scheduled performance maintenance jobs or tuning your server for optimum performance we have got it covered for you.
+											</span>
+										</p>								
+									</div>										
+								</div>
+							</div>
+						</div>
+						<img class="img_bg" src="img/slider_bg/slider5.png" alt="" />
+					</div>
+					<!-- End responsive fix 350px to 990px -->
+
+
+					<!-- Start responsive fix 990px to 1200px -->
+						<div class="img_top20p display_none display_none_990to1200">			
+							<div class="w1060_header"></div>			
+							<div class="w1060_footer_fixed">
+								<div class="row m_top137">								
+									<div class="col-md-4">										
+										<img class="slide5_img1" src="img/slide_5/ball.png" alt="" title=""/>
+										<img class="slide5_img2" src="img/slide_5/relationship.png" alt="" title=""/>
+									</div>
+									<div class="col-md-6">
+										<p class="pg2_font text-alin-left tipbox_hide p45">Post Implementation Warranty - We are quite confident of our development process and technological prowess and provide a warranty
+											<a href="javascript:void(0);" class="click_read_more tipbox_click ">Read More >></a>
+											<span class="tipbox tipbox_show tip_abs8" style="display:none;">
+												<strong class="popbox_right_arrow"></strong>
+												Post Implementation Warranty - We are quite confident of our development process and technological prowess and provide a warranty period for all software based on the type of product or service.<br><br>
+												Software Enhancements & Support - Making changes and enhancements is never a problem with our Enhancement & support engagement plans helping you keep up with changing times and market scenarios.<br><br>
+												Server Support & Maintenance - Server maintenance on the cloud or on premise? Not a problem. Be it backups, scheduled performance maintenance jobs or tuning your server for optimum performance we have got it covered for you.
+											</span>
+										</p>				
+									</div>
+								</div>
+							</div>
+							<img class="img_bg" src="img/slider_bg/slider5.png" alt="Digitalchakra"  title="" />
+						</div>
+					<!-- End responsive fix 990px to 1200px -->
+						<header class="display_none_w1060">
 							<h1>&nbsp;</h1>
 						</header>
 
-						<div class="bottom_fix padding_disable">
+						<div class="bottom_fix padding_disable display_none_w1060">
 							<div class="row m_top137">								
 								<div class="col-md-4">
-									<!-- <p class="pg2_font text-alin-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel euismod sem. Suspendisse laoreet sit amet ipsum in venenatis. </p>
- -->							</div>
+								</div>
 								<div class="col-md-6">
 									<p class="pg2_font text-alin-left tipbox_hide p45">Post Implementation Warranty - We are quite confident of our development process and technological prowess and provide a warranty
 										<a href="javascript:void(0);" class="click_read_more tipbox_click ">Read More >></a>
@@ -347,15 +683,15 @@
 			<!-- ----------------------- Content End ----------------------- -->	
 			<!-- -------------------  Parallax background ------------------ -->
 			<div id="parallax-bg3">
-				<img id="bg3-1" src="img/slide_1/slider1_bg.png" width="1257" height="768" alt=""/>
-				<img id="bg3-2" src="img/slide_2/slider2_bg.png" width="1257" height="718" alt=""/>
-				<img id="bg3-3" src="img/slide_3/slider3_bg.png" width="1257" height="768" alt=""/>
-				<img id="bg3-4" src="img/slide_4/slider4_bg.png" width="1257" height="768" alt=""/>				
-				<img id="bg3-5" src="img/slide_5/slider5_bg.png" width="1257" height="768" alt=""/>			
+				<img id="bg3-1" src="img/slide_1/slider1_bg.png" class="display_none_w1060" width="1257" height="768" alt=""/>
+				<img id="bg3-2" src="img/slide_2/slider2_bg.png" class="display_none_w1060" width="1257" height="718" alt=""/>
+				<img id="bg3-3" src="img/slide_3/slider3_bg.png" class="display_none_w1060" width="1257" height="768" alt=""/>
+				<img id="bg3-4" src="img/slide_4/slider4_bg.png" class="display_none_w1060" width="1257" height="768" alt=""/>				
+				<img id="bg3-5" src="img/slide_5/slider5_bg.png" class="display_none_w1060" width="1257" height="768" alt=""/>			
 			</div>
 			
 			<!-- Parallax  page 1 clouds -->
-			<div id="parallax-bg2">
+			<div id="parallax-bg2" class="display_none_w1060">
 				<img id="bg2-1" src="img/slide_1/img_1.png" alt="cloud"/>
 				<img id="bg2-2" src="img/slide_1/img_2.png" alt="cloud"/>
 				<img id="bg2-3" src="img/slide_1/img_3.png" alt="cloud"/>
@@ -385,7 +721,7 @@
 			</div>
 			
 			<!-- -------------------------  Parallax  page 2 clouds  ------------------------ -->
-			<div id="parallax-bg1">
+			<div id="parallax-bg1" class="display_none_w1060">
 				<img id="bg1-big-blue" src="img/slide_2/img_1_b.png" alt="cloud"/>
 				<img id="bg1-big-yellow" src="img/slide_2/img_2_y.png" alt="cloud"/>
 				<img id="bg1-1" src="img/slide_1/img_1.png" alt="cloud"/>
@@ -423,7 +759,7 @@
 			</div>
 
 			<!-- -------------------------  Parallax  page 3 clouds  ------------------------ -->
-			<div id="parallax-bg4">
+			<div id="parallax-bg4" class="display_none_w1060">
 				<img id="bg4-big-blue" src="img/slide_2/img_1_b.png" alt="cloud"/>
 				<img id="bg4-big-blue-big" src="img/slide_3/img_1_b.png" alt="cloud"/>
 				<img id="bg4-big-yellow" src="img/slide_2/img_2_y.png" alt="cloud"/>
@@ -450,7 +786,7 @@
 
 
 			<!-- -------------------------  Parallax  page 4 clouds  ------------------------ -->
-			<div id="parallax-bg5">
+			<div id="parallax-bg5" class="display_none_w1060">
 				<img id="bg5-big-blue" src="img/slide_2/img_1_b.png" alt="cloud"/>
 				<img id="bg5-big-blue-big" src="img/slide_3/img_1_b.png" alt="cloud"/>
 				<img id="bg5-big-blue-b" src="img/slide_4/img_1_b.png" alt="cloud"/>
@@ -470,7 +806,7 @@
 
 			<!-- -------------------------  Parallax  page 5 clouds  ------------------------ -->
 
-			<div id="parallax-bg6">
+			<div id="parallax-bg6" class="display_none_w1060">
 
 				<img id="bg6-big-blue" src="img/slide_2/img_1_b.png" alt="cloud"/>
 				<img id="bg6-big-blue-big" src="img/slide_3/img_1_b.png" alt="cloud"/>

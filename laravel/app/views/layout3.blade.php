@@ -38,7 +38,7 @@
 							<div class="col-md-1">
 							</div>
 						        <div class="navbar-header">
-						            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						            <button type="button" class="navbar-toggle custom_parallax_toggle" data-toggle="collapse" data-target=".navbar-collapse">
 							            <span class="sr-only">Toggle navigation</span>
 							            <span class="icon-bar"></span>
 							            <span class="icon-bar"></span>
