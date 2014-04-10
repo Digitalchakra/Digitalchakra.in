@@ -4,7 +4,7 @@ class OurprojectsController extends BaseController {
 	
 	public function index()
 	{
-		$projects = Projects::all();
+		$projects = Projects::orderBy('order', 'asc')->get();
 		return View::make('ourprojects',array('projects' => $projects));
 	}
 	public function projectPage($id)

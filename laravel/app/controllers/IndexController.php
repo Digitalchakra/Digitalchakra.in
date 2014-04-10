@@ -17,7 +17,7 @@ class IndexController extends BaseController {
 
 	public function index()
 	{
-		$projects = Projects::all()->take(6);
+		$projects = Projects::orderBy('order', 'asc')->get()->take(6);
 		return View::make('index',array('projects' => $projects));
 	}
 
