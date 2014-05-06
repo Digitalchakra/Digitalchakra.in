@@ -238,29 +238,27 @@
 						<header class="display_none_w1060">
 							<h1>&nbsp;</h1>
 						</header>
-						<div class="blue_icon_button  display_none_w1060">							
-							<div class="col-md-12">
+						<!-- <div class="blue_icon_button  display_none_w1060">							
+							<div class="col-md-12"> -->
 								<!-- Start -->
-									<img id="blue_btn" src="img/slide_2/blue_btn.png" class="blue_icon but-2-1 opt-anc" alt="icon">
+							<!-- 		<img id="blue_btn" src="img/slide_2/blue_btn.png" class="blue_icon but-2-1 opt-anc" alt="icon">
 									<img id="blue_btn_hover" src="img/slide_2/blue_btn_hover.png" class="blue_icon but-2-1 opt-anc" alt="icon">
-									<div class="blue_slide2_line1"></div>									
+									<div class="blue_slide2_line1"></div>	 -->								
 								<!-- End -->
-							</div>							
-						</div>
-						<div class="yellow_icon_button media_1366  display_none_w1060">							
-							<div class="col-md-12">
+							<!-- </div>							
+						</div> -->
+						<!-- <div class="yellow_icon_button media_1366  display_none_w1060">							
+							<div class="col-md-12"> -->
 								<!-- Start -->
-									<img id="yellow_btn" src="img/slide_2/yellow_btn.png" class="yellow_icon but-2-2" alt="icon">
+									<!-- <img id="yellow_btn" src="img/slide_2/yellow_btn.png" class="yellow_icon but-2-2" alt="icon">
 									<img id="yellow_btn_hover" src="img/slide_2/yellow_btn_hover.png" class="yellow_icon but-2-2" alt="icon">
-									<div class="yellow_slide2_line1"></div>								
+									<div class="yellow_slide2_line1"></div>	 -->							
 								<!-- End -->
-							</div>							
-						</div>
+							<!-- </div>							
+						</div> -->
 						<!-- blue box cmd start -->
-							<div class="blue_icon_hover_container tipbox tip-box  class="display_none_w1060"" style="display:none;">
+<!-- 							<div class="blue_icon_hover_container tipbox tip-box  class="display_none_w1060"" style="display:none;">
 								<div class="blue_i_hover">
-
-									<!-- <li class="arrow_right">&nbsp;</li> -->
 									<ul>
 										<li><h3>Lorem ipsum</h3></li>
 										<li>Lorem ipsum 1</li>
@@ -269,16 +267,13 @@
 										<li>Lorem ipsum 4</li>
 									</ul>
 								</div>
-							</div>
+							</div> -->
 						<!-- blue box cmd end -->
 
 						<!-- yellow box cmd start -->
-						<div class="display_none_w1060">
+<!-- 						<div class="display_none_w1060">
 							<div class="yellow_icon_hover_container tipbox" style="display:none;">
-								<div class="yellow_i_hover">
-									
-
-									<!-- <li class="arrow_left">&nbsp;</li> -->
+								<div class="yellow_i_hover">									
 									<ul>
 										<li><h3>Lorem ipsum</h3></li>
 										<li>Lorem ipsum 1</li>
@@ -288,7 +283,7 @@
 									</ul>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<!-- yellow box cmd end -->
 
 						<!-- bottom cmd -->
@@ -388,19 +383,18 @@
 						<header class="display_none_w1060">
 							<h1>&nbsp;</h1>
 						</header>
-						<div class="blue_icon_button display_none_w1060">							
-							<div class="col-md-12">
+						<!-- <div class="blue_icon_button display_none_w1060">							
+							<div class="col-md-12"> -->
 								<!-- Start -->
-									<img id="slide3_blue_btn" src="img/slide_2/blue_btn.png" class="blue_icon but-3-1" alt="icon">
-									<img id="slide3_blue_btn_hover" src="img/slide_2/blue_btn_hover.png" class="blue_icon but-3-1" alt="icon">
+									<!-- <img id="slide3_blue_btn" src="img/slide_2/blue_btn.png" class="blue_icon but-3-1" alt="icon">
+									<img id="slide3_blue_btn_hover" src="img/slide_2/blue_btn_hover.png" class="blue_icon but-3-1" alt="icon"> -->
 								<!-- End -->
-							</div>							
-						</div>
+							<!-- </div>							
+						</div> -->
 
 						<!-- blue box cmd start -->
-						<div class="blue_icon_hover_container_slide3 tipbox display_none_w1060" style="display:none;">
+					<!-- 	<div class="blue_icon_hover_container_slide3 tipbox display_none_w1060" style="display:none;">
 							<div class="blue_i_hover">
-						<!-- 	<li class="arrow_left">&nbsp;</li> -->
 							<ul>
 								<li><h3>Lorem ipsum</h3></li>
 								<li>Lorem ipsum 1</li>
@@ -409,7 +403,7 @@
 								<li>Lorem ipsum 4</li>
 							</ul>
 							</div>
-						</div>
+						</div> -->
 						<!-- blue box cmd end -->
 
 						<div class="bottom_fix padding_disable display_none_w1060">
@@ -520,17 +514,14 @@
 							<h1>&nbsp;</h1>
 						</header>
 
-						<div class="yellow_icon_button display_none_w1060">							
-							<div class="col-md-12">
+						<!-- <div class="yellow_icon_button display_none_w1060">							
+							<div class="col-md-12"> -->
 								<!-- Start -->
-									<img id="yellow_btn_slide4" src="img/slide_2/yellow_btn.png" class="yellow_icon but-4-1" alt="icon">
+									<!-- <img id="yellow_btn_slide4" src="img/slide_2/yellow_btn.png" class="yellow_icon but-4-1" alt="icon">
 									<img id="yellow_btn_hover_slide4" src="img/slide_2/yellow_btn_hover.png" class="yellow_icon but-4-1" alt="icon">
 									<div class="yellow_slide4_line1"></div>
 									<div class="yellow_icon_hover_container_slide4 tipbox" style="display:none;">
 										<div class="yellow_i_hover">
-										
-
-										<!-- <li class="arrow_left">&nbsp;</li> -->
 										<ul>
 											<li><h3>Lorem ipsum</h3></li>
 											<li>Lorem ipsum 1</li>
@@ -539,10 +530,10 @@
 											<li>Lorem ipsum 4</li>
 										</ul>
 										</div>
-									</div>
+									</div> -->
 								<!-- End -->
-							</div>							
-						</div>
+							<!-- </div>							
+						</div> -->
 
 						<div class="bottom_fix padding_disable display_none_w1060">
 							<div class="row m_top137">
@@ -779,8 +770,8 @@
 				<img id="bg4-boy_blue_left" src="img/slide_3/boy_blue_left.png" alt="cloud"/>
 				<img id="bg4-boy_yellow" src="img/slide_2/boy_yellow.png" alt="cloud"/>
 				<img id="bg4-character-icon" src="img/slide_5/character-icon.png" alt="cloud"/>
-				<img id="bg4-look-feel" src="img/slide_2/look&feel.png" alt="cloud"/>
-				<img id="bg4-blue-line-1" src="img/slide_3/slider3_blue_line_1.png" alt="cloud"/>
+				<img id="bg4-look-feel" src="img/slide_2/look&feel.png" alt="cloud"/><!-- 
+				<img id="bg4-blue-line-1" src="img/slide_3/slider3_blue_line_1.png" alt="cloud"/> -->
 
 			</div>
 
