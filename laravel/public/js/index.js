@@ -22,6 +22,7 @@ $(document).ready(function() {
 				else
 				{
 					$('#contact_error').html('<p class="text-success">Thank you !</p>');
+					$('.text1, .text2, .text3').val('');
 				}
 			},
 			error:function(){
