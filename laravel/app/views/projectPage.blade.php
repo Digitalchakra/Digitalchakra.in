@@ -14,7 +14,6 @@
 							<img src="{{ URL::to('img/projects/'.$project->id.'/'.$images['L']) }}" alt="ezcv" title="EZCV">
 						</div>
 						<div class="col-md-4">
-							<h3 class="colorfff font_HelveNue mtop_0">Sub-Headding</h3>
 							<p class="colorfff font_HelveNue font15">
 								{{ $project->description}}
 							</p>

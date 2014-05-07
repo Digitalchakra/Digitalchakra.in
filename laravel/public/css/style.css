@@ -68,6 +68,8 @@
     font-style: normal;
 }
 
+body{outline: none!important;}
+input, textarea, button {outline: none;}
 p, h1, h2, h3, h4, h5, h6, a, b, i, li, span{font-family:'HelveNueThin' arial!important;}
 h2{font-family:'HelveNueThin' arial!important;}
 p{font-family:'HelveNueThin'!important;}
