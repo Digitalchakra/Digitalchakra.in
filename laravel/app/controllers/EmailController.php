@@ -21,9 +21,9 @@ class EmailController extends BaseController {
 			}
 			else{
 				Contact::insert($input);
-				/*Mail::send('emails.contact', $input, function($message) {
-	   				$message->to('manikandan@digitalchakra.in', 'Manikandna R')->subject('Query From Digitalchakra');
-				});*/
+				Mail::send('emails.contact', $input, function($message) {
+	   				$message->to('queries@digitalchakra.in', 'Admin')->subject('Query From Digitalchakra');
+				});
 			}
 			
 			return Response::json(array('success' => true), 200);
