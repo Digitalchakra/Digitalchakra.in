@@ -21,6 +21,7 @@ class EmailController extends BaseController {
 			}
 			else{
 				Contact::insert($input);
+				$input['description'] = $input['message'];
 				Mail::send('emails.contact', $input, function($message) {
 	   				$message->to('queries@digitalchakra.in', 'Admin')->subject('Query From Digitalchakra');
 	   				//$message->to('manikandan@digitalchakra.in', 'Manikandna R')->subject('Query From Digitalchakra');
