@@ -23,6 +23,7 @@ class EmailController extends BaseController {
 				Contact::insert($input);
 				Mail::send('emails.contact', $input, function($message) {
 	   				$message->to('queries@digitalchakra.in', 'Admin')->subject('Query From Digitalchakra');
+	   				//$message->to('manikandan@digitalchakra.in', 'Manikandna R')->subject('Query From Digitalchakra');
 				});
 			}
 			
