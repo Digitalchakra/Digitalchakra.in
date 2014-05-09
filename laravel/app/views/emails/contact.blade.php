@@ -7,7 +7,7 @@
 		<div>
 			<h2>Name : {{ $name }}</h2>
 			<h3>Email : {{ $email }}</h3>
-			<h3>Description :</h3><p> {{ nlbr($message) }}</p>
+			<h3>Description :</h3><p> {{ nl2br($description) }}</p>
 		</div>
 	</body>
 </html>
