@@ -3,10 +3,11 @@
 <html lang="en">
 	
 	<head>
-		<title>Digital Chakra</title>
+		<title>DigitalChakra | Web Development, Design & Cloud Computing Solutions Made Affordable!</title>
+		<meta name="description" content="DigitalChakra is a leader in Web Design, Development and Deployment based in Chennai, India. We offer Business Technology, UI/UX Consulting and Cloud Computing Solutions and Support. Improve your business reach and efficiency with Responsive Web Design Solutions and Mobile Applications.">
+		<meta name="keywords" content="web development, web design, responsive design, product development, cloud computing, digital chakra, digital, chakra, digitalchakra, website, website development, website design, APIs, Widgets, Facebook, Twitter, Google, UI, UX, templates, CMS">
 
 		<meta charset="utf-8" />
-		<meta name="description" content="" />
 		<link rel="icon" type="image/png" href="{{ URL::to('img/favicon.png') }}">
 		
 		<!-- ----------------------- Prallax CSS --------------------- -->

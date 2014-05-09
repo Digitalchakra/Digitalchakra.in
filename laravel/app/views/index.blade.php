@@ -6,7 +6,7 @@
 			<div class="container">
 				<div class="row align_center padding_btm">
 					<div class="col-lg-12 col-md-12">
-		        		<h1 class="f52">We are thought leaders in creating an entirely <br>new user experience through responsive <br>web design and emerging technologies.</h1>
+		        		<h1 class="f52">We are thought leaders in creating an entirely <br>new user experience through responsive <br>web design and emerging technologies</h1>
 		        	</div>
 		      	</div>
 		    </div>
@@ -16,7 +16,7 @@
 					<div class="col-lg-4 col-md-4">
 						<img class="boxes_img" src="img/our-intelligent-solutions.png" alt="" title="">
 						<!-- <div class="bg_shadow"></div> -->
-						<p class="f_p32 align_center color000">Our intelligent solutions starts with business insights </p>
+						<p class="f_p32 align_center color000">Our intelligent solutions start with business insights </p>
 					</div>
 					<div class="col-lg-4 col-md-4">
 						<img class="boxes_img" src="img/optimal_viewing.png" alt="" title="">
