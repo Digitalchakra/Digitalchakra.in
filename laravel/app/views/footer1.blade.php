@@ -19,7 +19,7 @@
 									<ul class="footer_links font_HelveNue">
 										<li @if (Request::is('/')) @endif><a href={{url("/")}}>Big Picture</a></li>
 										<li @if (Request::is('what-we-do')) @endif><a href={{url("what-we-do")}}>What we do</a></li>
-										<li @if (Request::is('about-us')) @endif><a href={{url("about-us")}}>About Us</a></li>
+										<!-- <li @if (Request::is('about-us')) @endif><a href={{url("about-us")}}>About Us</a></li> -->
 										<!-- <li @if (Request::is('hosting')) @endif><a href={{url("hosting")}}>Hosting</a></li> -->
 									</ul>
 								</div>
