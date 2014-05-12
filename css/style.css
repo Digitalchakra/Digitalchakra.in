@@ -188,7 +188,7 @@ color: #000!important; background-color: transparent!important; font-weight: bol
 .text1, .text2 {width: 83%;}
 .text3{margin: 0px; width:84%; height: 76px;}
 .text1, .text2, .text3{border-width: 0px 0px 1px; border-bottom-style: dotted; border-bottom-color: #000; color: #b7b7b7;}
-.btn_send{background: url(../img/sprites.png) -168px 0px no-repeat; width: 117px; height: 51px; border: 0px; text-indent: -9999px; cursor: pointer;}
+.btn_send{background: url(../img/sprites.png) -168px 0px no-repeat; width: 117px; height: 51px; border: 0px; text-indent: -9999px; cursor: pointer; float: right!important;}
 .btn_send:hover{background: url(../img/sprites.png) -287px 0px no-repeat; width: 117px; height: 51px; border: 0px; text-indent: -9999px; cursor: pointer;}
 .bg_white{background: #fff;}
 .view_map{position: absolute; bottom: 3%; right: 42%; font-weight: 700;}
