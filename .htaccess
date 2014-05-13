@@ -2,7 +2,7 @@ Header unset ETag
 FileETag None
 <IfModule mod_expires.c>
 ExpiresActive On
-<FilesMatch "\.(ico|jpg|jpeg|png|gif|js|css|swf)$">
+<FilesMatch "\.(ico|jpg|jpeg|png|gif|js|css|swf|woff)$">
 ExpiresDefault "access plus 7 days"
 </FilesMatch>
 </IfModule>
