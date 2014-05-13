@@ -19,7 +19,7 @@
       </div>
     </div>
 
-        <!-- ----------------------- Prallax JS --------------------- -->
+        <!--  Prallax JS  -->
 		<script src="{{ URL::to('js/modernizr.custom.37797.js') }}" type="text/javascript"></script> 
 		<script src="{{ URL::to('js/parallax.js') }}" type="text/javascript"></script>
 		<script src="{{ URL::to('js/ourprocess.js') }}" type="text/javascript"></script>

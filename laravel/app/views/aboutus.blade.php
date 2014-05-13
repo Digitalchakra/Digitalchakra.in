@@ -1,7 +1,7 @@
 @extends('layout2')
 
 @section('content')
-<!-- ----------------------- ABOUT-US Start ----------------------- -->	
+<!--  ABOUT-US Start  -->	
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -19,5 +19,5 @@ Providence Health Services, American Express, Standard Chartered, Wachovia, Sear
 					</div>
 				</div>
 			</div>
-		<!-- ----------------------- ABOUT-US End ----------------------- -->
+		<!--  ABOUT-US End  -->
 @stop

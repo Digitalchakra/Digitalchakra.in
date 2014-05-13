@@ -10,10 +10,10 @@
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/png" href="{{ URL::to('img/favicon.png') }}">
 		
-		<!-- ----------------------- Prallax CSS --------------------- -->
+		<!--  Prallax CSS  -->
 		<link rel="stylesheet" media="all" href="{{ URL::to('css/parallax.css') }}" />
 		
-		<!-- ----------------------- Bootstrap CSS --------------------- -->
+		<!--  Bootstrap CSS  -->
 		<link rel="stylesheet" href="{{ URL::to('css/bootstrap.min.css') }}" />
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" charset="utf-8" async defer>
@@ -25,11 +25,11 @@
 	</head>
 
 	<body>
-	<!-- ----------------------- Wrap all page  ---------------------------- -->
+	<!--  Wrap all page   -->
     <div id="wrap">
 		<div id="wrapper">			
 			
-		<!-- ----------------------- HEADER Menu Start --------------------- -->	
+		<!--  HEADER Menu Start  -->	
 		<header id="branding">
 			<div class="header-container-single">
 				<div class="">
@@ -66,7 +66,7 @@
 			</div>
 		</header>
 
-		<!-- ----------------------- HEADER End ----------------------- -->	
+		<!--  HEADER End  -->	
 
 		
 		@yield('content')

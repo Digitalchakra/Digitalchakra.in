@@ -12,7 +12,7 @@ margin:0px 58px 0 57px;}
 .navbar-custom-project-page .navbar-nav > .active > a, .navbar-custom-project-page .navbar-nav > .active > a:hover, .navbar-custom-project-page .navbar-nav > .active > a:focus {
 color: #000!important; background-color: transparent!important; font-weight: bold!important;}
 .navbar-custom-project-page .navbar-nav > li > a:hover{background-color: transparent!important; color: #47c8f5!important;}
-.navbar-default {border: none; border-color:none;}
+.navbar-default {border: none;}
 
 /******************************************************************  OUR-PROJECT Projects  *********************************************************/
 .pro_img{width:100%;}

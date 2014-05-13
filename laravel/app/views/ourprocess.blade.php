@@ -31,8 +31,8 @@
 				</ul>
 			</nav>
 
-		<!-- ----------------------- Navigation End ----------------------- -->	
-		<!-- ----------------------- Content Start ----------------------- -->	
+		<!--  Navigation End -->	
+		<!--  Content Start  -->	
 			<div id="content">
 				<!-- page 1 -->
 				<article id="our-process-page1">
@@ -671,8 +671,8 @@
 
 
 			</div>
-			<!-- ----------------------- Content End ----------------------- -->	
-			<!-- -------------------  Parallax background ------------------ -->
+			<!--  Content End  -->	
+			<!--   Parallax background  -->
 			<div id="parallax-bg3">
 				<img id="bg3-1" src="img/slide_1/slider1_bg.png" class="display_none_w1060" width="1257" height="768" alt=""/>
 				<img id="bg3-2" src="img/slide_2/slider2_bg.png" class="display_none_w1060" width="1257" height="718" alt=""/>
@@ -711,7 +711,7 @@
 				<img id="bg2-26" src="img/slide_1/img_26.png" alt="cloud"/>
 			</div>
 			
-			<!-- -------------------------  Parallax  page 2 clouds  ------------------------ -->
+			<!--   Parallax  page 2 clouds   -->
 			<div id="parallax-bg1" class="display_none_w1060">
 				<img id="bg1-big-blue" src="img/slide_2/img_1_b.png" alt="cloud"/>
 				<img id="bg1-big-yellow" src="img/slide_2/img_2_y.png" alt="cloud"/>
@@ -749,7 +749,7 @@
 
 			</div>
 
-			<!-- -------------------------  Parallax  page 3 clouds  ------------------------ -->
+			<!--   Parallax  page 3 clouds   -->
 			<div id="parallax-bg4" class="display_none_w1060">
 				<img id="bg4-big-blue" src="img/slide_2/img_1_b.png" alt="cloud"/>
 				<img id="bg4-big-blue-big" src="img/slide_3/img_1_b.png" alt="cloud"/>
@@ -776,7 +776,7 @@
 			</div>
 
 
-			<!-- -------------------------  Parallax  page 4 clouds  ------------------------ -->
+			<!--   Parallax  page 4 clouds   -->
 			<div id="parallax-bg5" class="display_none_w1060">
 				<img id="bg5-big-blue" src="img/slide_2/img_1_b.png" alt="cloud"/>
 				<img id="bg5-big-blue-big" src="img/slide_3/img_1_b.png" alt="cloud"/>
@@ -795,7 +795,7 @@
 				<img id="bg5-quality_assurance" src="img/slide_4/quality_assurance.png" alt="cloud"/>
 			</div>
 
-			<!-- -------------------------  Parallax  page 5 clouds  ------------------------ -->
+			<!--   Parallax  page 5 clouds   -->
 
 			<div id="parallax-bg6" class="display_none_w1060">
 
@@ -810,7 +810,7 @@
 
 			</div>
 
-			<!-- -------------------------  Parallax  page 6 clouds  ------------------------ -->
+			<!--   Parallax  page 6 clouds   -->
 
 			<div id="parallax-bg7">
 

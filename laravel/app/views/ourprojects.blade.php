@@ -1,7 +1,7 @@
 @extends('layout2')
 
 @section('content')
-<!-- ----------------------- PROJECTS Start ----------------------- -->	
+<!--  PROJECTS Start  -->	
 			<div class="row padding_disable bg_333">
 				@foreach ($projects as $key => $value)
 				<?php $images = unserialize($value->images); ?>
@@ -17,5 +17,5 @@
 				
 			</script>
 
-		<!-- ----------------------- PROJECTS End ----------------------- -->		
+<!--  PROJECTS End  -->		
 @stop

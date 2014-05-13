@@ -70,8 +70,8 @@
 
 body{outline: none!important;}
 input, textarea, button {outline: none;}
-p, h1, h2, h3, h4, h5, h6, a, b, i, li, span{font-family:'HelveNueThin' arial!important;}
-h2{font-family:'HelveNueThin' arial!important;}
+p, h1, h2, h3, h4, h5, h6, a, b, i, li, span{font-family:'HelveNueThin', arial!important;}
+h2{font-family:'HelveNueThin', arial!important;}
 p{font-family:'HelveNueThin'!important;}
 
 .font_HelveNue{font-family:'HelveNueThin'!important;}
@@ -183,7 +183,7 @@ color: #000!important; background-color: transparent!important; font-weight: bol
 .map{height: 550px; width: 100%!important;}
 .contact_form{position: absolute; top:0; margin-left: 150px; margin-top: 100px; border: 1px solid #bababa; background-color: #fff; width:50%; padding:40px;}
 .write1{font-size: 26px; color:#b7b7b7;}
-.font_forte{font-family:'forteregular' arial!important; font-size: 48px; font-style: italic; font-weight: bold;}
+.font_forte{font-family:'forteregular', arial!important; font-size: 48px; font-style: italic; font-weight: bold;}
 .font_segoe{font-family:'segoe_printregular'!important; font-size: 18px;}
 .text1, .text2 {width: 83%;}
 .text3{margin: 0px; width:84%; height: 76px;}

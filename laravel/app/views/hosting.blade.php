@@ -1,7 +1,7 @@
 @extends('layout2')
 
 @section('content')
-<!-- ----------------------- Hosting Search Start ------------------------ -->	
+<!--  Hosting Search Start  -->	
 			<div class="bg_blue">
 				<div class="container">
 					<div class="row">					
@@ -39,9 +39,9 @@
 				</div>
 			</div>
 
-		<!-- ----------------------- Hosting Search End -------------------------- -->		
+		<!--  Hosting Search End  -->		
 
-		<!-- ----------------------- Hosting Start ------------------------ -->	
+		<!--  Hosting Start  -->	
 			<div class="container margin_top50 margin_btm50">
 			<!-- hosting box row 1 -->
 				<div class="row">
@@ -148,5 +148,5 @@
 				</div>
 
 			</div>
-		<!-- ----------------------- Hosting End -------------------------- -->	
+		<!--  Hosting End  -->	
 @stop

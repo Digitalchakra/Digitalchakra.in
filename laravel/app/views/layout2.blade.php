@@ -10,7 +10,7 @@
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/png" href="img/favicon.png">
 				
-		<!-- ----------------------- Common CSS --------------------- -->
+		<!--  Common CSS  -->
 		<!--{{ HTML::style('css/style.css') }}
 		{{ HTML::style('css/common.css') }}
 		{{ HTML::style('css/media.css') }}
@@ -28,9 +28,9 @@
 	</head>
 
 	<body>
-		<!-- ----------------------- Wrap all page -------------------- -->
+		<!--  Wrap all page  -->
 	    <div id="wrap">	    
-	    <!-- ----------------------- HEADER Menu Start --------------------- -->	
+	    <!--  HEADER Menu Start  -->	
 			<header>
 				<div class="header-container-single">
 				    <div class="navbar-custom-project-page navbar navbar-static-top" role="navigation">
@@ -63,9 +63,9 @@
 				</div>
 			</header>
 
-		<!-- ----------------------- HEADER End --------------------------- -->	
+		<!--  HEADER End  -->	
 
-		<!-- ----------------------- CONTENT --------------------- -->
+		<!--  CONTENT  -->
 		
 		@yield('content')
 

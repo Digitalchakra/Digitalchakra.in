@@ -24,9 +24,9 @@
 		
 	</head>
 	<body>
-		<!-- -----------------------  Wrap all page  ------------------ -->
+		<!--   Wrap all page   -->
 		<div id="wrap" class="body_bg">
-		<!-- ----------------------- HEADER start --------------------- -->		
+		<!--  HEADER start  -->		
 			<div class="header-container">
 				<!-- Static navbar -->
 			    <div class="navbar navbar-custom  navbar-static-top" role="navigation">
@@ -77,9 +77,9 @@
 					</div>
 			</div>
 		
-		<!-- ----------------------- HEADER End ----------------------- -->
+		<!--  HEADER End  -->
 
-		<!-- ----------------------- CONTENT --------------------- -->
+		<!--  CONTENT  -->
 		
 		@yield('content')
 

@@ -29,7 +29,7 @@
 					</div>
 				</div>
 			</div>
-    		<!-- ----------------------- PROJECT start --------------------- -->
+    		<!--  PROJECT start  -->
 			<div class="container bg_333 border_top_yellow">
 				<div class="row">
 					<div class="col-md-12">
@@ -52,9 +52,9 @@
 				</div>
 			</div>
 
-		<!-- ----------------------- PROJECT End ----------------------- -->
+		<!--  PROJECT End  -->
 
-		<!-- ----------------------- CONTACT start --------------------- -->
+		<!--  CONTACT start  -->
 			<div class="container border_top_blue bg_white">
 				<div class="row">
 					<div class="col-md-4">
@@ -97,7 +97,7 @@
 				</div>
 			</div>
 
-		<!-- ----------------------- CONTACT End ----------------------- -->
+		<!--  CONTACT End  -->
 		<script src="{{ URL::to('js/jquery.fancybox.pack.js')}}" type="text/javascript" charset="utf-8"></script>
 		<script src="{{ URL::to('js/index.js') }}" type="text/javascript"></script>
 @stop

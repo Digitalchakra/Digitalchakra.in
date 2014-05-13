@@ -1,4 +1,4 @@
-		<!-- ----------------------- FOOTER start --------------------- -->
+		<!--  FOOTER start  -->
 		</div>	
 		<div class="clearall"></div>
 		<div id="footer_id">		
@@ -59,7 +59,7 @@
 	        </footer>	      
 	    </div>
 	    
-		<!-- ----------------------- FOOTER End ----------------------- -->
+		<!--  FOOTER End  -->
 
 
     	<!-- facebook -->

@@ -1,7 +1,7 @@
 @extends('layout2')
 
 @section('content')
-<!-- ----------------------- SLIDER Start ------------------------ -->	
+<!--  SLIDER Start  -->	
 			<div class="bg_blue">
 				<div class="container">
 					<div class="row">
@@ -46,7 +46,7 @@
 					</div>
 				</div>
 			</div>
-		<!-- ----------------------- SLIDER End -------------------------- -->		
+		<!--  SLIDER End  -->		
 			<div class="">
 			<!-- Process 1 -->
 				<div class="">
