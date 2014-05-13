@@ -1,7 +1,6 @@
 @extends('layout1')
 
 @section('content')
-<link rel="stylesheet" type="text/css" href="{{ URL::to('css/fancybox/jquery.fancybox.css') }}" media="screen" />
 
 			<div class="container">
 				<div class="row align_center padding_btm">

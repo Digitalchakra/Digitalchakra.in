@@ -1,7 +1,6 @@
 @extends('layout2')
 
 @section('content')
-<link rel="stylesheet" type="text/css" href="{{ URL::to('css/fancybox/jquery.fancybox.css') }}" media="screen" />
 <!-- ----------------------- PROJECTS Start ----------------------- -->	
 			<div class="row padding_disable bg_333">
 				@foreach ($projects as $key => $value)
