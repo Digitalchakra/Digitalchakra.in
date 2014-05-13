@@ -62,10 +62,9 @@
 		<!-- ----------------------- FOOTER End ----------------------- -->
 
 
-		
-    	<script src="{{ URL::to('js/bootstrap.min.js') }} "></script>
     	<!-- facebook -->
 <div id="fb-root"></div>
+<script src="{{ URL::to('js/bootstrap.min.js') }} " type="text/javascript"></script>
     <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -97,6 +96,6 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
 </script>
-<script src="{{ URL::to('js/GA.js') }}"></script>
+<script src="{{ URL::to('js/GA.js') }}" type="text/javascript"></script>
 	</body>
 </html>

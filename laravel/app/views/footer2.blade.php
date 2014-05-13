@@ -20,10 +20,10 @@
     </div>
 
         <!-- ----------------------- Prallax JS --------------------- -->
-		<script src="{{ URL::to('js/modernizr.custom.37797.js') }}"></script> 
-		<script src="{{ URL::to('js/parallax.js') }}"></script>
-		<script src="{{ URL::to('js/ourprocess.js') }}"></script>
-    	<script src="{{ URL::to('js/bootstrap.min.js') }}"></script>
+		<script src="{{ URL::to('js/modernizr.custom.37797.js') }}" type="text/javascript"></script> 
+		<script src="{{ URL::to('js/parallax.js') }}" type="text/javascript"></script>
+		<script src="{{ URL::to('js/ourprocess.js') }}" type="text/javascript"></script>
+    	<script src="{{ URL::to('js/bootstrap.min.js') }} " type="text/javascript"></script>
       <!-- facebook -->
 <div id="fb-root"></div>
     <script type="text/javascript">
@@ -54,7 +54,7 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
 </script>
-    	<script src="{{ URL::to('js/GA.js') }}"></script>
+    	<script src="{{ URL::to('js/GA.js') }}" type="text/javascript"></script>
 	</body>
   
 </html>

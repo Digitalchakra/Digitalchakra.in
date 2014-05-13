@@ -99,5 +99,5 @@
 
 		<!-- ----------------------- CONTACT End ----------------------- -->
 		<script src="{{ URL::to('js/jquery.fancybox.pack.js')}}" type="text/javascript" charset="utf-8"></script>
-		<script src="{{ URL::to('js/index.js') }}"></script>
+		<script src="{{ URL::to('js/index.js') }}" type="text/javascript"></script>
 @stop
