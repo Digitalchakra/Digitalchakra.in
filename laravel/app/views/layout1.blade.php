@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="{{ URL::to('css/style.css') }}" />
 		<link rel="stylesheet" href="{{ URL::to('css/common.css') }}" />
 		<link rel="stylesheet" href="{{ URL::to('css/media.css') }}" />
-		<link rel="stylesheet" href="{{ URL::to('css/bootstrap.css') }}" />
+		<link rel="stylesheet" href="{{ URL::to('css/bootstrap.min.css') }}" />
 		<link rel="stylesheet" type="text/css" href="{{ URL::to('css/fancybox/jquery.fancybox.css') }}" media="screen" />
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" charset="utf-8" async defer>

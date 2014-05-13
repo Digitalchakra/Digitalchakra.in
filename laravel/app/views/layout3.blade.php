@@ -14,7 +14,7 @@
 		<link rel="stylesheet" media="all" href="{{ URL::to('css/parallax.css') }}" />
 		
 		<!-- ----------------------- Bootstrap CSS --------------------- -->
-		<link rel="stylesheet" href="{{ URL::to('css/bootstrap.css') }}" />
+		<link rel="stylesheet" href="{{ URL::to('css/bootstrap.min.css') }}" />
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" charset="utf-8" async defer>
 			baseurl= "{{ url()}}";
