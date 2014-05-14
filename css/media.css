@@ -1,12 +1,16 @@
 @font-face {
     font-family: 'HelveNueThin';
-    src: url('fonts/HelveNueThin.eot');
-    src: url('fonts/HelveNueThin.eot') format('embedded-opentype'),
-         url('fonts/HelveNueThin.woff') format('woff'),
-         url('fonts/HelveNueThin.ttf') format('truetype'),
-         url('fonts/HelveNueThin.svg#HelveNueThin') format('svg');
+    src: url('../fonts/HelveNueThin.eot');
+    src: url('../fonts/HelveNueThin.eot') format('embedded-opentype'),
+         url('../fonts/HelveNueThin.woff') format('woff'),
+         url('../fonts/HelveNueThin.ttf') format('truetype'),
+         url('../fonts/HelveNueThin.svg#HelveNueThin') format('svg');
 }
 
+a:focus{outline: none!important;}
+
+.nav > li > a:hover,
+.nav > li > a:focus{background-color: transparent!important;}
 .p68{padding-right: 73px!important;}
 
 .container {
